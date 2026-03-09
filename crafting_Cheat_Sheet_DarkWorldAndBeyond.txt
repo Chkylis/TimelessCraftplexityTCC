@@ -1666,8 +1666,10 @@ Otherwise they still work as intended.
 
 Force Gem Transmutations:
 
-Bread [ TIER 1+ TIMELESS CRAFTER]
+Bread [TIER 1+ TIMELESS CRAFTER]
 5 Force Gems, Wheat Seeds
+
+Steak [TIER 1+ TIMELESS CRAFTER]
 
 Moon Pearl [TIER 3 TIMELESS CRAFTER]
 Prism Shards(P)[64], Diamond Force Gem(D)[64]

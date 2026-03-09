@@ -392,6 +392,17 @@ execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:amethyst_shard",Cou
 #### Farore's Wind
 execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:ender_eye",Count:2b},{Slot:1b,id:"minecraft:ender_pearl",Count:4b},{Slot:2b,id:"minecraft:ender_eye",Count:2b},{Slot:3b,id:"minecraft:ender_pearl",Count:4b},{Slot:4b,id:"minecraft:nether_star",Count:1b,tag:{triforceshard:1b}},{Slot:5b,id:"minecraft:ender_pearl",Count:4b},{Slot:6b,id:"minecraft:ender_eye",Count:2b},{Slot:7b,id:"minecraft:ender_pearl",Count:4b},{Slot:8b,id:"minecraft:ender_eye",Count:2b}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/callofchampions/part4/farorewind
 
+############################# Dark World Update #############################
+
+#### Bread Transmutation
+execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:emerald",Count:5b,tag:{forcegem:1b}},{id:"minecraft:wheat_seeds",Count:1b}]} unless data block ~ ~ ~ Items[2] run function timelesscraft:crafting/darkworld/forcegembread
+
+#### Steak Transmutation
+execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:emerald",Count:8b,tag:{forcegem:1b}},{id:"minecraft:bone",Count:1b},{id:"minecraft:rotten_flesh",Count:3b}]} unless data block ~ ~ ~ Items[3] run function timelesscraft:crafting/darkworld/forcegemsteak
+
+#### Moon Pearl
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:1b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:2b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:3b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:4b,id:"minecraft:diamond",Count:64b,tag:{diamondforcegem:1b}},{Slot:5b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:6b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:7b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:8b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/darkworld/moonpearlrecipe
+
 ############################################################ ###########################################
 
 ##ChronoSplicer
