@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Riven of a Thousand Voices",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Kill Riven of a Thousand Voices",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "elderguard": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon",
+                    "nbt": "{Tags:[\"riven1kvoices:1b\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "function": "timelesscraft:difficulties/enterpostriven",
+        "experience": 500
+    },
+    "parent": "timelesscraft:achievements/bosschecklist/molgera"
+}

@@ -1,0 +1,7 @@
+recipe take @s zeldacraft:guardian_boots_recipe
+
+advancement revoke @s only zeldacraft:zeldadlc/guardianarmor3
+
+give @s timelesscomplexity:zelda_guardian_armor_boots{display:{Name:'{"text":"Guardian Boots","color":"red"}',Lore:['{"text":"A pair of boots "}','{"text":"crafted from the scraps of a powerful foe."}','{"text":"Guardian Slayer:","color":"gold"}','{"text":"When worn with the full set;","color":"gold"}','{"text":"Increases the effectiveness of the Ancient Weapons\'","color":"gold"}','{"text":"Guardian\'s Bane ability.","color":"gold"}']},RepairCost:9999999,Unbreakable:0b,guardianboots:1b,Enchantments:[{id:"minecraft:blast_protection",lvl:10s},{id:"minecraft:unbreaking",lvl:5s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:20,Operation:0,UUID:[I;-1421597365,1300909184,-2112469953,-1207151637],Slot:"feet"},{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:8,Operation:0,UUID:[I;-1436855314,1146241114,-1644490412,-716792364],Slot:"feet"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:12,Operation:0,UUID:[I;2090694190,-156873727,-1574018168,-233078677],Slot:"feet"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:5,Operation:0,UUID:[I;-244526942,-1838789147,-1620347871,-1331207108],Slot:"feet"}]} 1
+
+clear @s minecraft:knowledge_book

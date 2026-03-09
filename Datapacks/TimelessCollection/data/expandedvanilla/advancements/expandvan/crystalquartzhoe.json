@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedhoecrystalquartz": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:crystalquartz_hoe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaincrystalquartzhoe"
+    }
+}

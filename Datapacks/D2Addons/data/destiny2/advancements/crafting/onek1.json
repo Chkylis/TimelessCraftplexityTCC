@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedonek": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "destiny2:onek_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "destiny2:crafting/craftedonek"
+    }
+}

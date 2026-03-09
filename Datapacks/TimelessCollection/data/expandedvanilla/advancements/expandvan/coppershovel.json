@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedshovelcopper": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:copper_shovel"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaincoppershovel"
+    }
+}

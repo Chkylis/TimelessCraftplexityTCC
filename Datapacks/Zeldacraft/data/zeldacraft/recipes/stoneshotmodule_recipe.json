@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "iFi",
+        "SLW"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "D": {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "F": {
+            "item": "minecraft:fishing_rod"
+        },
+        "S": {
+            "item": "minecraft:stone_bricks"
+        },
+        "L": {
+            "item": "minecraft:lead"
+        },
+        "W": {
+            "item": "minecraft:deepslate_bricks"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

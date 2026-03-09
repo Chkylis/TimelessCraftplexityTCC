@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedke": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:kokoriemerald_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/givekokoriemerald"
+    }
+}

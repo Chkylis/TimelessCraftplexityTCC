@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedbootsphantom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:phantom_boots_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainphantomboots"
+    }
+}

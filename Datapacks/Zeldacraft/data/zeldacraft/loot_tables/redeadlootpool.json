@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Reward Orb",
+                "color": "yellow"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{rewardorb:1b}"
+            }
+          ],
+          "conditions": [
+            {
+            "condition": "random_chance",
+            "chance": 0.05
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Monster Guts",
+                "color": "light_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{monsterguts:1b}"
+            }
+          ],
+          "conditions": [
+            {
+            "condition": "random_chance",
+            "chance": 0.85
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:entity"
+}

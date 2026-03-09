@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Swiftness of the Rito",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Acquire the Great Eagle's Bow.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:crossbow",
+            "nbt": "{display:{Name:'{\"text\":\"Great Eagle Bow\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "miphatrident": {
+            "trigger": "impossible",
+            "conditions": {
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 100,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvchampionquest"
+}

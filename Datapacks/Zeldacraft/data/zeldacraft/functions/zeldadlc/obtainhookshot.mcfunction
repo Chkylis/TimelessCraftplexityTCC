@@ -1,0 +1,6 @@
+recipe take @s zeldacraft:hookshot_recipe
+
+advancement revoke @s only zeldacraft:zeldadlc/hookshot1
+
+give @s fishing_rod{display:{Name:'{"text":"Hookshot","color":"aqua"}',Lore:['{"text":"Works on Logs, Planks, and Target Blocks.","color":"light_purple"}','{"text":"Has a range of 30ish blocks.","color":"light_purple"}','{"text":"Use the Hookshot once to prime it.","color":"blue"}','{"text":"Use the hookshot twice and hit a hookable block","color":"blue"}','{"text":"to grapple to it.","color":"blue"}','{"text":"The Hookshot only works if the hook","color":"red"}','{"text":"is directly on or next to the proper block.","color":"red"}','{"text":"Once you hook a block you will have to wait","color":"dark_purple"}','{"text":"a few seconds for the grapple to follow through.","color":"dark_purple"}','{"text":"The hookshot resets every third use,","color":"yellow"}','{"text":"or upon taking it out of your mainhand.","color":"yellow"}']},HideFlags:5,RepairCost:9999999,Unbreakable:1b,hookshot:1b,Enchantments:[{id:"minecraft:mending",lvl:1s}]} 1
+clear @s minecraft:knowledge_book

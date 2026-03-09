@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "ZeldaAddons - Monster Tracker",
+        "description": "Track every evil monster you slay, and learn their rewards.",
+        "icon": {
+            "item": "minecraft:zombie_spawn_egg"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "zeldacraft:zeldadlc/zeldacraftadv",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

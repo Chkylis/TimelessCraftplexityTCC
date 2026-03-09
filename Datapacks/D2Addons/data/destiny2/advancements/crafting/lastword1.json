@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlocklastword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "destiny2:lastword_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "destiny2:crafting/craftedlastword"
+    }
+}

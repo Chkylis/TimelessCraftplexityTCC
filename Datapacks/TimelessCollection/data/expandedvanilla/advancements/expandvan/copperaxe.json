@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedaxecopper": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:copper_axe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaincopperaxe"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Secret of the Gorons",
+            "color": "red"
+        },
+        "description": {
+            "text": "Obtain the Bolero of Fire's Ocarina variant.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:red_stained_glass_pane"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "songgot": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier3"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:ocarinasongs/ocarinapreludeadv"
+}

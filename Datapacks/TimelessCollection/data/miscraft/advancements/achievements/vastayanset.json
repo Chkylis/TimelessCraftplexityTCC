@@ -1,0 +1,54 @@
+{
+    "display": {
+        "title": {
+            "text": "Armor of the Rebel",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Craft the full Vastayan Set.",
+            "color": "purple"
+        },
+        "icon": {
+            "item": "minecraft:feather",
+            "nbt": "{display:{Name:'{\"text\":\"Vastayan Feather\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "hood": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:vastayanhood_recipe"
+            }
+        },
+        "dress": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:vastayandress_recipe"
+            }
+        },
+        "wraps": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:vastayanwraps_recipe"
+            }
+        },
+        "talons": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:vastayantalons_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier3"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "miscraft:achievements/miscraftcrafting"
+}

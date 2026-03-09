@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockeddualhelixsword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:fiercedietybladerecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainfiercedietyblade"
+    }
+}

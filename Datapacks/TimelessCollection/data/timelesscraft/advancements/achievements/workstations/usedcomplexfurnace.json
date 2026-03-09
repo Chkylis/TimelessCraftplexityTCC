@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Multipurpose Machine",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Use the Timeless Crafter's Furnace Functionality to smelt something.",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:furnace"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500
+    },
+    "parent": "timelesscraft:achievements/workstations/summoncustomcrafter"
+}

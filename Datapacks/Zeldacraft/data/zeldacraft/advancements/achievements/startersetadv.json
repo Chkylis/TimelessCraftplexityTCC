@@ -1,0 +1,33 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Hero's Beginning",
+            "color": "green"
+        },
+        "description": {
+            "text": "Craft the Hero's Set.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+            "linkset": {
+                "trigger": "minecraft:recipe_unlocked",
+                "conditions": {
+                    "recipe": "zeldacraft:callofchampions/link_set_recipe"
+                }
+        }
+    },
+    "rewards": {
+        "experience": 100,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvmasterquest"
+}

@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Blessing of the Light Sage",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Learn the Prelude of Light.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:yellow_stained_glass_pane"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "msstep1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:windwakersongslearn/learnpreludeoflight"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier3"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:windwakerquest/songofhealingadv"
+}

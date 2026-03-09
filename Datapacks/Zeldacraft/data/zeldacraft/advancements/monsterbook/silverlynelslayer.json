@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Entry: Silver Lynel",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Silver Lynel Drops: Lynel Bow, Shock Arrows, Red Rupees, Monster Guts, Reward Orb.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:golden_horse_armor"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "phantomslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pillager",
+                    "nbt": "{Tags:[\"silverlynel:1b\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:monsterbook/bluelynelslayer"
+}

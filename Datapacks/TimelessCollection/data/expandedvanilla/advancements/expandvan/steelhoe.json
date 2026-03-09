@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsteelhoe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:steel_hoe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainsteelhoe"
+    }
+}

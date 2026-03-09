@@ -1,0 +1,39 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Guardian Down",
+            "color": "blue"
+        },
+        "description": {
+            "text": "Kill an Elder Guardian",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:sponge"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "elderkilled": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                }
+
+            }
+        }
+    },
+            "rewards": {
+                "loot": [
+                    "zeldacraft:advrewardspooltier2"
+                ],
+                "experience": 200,
+                "function": "timelesscraft:touchgrass/touchgrassincrement"
+            },
+    "parent": "expandedvanilla:expandvan/davidandgoliath"
+}

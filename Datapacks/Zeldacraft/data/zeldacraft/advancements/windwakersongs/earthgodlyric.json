@@ -1,0 +1,155 @@
+{
+    "criteria": {
+        "skeleton": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:skeleton"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "piglin": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "piglinbrute": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin_brute"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "hoglin": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:hoglin"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "pig": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pig"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "ravager": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ravager"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "skeleton",
+            "piglin",
+            "piglinbrute",
+            "hoglin",
+            "pig",
+            "ravager"
+        ]
+    ],
+    "rewards": {
+        "function": "zeldacraft:windwakersongsfunc/earthgodlyricplay"
+    }
+}

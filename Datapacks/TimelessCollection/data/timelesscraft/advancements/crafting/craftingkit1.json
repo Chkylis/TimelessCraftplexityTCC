@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedcraftingkit": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "timelesscraft:customcraftingkit_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "timelesscraft:crafting/givecraftingkit"
+    }
+}

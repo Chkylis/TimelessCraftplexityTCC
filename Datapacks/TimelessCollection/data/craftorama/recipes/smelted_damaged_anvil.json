@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:damaged_anvil"
+    },
+    "result": "minecraft:iron_block",
+    "experience": 15,
+    "cookingtime": 200
+}

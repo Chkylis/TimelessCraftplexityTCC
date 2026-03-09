@@ -1,0 +1,108 @@
+{
+    
+    "criteria": {
+        "ghast": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "blaze": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:blaze"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "bat": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:bat"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "phantom": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:phantom"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ghast",
+            "bat",
+            "blaze",
+            "phantom"
+        ]
+    ],
+    "rewards": {
+        "function": "timelesscraft:realitysplicer/rsflyingfunc"
+    }
+}

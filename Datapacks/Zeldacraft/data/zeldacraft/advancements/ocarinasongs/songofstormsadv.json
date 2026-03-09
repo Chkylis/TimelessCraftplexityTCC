@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Gift of the Windmill",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Craft the Ocarina of Time (Song of Storm's Version)",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:cyan_stained_glass_pane"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "magicarmorgain": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:songofstormsrecipe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:ocarinasongs/fairyocarinaadv"
+}

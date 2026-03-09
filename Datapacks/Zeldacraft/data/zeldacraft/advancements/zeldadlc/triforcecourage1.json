@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedtriforcecourage": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:triforceofcourage_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtaintriforcecourage"
+    }
+}

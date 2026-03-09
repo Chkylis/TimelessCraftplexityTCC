@@ -1,0 +1,43 @@
+{
+    "criteria": {
+      "stopmusic": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:creeper",
+            "nbt": "{Tags:[\"guardian:1b\"]}"
+          }
+        }
+      },
+      "stopmusic2": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:creeper",
+              "nbt": "{Tags:[\"guardian:1b\"]}"
+            }
+          }
+        }
+      },
+      "stopmusic3": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:guardian",
+            "nbt": "{Tags:[\"guardianturret:1b\"]}"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "stopmusic",
+        "stopmusic2",
+        "stopmusic3"
+      ]
+    ],
+    "rewards": {
+      "function": "zeldacraft:dynamicmusic/guardianthemestop"
+    }
+  }

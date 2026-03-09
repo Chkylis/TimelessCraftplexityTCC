@@ -1,0 +1,46 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "A Sansational Purchase",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Buy the MEGALOVANIA Disc from Xur.",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:music_disc_stal"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "narcomoneybag": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                      "minecraft:music_disc_stal"
+                    ],
+                    "count": {
+                      "min": 1,
+                      "max": 1
+                    },
+                    "nbt": "{megalovania:1b}"
+                    
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier3"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "miscraft:achievements/moneybags"
+}

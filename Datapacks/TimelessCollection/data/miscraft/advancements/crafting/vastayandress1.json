@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedvd": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:vastayandress_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/givevastayandress"
+    }
+}

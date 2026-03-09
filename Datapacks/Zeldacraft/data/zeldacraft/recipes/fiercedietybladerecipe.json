@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #D",
+        "DFD",
+        "/# "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:emerald_block"
+        },
+        "D": {
+            "item": "minecraft:knowledge_book"
+        },
+        "F": {
+            "item": "minecraft:diamond_sword"
+        },
+        "/": {
+            "item": "minecraft:blaze_rod"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

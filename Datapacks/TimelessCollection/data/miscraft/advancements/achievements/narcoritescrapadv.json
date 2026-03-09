@@ -1,0 +1,46 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "One Man's Trash, Another Man's Treasure",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Buy Narcorite Scrap.",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "mafia": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                      "minecraft:iron_nugget"
+                    ],
+                    "count": {
+                      "min": 1,
+                      "max": 64
+                    },
+                    "nbt": "{narcoritescrap:1b}"
+                    
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "miscraft:achievements/narcoriteformulaadv"
+}

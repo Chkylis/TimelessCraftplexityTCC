@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Crazed to Craft",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Upgrade a Timeless Crafter to Tier 2",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:dropper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier3"
+        ],
+        "experience": 500
+    },
+    "parent": "timelesscraft:achievements/workstations/summoncustomcrafter"
+}

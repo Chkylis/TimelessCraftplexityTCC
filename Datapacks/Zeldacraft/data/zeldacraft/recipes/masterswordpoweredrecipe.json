@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "F#H",
+        " D "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond_block"
+        },
+        "F": {
+            "item": "minecraft:knowledge_book"
+        },
+        "H": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "D": {
+            "item": "minecraft:diamond_sword"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

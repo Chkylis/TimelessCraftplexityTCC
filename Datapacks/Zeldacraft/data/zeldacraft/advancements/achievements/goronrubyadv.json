@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Goron's Gift",
+            "color": "red"
+        },
+        "description": {
+            "text": "Acquire the Goron's Ruby",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bladesawgain": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:goronruby_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/kokoriemeraldadv"
+}

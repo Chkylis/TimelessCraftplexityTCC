@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedfairysword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:great_fairys_sword_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtaingreatfairysword"
+    }
+}

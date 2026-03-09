@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Gift of the Ikana",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Craft the Ocarina of Time (Elegy of Emptiness Version)",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:lime_stained_glass_pane"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "magicarmorgain": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:elegyocarinarecipe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:ocarinasongs/sunsongocarinaadv"
+}

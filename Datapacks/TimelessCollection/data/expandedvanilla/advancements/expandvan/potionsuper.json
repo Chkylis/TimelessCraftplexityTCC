@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpotionsuper": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:super_potion"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainpotionsuper"
+    }
+}

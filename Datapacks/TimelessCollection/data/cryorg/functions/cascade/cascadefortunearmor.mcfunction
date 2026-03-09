@@ -1,0 +1,2 @@
+######## Armor Of Fortune
+execute as @a[nbt={Inventory:[{Slot:103b,Count:1b,id:"minecraft:iron_helmet",Count:1b,tag:{fortunehood:1b}},{Slot:102b,Count:1b,id:"minecraft:iron_chestplate",Count:1b,tag:{fortunevest:1b}},{Slot:101b,Count:1b,id:"minecraft:iron_leggings",Count:1b,tag:{fortunepants:1b}},{Slot:100b,Count:1b,id:"minecraft:iron_boots",Count:1b,tag:{fortuneboots:1b}}]}] run effect give @s luck 1 9 true

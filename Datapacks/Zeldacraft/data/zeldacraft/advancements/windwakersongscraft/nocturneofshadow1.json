@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedbladesaw": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:windwakersongslearn/learnnocturneofshadow"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:windwakersongscraft/nocturneofshadowcraft"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "criteria": {
+        "vindicator": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:vindicator"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "witch": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:witch"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "pillager": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pillager"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "vindicator",
+            "witch",
+            "pillager"
+        ]
+    ],
+    "rewards": {
+        "function": "zeldacraft:windwakersongsfunc/nocturneofshadowplay"
+    }
+}

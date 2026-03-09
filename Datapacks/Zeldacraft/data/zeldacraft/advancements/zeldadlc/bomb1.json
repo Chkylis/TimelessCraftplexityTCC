@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedbomb": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:bombrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/givebomb"
+    }
+}

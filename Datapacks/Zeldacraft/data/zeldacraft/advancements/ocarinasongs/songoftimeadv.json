@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Gift of Hylia",
+            "color": "blue"
+        },
+        "description": {
+            "text": "Craft the Song of Time",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:blue_stained_glass_pane"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "magicarmorgain": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:windwakersongslearn/learnsongoftime"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:ocarinasongs/ocarinaoftimeadv"
+}

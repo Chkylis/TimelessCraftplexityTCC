@@ -1,0 +1,57 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Stargazer",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Obtain a nether star.",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "netherstargained": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:nether_star"],
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftorama:bedrock",
+            "craftorama:nether_star_cashed_diamond",
+            "craftorama:nether_star_cashed_gold",
+            "craftorama:nether_star_cashed_iron",
+            "craftorama:nether_star_cashed_lapis",
+            "craftorama:nether_star_cashed_redstone",
+            "craftorama:nether_star_cashed_coal",
+            "craftorama:nether_star_cashed_emeralds",
+            "craftorama:nether_star_cashed_amethyst",
+            "craftorama:nether_star_cashed_netherite",
+            "craftorama:nether_star_cashed_copper",
+            "craftorama:enchanted_gapple",
+            "craftorama:totem_of_undying",
+            "craftorama:monster_spawner",
+            "craftorama:elytra"
+        ],
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "craftorama:witheredtreasures"
+}

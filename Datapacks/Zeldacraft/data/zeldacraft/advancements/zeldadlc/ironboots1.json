@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedironboots": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:ironboots_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainironboots"
+    }
+}

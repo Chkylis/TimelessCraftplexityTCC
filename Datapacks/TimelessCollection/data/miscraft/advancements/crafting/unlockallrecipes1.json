@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedthing": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:unlockallrecipes_book"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/giveallrecipes"
+    }
+}

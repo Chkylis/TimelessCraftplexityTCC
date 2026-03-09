@@ -1,0 +1,179 @@
+{
+    "criteria": {
+        "zombie": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "husk": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:husk"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "drowned": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:drowned"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "zoglin": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zoglin"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "zombie pigman": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombified_piglin"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "zombie villager": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_villager"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "zombie horse": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_horse"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "zombie",
+            "husk",
+            "zoglin",
+            "zombie pigman",
+            "zombie horse",
+            "drowned",
+            "zombie villager"
+        ]
+    ],
+    "rewards": {
+        "function": "timelesscraft:realitysplicer/rszombiefunc"
+    }
+}

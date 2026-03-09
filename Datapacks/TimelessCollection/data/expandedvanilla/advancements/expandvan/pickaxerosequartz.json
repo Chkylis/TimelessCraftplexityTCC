@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpickaxerosequartz": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:rosequartz_pickaxe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainpickaxerosequartz"
+    }
+}

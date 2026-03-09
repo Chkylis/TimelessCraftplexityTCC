@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Song of the Wind",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Learn the Wind's Requiem.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:white_stained_glass_pane"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "msstep1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:windwakersongslearn/learnwindrequiem"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:windwakerquest/windwakeradv"
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpotionhearty": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:hearty_potion"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainpotionhearty"
+    }
+}

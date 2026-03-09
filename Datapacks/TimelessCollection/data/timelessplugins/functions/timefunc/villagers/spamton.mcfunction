@@ -1,0 +1,5 @@
+#### Spawn Villager
+
+## Spawn Spamton
+execute at @s run summon villager ~ ~ ~ {Invulnerable:1b,Tags:["spamton:1b"],CustomNameVisible:1b,CustomName:'{"text":"Spamton","color":"light_purple"}',VillagerData:{level:99,profession:"minecraft:weaponsmith",type:"minecraft:plains"},Offers:{Recipes:[{maxUses:2147483647,buy:{id:'minecraft:golden_chestplate',Count:1b,tag:{display:{Name:'{"text":"Exotium","color":"gold"}',Lore:["{\"text\":\"Xur's Specialty Item\",\"color\":\"gold\"}"]},RepairCost:999999,Unbreakable:1b,exotium:1b,Enchantments:[{id:'minecraft:vanishing_curse',lvl:1s}]}},sell:{id:"minecraft:gold_nugget",Count:1b,tag:{display:{Name:'{"text":"CRASH THE EKRONOMY","color":"gold"}',Lore:['{"text":"\\"Now\'s your chance to be\\"","color":"light_purple"}','{"text":"[[A LITTLE RICHER]]","color":"gold"}']},HideFlags:3,ekronomy:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}]}}}]}}
+execute at @s run msg @s "Summoned new Spamton."

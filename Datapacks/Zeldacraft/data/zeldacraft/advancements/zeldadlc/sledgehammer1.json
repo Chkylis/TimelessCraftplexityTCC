@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsledgehammer": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:sledgehammerrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainsledgehammer"
+    }
+}

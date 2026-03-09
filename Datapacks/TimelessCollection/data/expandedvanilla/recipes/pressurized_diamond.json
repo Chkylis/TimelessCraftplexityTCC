@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "GGG",
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:charcoal"
+        },
+        "C": {
+            "item": "minecraft:coal"
+        },
+        "G": {
+            "item": "minecraft:coal_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:diamond",
+        "count": 1
+    }
+}

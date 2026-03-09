@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Entry: Moblin",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Moblin Drops: Flameblade, Naginata, Green Rupees, Monster Guts, Reward Orb.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:piglin_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "phantomslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin",
+                    "nbt": "{Tags:[\"moblin:1b\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvslayer"
+}

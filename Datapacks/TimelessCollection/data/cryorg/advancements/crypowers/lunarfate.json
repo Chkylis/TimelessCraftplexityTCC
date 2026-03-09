@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "shulker": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_axe"
+                                ],
+                                "nbt": "{lunarcharge:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "rewards": {
+        "function": "cryorg:crypowersfunc/lunarfatepower"
+    }
+}

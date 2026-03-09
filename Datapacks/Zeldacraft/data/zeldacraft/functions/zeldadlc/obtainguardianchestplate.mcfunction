@@ -1,0 +1,7 @@
+recipe take @s zeldacraft:guardian_chestplate_recipe
+
+advancement revoke @s only zeldacraft:zeldadlc/guardianarmor4
+
+give @s timelesscomplexity:zelda_guardian_armor_chestplate{display:{Name:'{"text":"Guardian Chestplate","color":"red"}',Lore:['{"text":"A chestplate crafted from the scraps of a powerful foe."}','{"text":"Guardian Slayer:","color":"gold"}','{"text":"When worn with the full set;","color":"gold"}','{"text":"Increases the effectiveness of the Ancient Weapons\'","color":"gold"}','{"text":"Guardian\'s Bane ability.","color":"gold"}']},RepairCost:9999999,Unbreakable:0b,guardianchestplate:1b,Enchantments:[{id:"minecraft:blast_protection",lvl:10s},{id:"minecraft:unbreaking",lvl:5s}],AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:20,Operation:0,UUID:[I;432493018,1857768566,-1978612544,-804409965],Slot:"chest"},{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:8,Operation:0,UUID:[I;2119130818,1972455147,-1529791591,-642853802],Slot:"chest"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:12,Operation:0,UUID:[I;279408399,804998267,-1829968645,-1587876411],Slot:"chest"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:5,Operation:0,UUID:[I;595690934,-1944040467,-1425054530,-260432850],Slot:"chest"}]} 1
+
+clear @s minecraft:knowledge_book

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedaxecrystalquartz": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:crystalquartz_axe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaincrystalquartzaxe"
+    }
+}

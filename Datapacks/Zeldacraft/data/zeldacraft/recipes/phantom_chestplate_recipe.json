@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "APA",
+        "#A#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:raw_iron"
+        },
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "P": {
+            "item": "minecraft:phantom_membrane"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

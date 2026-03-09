@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockednayrulove": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:nayruloverecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainnayrublessing"
+    }
+}

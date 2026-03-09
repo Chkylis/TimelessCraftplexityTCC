@@ -1,0 +1,45 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "That's Just How Mafia Works",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Hold a stack of 64 Marco Tokens at once.",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "mafia": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:gold_ingot"],
+                        "count": {
+                            "min": 64,
+                            "max": 64
+                        },
+                        "nbt": "{marcotoken:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "miscraft:achievements/marconian"
+}

@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Color Me Surprised",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Craft Diamond Spreading",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:baked_potato"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "msstep1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:diamondspreadingrecipe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 200,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "expandedvanilla:expandvan/diamondcoaladv"
+}

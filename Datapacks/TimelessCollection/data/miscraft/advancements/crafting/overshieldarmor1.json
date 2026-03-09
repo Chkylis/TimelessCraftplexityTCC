@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedovershield": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:overshieldarmor_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/giveovershieldarmor"
+    }
+}

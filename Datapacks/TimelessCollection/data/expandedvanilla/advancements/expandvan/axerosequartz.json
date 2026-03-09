@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedaxerosequartz": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:rosequartz_axe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainaxerosequartz"
+    }
+}

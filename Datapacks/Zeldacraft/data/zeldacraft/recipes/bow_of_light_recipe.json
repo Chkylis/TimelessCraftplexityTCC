@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B ",
+        "#NB",
+        "#B "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:spectral_arrow"
+        },
+        "B": {
+            "item": "minecraft:bow"
+        },
+        "N": {
+            "item": "minecraft:knowledge_book"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

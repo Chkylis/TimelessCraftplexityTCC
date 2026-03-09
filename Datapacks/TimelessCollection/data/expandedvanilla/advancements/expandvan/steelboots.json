@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsteelboots": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:steel_boots"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainsteelboots"
+    }
+}

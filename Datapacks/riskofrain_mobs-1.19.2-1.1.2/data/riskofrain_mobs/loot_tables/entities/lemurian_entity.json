@@ -1,0 +1,61 @@
+{
+  "type": "riskofrain_mobs:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "riskofrain_items:bustling_fungus"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "riskofrain_items:crowbar"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "riskofrain_items:goat_hoof"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "riskofrain_items:golden_gun"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "riskofrain_items:infusion"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "riskofrain_items:lens_makers_glasses"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "riskofrain_items:repulsion_armor_plate"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "riskofrain_items:rose_buckler"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "riskofrain_items:smart_shopper"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "riskofrain_items:soldiers_syringe"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "riskofrain_items:tougher_times"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "riskofrain_items:topaz_brooch"
+        }
+      ]
+    }
+  ]
+}

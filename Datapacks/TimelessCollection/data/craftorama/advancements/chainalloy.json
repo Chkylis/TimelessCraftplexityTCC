@@ -1,0 +1,54 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Chains That Bind You",
+            "color": "dark_gray"
+        },
+        "description": {
+            "text": "Craft or obtain Chain Armor",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:chainmail_chestplate"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "obtainchain": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:chainmail_chestplate"],
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftorama:chainmail_helmet",
+            "craftorama:chainmail_boots",
+            "craftorama:chainmail_leggings",
+            "craftorama:chainmail_helmet_upgrade",
+            "craftorama:chainmail_leggings_upgrade",
+            "craftorama:chainmail_boots_upgrade",
+            "craftorama:chainmail_chestplate_upgrade",
+            "craftorama:blasted_damaged_anvil",
+            "craftorama:smelted_damaged_anvil",
+            "craftorama:repair_damaged_anvil",
+            "craftorama:repair_chipped_anvil",
+            "craftorama:scrapped_damaged_anvil"
+        ],
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "craftorama:intro"
+}

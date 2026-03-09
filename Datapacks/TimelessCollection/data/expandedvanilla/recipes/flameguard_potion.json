@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#GM",
+        "MMM"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:crimson_fungus"
+        },
+        "G": {
+            "item": "minecraft:glass_bottle"
+        },
+        "M": {
+            "item": "minecraft:magma_cream"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Rude Awakening",
+            "color": "red"
+        },
+        "description": {
+            "text": "Awake a slumbering Guardian.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvslayer"
+}

@@ -1,0 +1,44 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Blood Money",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Acquire forbidden currency.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:emerald",
+            "nbt": "{display:{Name:'{\"text\":\"Dark Rupee\"}'}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "narcomoneybag": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                      "minecraft:emerald"
+                    ],
+                    "count": {
+                      "min": 1,
+                      "max": 64
+                    },
+                    "nbt": "{darkrupee:1b}"
+                    
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:trading/poesouladv"
+}

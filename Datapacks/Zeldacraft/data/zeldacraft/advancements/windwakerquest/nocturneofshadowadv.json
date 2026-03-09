@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Song of the Shadows",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Learn the Nocturne of Shadow.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:magenta_stained_glass_pane"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "msstep1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:windwakersongslearn/learnnocturneofshadow"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier3"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:windwakerquest/bolerooffireadv"
+}

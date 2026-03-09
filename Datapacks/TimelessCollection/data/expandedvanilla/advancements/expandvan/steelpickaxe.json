@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsteelpickaxe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:steel_pickaxe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainsteelpickaxe"
+    }
+}

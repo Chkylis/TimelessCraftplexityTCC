@@ -1,0 +1,59 @@
+{
+    "criteria": {
+        "slime": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "spider": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "slime",
+            "spider"
+        ]
+    ],
+    "rewards": {
+        "function": "zeldacraft:windwakersongsfunc/sariasongplay"
+    }
+}

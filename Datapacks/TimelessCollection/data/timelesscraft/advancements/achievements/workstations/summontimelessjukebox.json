@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Music Maniac",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Craft a Timeless Jukebox Kit",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:jukebox"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500
+    },
+    "parent": "global:tccworkstations"
+}

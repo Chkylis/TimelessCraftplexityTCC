@@ -1,0 +1,12 @@
+#### Execute as at eligible vindicator
+
+## If matches 0
+execute if score phantom_count zeldamod_mobs matches 0 run summon stray ~ ~ ~ {Silent:1b,CustomNameVisible:1b,Tags:["phantomknight:1b"],DeathLootTable:"zeldacraft:phantomknightlootpool",CanPickUpLoot:0b,AbsorptionAmount:20f,Health:40f,CustomName:'{"text":"Phantom","color":"dark_purple"}',HandItems:[{id:"minecraft:iron_sword",Count:1b,tag:{display:{Name:'{"text":"Phantom Knight Sword"}',Lore:['{"text":"A blade forged in the nightmares of travelers.","color":"light_purple","italic":true}']},RepairCost:5000,Unbreakable:1b,phantomknightsword:1b,Enchantments:[{id:"minecraft:sharpness",lvl:10s},{id:"minecraft:knockback",lvl:2s},{id:"minecraft:mending",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:12,Operation:0,UUID:[I;-1182778724,1170754999,-1703285368,-191435609],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:2,Operation:0,UUID:[I;-379157173,-303281389,-1278811634,-1533125077],Slot:"mainhand"},{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:2,Operation:2,UUID:[I;149034509,1479689725,-1996438742,2137870652],Slot:"mainhand"}]}},{}],HandDropChances:[2.000F,0.085F],ArmorItems:[{id:"minecraft:iron_boots",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:3s}]}},{id:"minecraft:iron_leggings",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:3s}]}},{id:"minecraft:iron_chestplate",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:3s}]}},{id:"minecraft:iron_helmet",Count:1b,tag:{Enchantments:[{id:"minecraft:protection",lvl:3s}]}}],ActiveEffects:[{Id:12b,Amplifier:2b,Duration:19999980,ShowParticles:0b},{Id:14b,Amplifier:1b,Duration:19999980,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:40},{Name:generic.follow_range,Base:50},{Name:generic.knockback_resistance,Base:1},{Name:generic.attack_damage,Base:20},{Name:generic.armor,Base:30},{Name:generic.armor_toughness,Base:8},{Name:generic.attack_knockback,Base:2}]}
+execute if score phantom_count zeldamod_mobs matches 0 run tp @s ~ ~-256 ~
+
+## Add tag
+tag @s add not_phantom
+## Incement count
+scoreboard players add phantom_count zeldamod_mobs 1
+# Reset count
+execute if score phantom_count zeldamod_mobs matches 280 run scoreboard players set phantom_count zeldamod_mobs 0

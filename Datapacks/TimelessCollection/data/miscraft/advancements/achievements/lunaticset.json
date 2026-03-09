@@ -1,0 +1,54 @@
+{
+    "display": {
+        "title": {
+            "text": "Armor of the Virtuoso",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Craft the full Lunatic Performer Set.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:iron_chestplate",
+            "nbt": "{display:{Name:'{\"text\":\"Performer\\'s Cloak\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "mask": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:virtuosomask_recipe"
+            }
+        },
+        "cloak": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:performercloak_recipe"
+            }
+        },
+        "greaves": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:lunaticgreaves_recipe"
+            }
+        },
+        "talons": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:lunatictalons_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier3"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "miscraft:achievements/miscraftcrafting"
+}

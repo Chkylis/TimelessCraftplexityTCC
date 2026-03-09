@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedfortunevest": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cryorg:fortune_vest"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 150,
+        "function": "cryorg:crafting/give_fortune_vest"
+    }
+}

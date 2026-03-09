@@ -1,0 +1,47 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Termina's Finest Forging",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Acquire the Gilded Sword.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:golden_sword",
+            "nbt": "{display:{Name:'{\"text\":\"Gilded Sword\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "gdust": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                      "minecraft:golden_sword"
+                    ],
+                    "count": {
+                      "min": 1,
+                      "max": 1
+                    },
+                    "nbt": "{gildedsword:1b}"
+                    
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 100,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:trading/glitteringgoldadv"
+}

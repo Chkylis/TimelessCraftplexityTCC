@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "End of the Line",
+            "color": "red"
+        },
+        "description": {
+            "text": "The path that lies ahead is yours alone to pave.",
+            "color": "red"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "elderguard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 500
+    },
+    "parent": "timelesscraft:achievements/bosschecklist/riven"
+}

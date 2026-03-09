@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Expanded Vanilla",
+        "description": "Expand your vanilla gameplay!",
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:ownerchkylis",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

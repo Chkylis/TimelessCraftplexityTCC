@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Destiny 2 Addons",
+        "description": "Destiny 2 Expansion to the Timeless Collection.",
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{display:{Name:'{\"text\":\"Ace of Spades\"}'}}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:ownerchkylis",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

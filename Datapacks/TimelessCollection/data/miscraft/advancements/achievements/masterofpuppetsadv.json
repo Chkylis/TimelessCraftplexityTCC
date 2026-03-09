@@ -1,0 +1,35 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Master of Puppets",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Now's Your Chance To [[DO ANYTHING]]!.",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:string"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "miphatrident": {
+            "trigger": "impossible",
+            "conditions": {
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 100,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "miscraft:achievements/chaoschaos"
+}

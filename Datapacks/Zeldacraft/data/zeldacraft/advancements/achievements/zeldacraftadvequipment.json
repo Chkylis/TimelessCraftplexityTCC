@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "ZeldaAddons - Equipment",
+        "description": "Unlock Link's arsenal!",
+        "icon": {
+            "item": "minecraft:wooden_sword"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "zeldacraft:zeldadlc/zeldacraftadv",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

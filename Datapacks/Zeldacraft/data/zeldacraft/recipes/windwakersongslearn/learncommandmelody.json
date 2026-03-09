@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "GCG",
+        "USU"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:glow_lichen"
+        },
+        "B": {
+            "item": "minecraft:bell"
+        },
+        "G": {
+            "item": "minecraft:glow_berries"
+        },
+        "C": {
+            "item": "minecraft:creeper_head"
+        },
+        "U": {
+            "item": "minecraft:glow_ink_sac"
+        },
+        "S": {
+            "item": "minecraft:spectral_arrow"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

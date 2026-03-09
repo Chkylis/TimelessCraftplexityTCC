@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpotionglow": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:glow_potion"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainpotionglow"
+    }
+}

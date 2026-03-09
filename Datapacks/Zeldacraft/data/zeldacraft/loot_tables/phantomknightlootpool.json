@@ -1,0 +1,57 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": {
+          "min": 6,
+          "max": 7
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:phantom_membrane"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Red Rupee",
+                  "color": "red"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{redrupee:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:experience_bottle",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Reward Orb",
+                  "color": "yellow"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{rewardorb:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

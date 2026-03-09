@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedbladesaw": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:windwakersongslearn/learnbolerooffire"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:windwakersongscraft/bolerooffirecraft"
+    }
+}

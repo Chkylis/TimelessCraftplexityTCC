@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Entry: Gold Lynel",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Gold Lynel Drops: Savage Lynel Sword, Red Rupees, Monster Guts, Reward Orb.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:diamond_horse_armor"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "phantomslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_villager",
+                    "nbt": "{Tags:[\"goldlynel:1b\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:monsterbook/silverlynelslayer"
+}

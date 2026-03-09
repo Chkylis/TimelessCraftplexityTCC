@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedtriforcewisdom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:triforceofwisdom_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtaintriforcewisdom"
+    }
+}

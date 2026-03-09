@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "BMB",
+        "#B#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:yellow_wool"
+        },
+        "B": {
+            "tag": "craftorama:bigmushroom"
+        },
+        "M": {
+            "item": "minecraft:magma_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:sponge",
+        "count": 1
+    }
+}

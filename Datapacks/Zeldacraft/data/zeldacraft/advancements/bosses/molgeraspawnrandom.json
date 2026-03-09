@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "witherslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "zeldacraft:bosses/molgera/molgerarandomsummon"
+    }
+}

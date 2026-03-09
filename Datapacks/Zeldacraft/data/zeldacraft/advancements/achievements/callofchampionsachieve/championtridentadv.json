@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Grace of the Zora",
+            "color": "blue"
+        },
+        "description": {
+            "text": "Acquire the Lightscale Trident.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:trident",
+            "nbt": "{display:{Name:'{\"text\":\"Lightscale Trident\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "miphatrident": {
+            "trigger": "impossible",
+            "conditions": {
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 100,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvchampionquest"
+}

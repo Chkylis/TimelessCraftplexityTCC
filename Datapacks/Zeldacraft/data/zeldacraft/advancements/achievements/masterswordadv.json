@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Blade of Evil's Bane",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Craft the first stage of the Master Sword",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword",
+            "nbt": "{display:{Name:'{\"text\":\"Unawakened Master Sword\"}'}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "msstep1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:unawakenedmasterswordrecipe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/goddessswordadv"
+}

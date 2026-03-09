@@ -1,0 +1,205 @@
+{
+    
+    "criteria": {
+        "guardian": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:guardian"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "tropical fish": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:tropical_fish"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+        ,
+        "elder guardian": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "cod": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cod"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "glow squid": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:glow_squid"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "squid": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:squid"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "pufferfish": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pufferfish"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "salmon": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:salmon"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "guardian",
+            "elder guardian",
+            "cod",
+            "tropical fish",
+            "pufferfish",
+            "salmon",
+            "squid",
+            "glow squid"
+        ]
+    ],
+    "rewards": {
+        "function": "timelesscraft:realitysplicer/rsfishfunc"
+    }
+}

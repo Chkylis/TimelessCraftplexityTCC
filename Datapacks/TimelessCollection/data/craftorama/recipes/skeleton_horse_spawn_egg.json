@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "#N#",
+        "#H#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "S": {
+            "item": "minecraft:skeleton_spawn_egg"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "H": {
+            "item": "minecraft:horse_spawn_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:skeleton_horse_spawn_egg",
+        "count": 1
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#TG",
+        "CNL",
+        "IED"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:netherite_boots"
+        },
+        "T": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "G": {
+            "item": "minecraft:golden_boots"
+        },
+        "C": {
+            "item": "minecraft:chainmail_boots"
+        },
+        "N": {
+            "item": "minecraft:knowledge_book"
+        },
+        "L": {
+            "item": "minecraft:leather_boots"
+        },
+        "I": {
+            "item": "minecraft:iron_boots"
+        },
+        "E": {
+            "item": "minecraft:end_crystal"
+        },
+        "D": {
+            "item": "minecraft:diamond_boots"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

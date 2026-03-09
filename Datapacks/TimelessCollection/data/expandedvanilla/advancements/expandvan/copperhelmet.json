@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedhelmetcopper": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:copper_helmet"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaincopperhelmet"
+    }
+}

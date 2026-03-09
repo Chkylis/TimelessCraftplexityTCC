@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:experience_bottle",Count:1b}]}
+give @p diamond{display:{Name:'{"text":"Blades Shard","color":"red"}',Lore:['{"text":"I may be unable to touch the Blade of Evil\'s Bane myself...","color":"red"}','{"text":"But that doesn\'t mean you can\'t instead.","color":"dark_red"}']},HideFlags:1,bladeshard:1b,Enchantments:[{id:"minecraft:sharpness",lvl:255s},{id:"minecraft:smite",lvl:255s},{id:"minecraft:bane_of_arthropods",lvl:255s},{id:"minecraft:looting",lvl:255s}]} 1

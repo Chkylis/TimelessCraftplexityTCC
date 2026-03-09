@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedfortuneboot": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cryorg:fortune_boot"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 150,
+        "function": "cryorg:crafting/give_fortune_boots"
+    }
+}

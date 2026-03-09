@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "ENE",
+        "EVE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:bone_block"
+        },
+        "S": {
+            "item": "minecraft:spruce_log"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "V": {
+            "item": "minecraft:skeleton_spawn_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:stray_spawn_egg",
+        "count": 1
+    }
+}

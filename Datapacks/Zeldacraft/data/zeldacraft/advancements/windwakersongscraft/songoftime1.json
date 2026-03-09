@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedbladesaw": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:windwakersongslearn/learnsongoftime"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:windwakersongscraft/songoftimecraft"
+    }
+}

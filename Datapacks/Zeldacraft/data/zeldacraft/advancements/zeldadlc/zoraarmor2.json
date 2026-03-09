@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedzorachestplate": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:zorachestplaterecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainzorachestplate"
+    }
+}

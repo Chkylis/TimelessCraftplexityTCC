@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "ENE",
+        "ECE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:red_mushroom"
+        },
+        "B": {
+            "tag": "craftorama:bigmushroom"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "C": {
+            "item": "minecraft:cow_spawn_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:mooshroom_spawn_egg",
+        "count": 1
+    }
+}

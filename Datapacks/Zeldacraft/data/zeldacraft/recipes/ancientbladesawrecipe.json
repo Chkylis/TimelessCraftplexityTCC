@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #D",
+        "nT#",
+        "Nn "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:chain"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "n": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "T": {
+            "item": "minecraft:diamond_axe"
+        },
+        "N": {
+            "item": "minecraft:netherite_sword"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

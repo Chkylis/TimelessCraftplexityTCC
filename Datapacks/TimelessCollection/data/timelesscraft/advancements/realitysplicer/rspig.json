@@ -1,0 +1,155 @@
+{
+    "criteria": {
+        "pig": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pig"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "piglin": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "hoglin": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:hoglin"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "zoglin": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zoglin"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "zombie pigman": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombified_piglin"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "piglin brute": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin_brute"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{realitysplicer:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "pig",
+            "piglin",
+            "zoglin",
+            "zombie pigman",
+            "hoglin",
+            "piglin brute"
+        ]
+    ],
+    "rewards": {
+        "function": "timelesscraft:realitysplicer/rspigfunc"
+    }
+}

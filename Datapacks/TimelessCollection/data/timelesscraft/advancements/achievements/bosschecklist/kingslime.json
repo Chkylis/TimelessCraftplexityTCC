@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "King Slime",
+            "color": "green"
+        },
+        "description": {
+            "text": "Kill King Slime",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:slime_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "redeadslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Tags:[\"kingslime:1b\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier1"
+        ],
+        "experience": 500
+    },
+    "parent": "global:bosschecklist"
+}

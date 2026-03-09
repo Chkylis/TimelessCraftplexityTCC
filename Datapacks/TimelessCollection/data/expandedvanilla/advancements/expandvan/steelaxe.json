@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsteelaxe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:steel_axe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainsteelaxe"
+    }
+}

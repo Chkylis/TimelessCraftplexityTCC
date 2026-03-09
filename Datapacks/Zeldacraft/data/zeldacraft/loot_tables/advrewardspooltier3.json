@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+      {
+        "rolls": {
+          "min": 20,
+          "max": 64
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lapis_lazuli"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:experience_bottle"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone"
+          }
+        ]
+      }
+    ]
+  }

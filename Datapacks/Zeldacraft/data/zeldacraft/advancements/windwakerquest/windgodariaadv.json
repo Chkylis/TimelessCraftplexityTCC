@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Wind God's Gift",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Learn the Wind God's Aria.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:light_blue_stained_glass_pane"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "msstep1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:windwakersongslearn/learnwindgodaria"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier3"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:windwakerquest/earthgodlyricadv"
+}

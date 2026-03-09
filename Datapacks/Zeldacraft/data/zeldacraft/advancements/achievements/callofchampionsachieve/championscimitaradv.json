@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Fury of the Gerudo",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Acquire the Scimitar of the Seven.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword",
+            "nbt": "{display:{Name:'{\"text\":\"Scimitar of the Seven\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "miphatrident": {
+            "trigger": "impossible",
+            "conditions": {
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 100,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvchampionquest"
+}

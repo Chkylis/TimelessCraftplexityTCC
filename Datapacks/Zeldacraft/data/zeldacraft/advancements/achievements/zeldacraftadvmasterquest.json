@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "ZeldaAddons - Master Quest",
+        "description": "The path to unlocking the Master Sword's true splendor.",
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{display:{Name:'{\"text\":\"Master Sword\"}'}}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvmainstory",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

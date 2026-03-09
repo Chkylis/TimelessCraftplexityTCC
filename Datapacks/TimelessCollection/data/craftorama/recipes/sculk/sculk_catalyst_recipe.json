@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "SES",
+        "#S#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sculk"
+        },
+        "S": {
+            "item": "minecraft:sculk_sensor"
+        },
+        "E": {
+            "item": "minecraft:echo_shard"
+        }
+    },
+    "result": {
+        "item": "minecraft:sculk_catalyst",
+        "count": 1
+    }
+}

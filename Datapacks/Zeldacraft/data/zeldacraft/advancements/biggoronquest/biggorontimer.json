@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "patentgive": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                      "minecraft:paper"
+                    ],
+                    "count": {
+                      "min": 1,
+                      "max": 64
+                    },
+                    "nbt": "{claimcheck:1b}"
+                    
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function" : "zeldacraft:callofchampionsitems/biggoronswordwait"
+    }
+}

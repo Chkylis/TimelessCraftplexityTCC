@@ -1,0 +1,380 @@
+{
+    "criteria": {
+        "Guardian Body M1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper",
+                    "nbt": "{Tags:[\"guardian:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{mastersword:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "Guardian Body M2": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper",
+                    "nbt": "{Tags:[\"guardian:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{masterswordpowered:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "Guardian Body M3": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper",
+                    "nbt": "{Tags:[\"guardian:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{masterswordtriforce:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "Guardian Legs M1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider",
+                    "nbt": "{Tags:[\"guardianlegs:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{mastersword:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "Guardian Legs M2": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider",
+                    "nbt": "{Tags:[\"guardianlegs:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{masterswordpowered:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "Guardian Legs M3": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider",
+                    "nbt": "{Tags:[\"guardianlegs:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{masterswordtriforce:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "Decayed Guardian M1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper",
+                    "nbt": "{Tags:[\"activateddecayguardian:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{mastersword:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "Decayed Guardian M2": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper",
+                    "nbt": "{Tags:[\"activateddecayguardian:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{masterswordpowered:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "Decayed Guardian M3": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper",
+                    "nbt": "{Tags:[\"activateddecayguardian:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{masterswordtriforce:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "MC Guardian M1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:guardian"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{mastersword:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "MC Guardian M2": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:guardian"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{masterswordpowered:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "MC Guardian M3": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:guardian"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{masterswordtriforce:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "MC EGuardian M1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{mastersword:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "MC EGuardian M2": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{masterswordpowered:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "MC EGuardian M3": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{masterswordtriforce:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Guardian Body M1",
+            "Guardian Body M2",
+            "Guardian Body M3",
+            "Guardian Legs M1",
+            "Guardian Legs M2",
+            "Guardian Legs M3",
+            "Decayed Guardian M1",
+            "Decayed Guardian M2",
+            "Decayed Guardian M3",
+            "MC Guardian M1",
+            "MC Guardian M2",
+            "MC Guardian M3",
+            "MC EGuardian M1",
+            "MC EGuardian M2",
+            "MC EGuardian M3"
+        ]
+    ],
+    "rewards": {
+        "function": "zeldacraft:championpowers/masterswordguardianuse"
+    }
+}

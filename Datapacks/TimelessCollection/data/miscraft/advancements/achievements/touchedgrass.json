@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "Touched Grass",
+            "color": "green"
+        },
+        "description": {
+            "text": "I know I said \"touch grass\", but I meant literally, why are you still here, show's over, leave your home for once.",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "miphatrident": {
+            "trigger": "impossible",
+            "conditions": {
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6"
+        ],
+        "experience": 420420420420,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "miscraft:achievements/touchgrass"
+}

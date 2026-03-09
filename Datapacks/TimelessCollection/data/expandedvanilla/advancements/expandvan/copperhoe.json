@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedhoecopper": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:copper_hoe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaincopperhoe"
+    }
+}

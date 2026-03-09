@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedvt": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:vastayantalons_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/givevastayantalons"
+    }
+}

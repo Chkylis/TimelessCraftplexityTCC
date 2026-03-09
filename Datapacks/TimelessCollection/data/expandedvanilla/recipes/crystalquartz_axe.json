@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #Q",
+        " /#",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "tag": "expandedvanilla:crystal"
+        },
+        "Q": {
+            "item": "minecraft:quartz"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

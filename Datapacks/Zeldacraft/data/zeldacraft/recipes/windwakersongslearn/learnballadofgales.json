@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#T#",
+        "DHK",
+        "#S#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nautilus_shell"
+        },
+        "T": {
+            "item": "minecraft:turtle_helmet"
+        },
+        "D": {
+            "item": "minecraft:trident"
+        },
+        "H": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "K": {
+            "item": "minecraft:turtle_egg"
+        },
+        "S": {
+            "item": "minecraft:scute"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

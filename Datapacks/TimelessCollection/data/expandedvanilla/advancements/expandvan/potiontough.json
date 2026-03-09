@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpotiontough": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:tough_potion"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainpotiontough"
+    }
+}

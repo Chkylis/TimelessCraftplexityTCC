@@ -1,0 +1,134 @@
+{
+  "custom.guardianbattle": {
+    "subtitle": "subtitles.custom.guardianbattle",
+    "sounds":[
+      "custom/dynamicmusic/guardianbattle"
+    ]
+  },
+  "custom.decayedguardianbattle": {
+    "subtitle": "subtitles.custom.decayedguardianbattle",
+    "sounds":[
+      "custom/dynamicmusic/decayedguardianbattle"
+    ]
+  },
+  "custom.lastwordshot": {
+    "subtitle": "subtitles.custom.lastwordshot",
+    "sounds":[
+      "custom/lastword/lastwordshot"
+    ]
+  },
+  "custom.aceofspadesshot": {
+    "subtitle": "subtitles.custom.aceofspadesshot",
+    "sounds":[
+      "custom/aceofspades/aceofspadesshot"
+    ]
+  },
+  "custom.mementomorifire": {
+    "subtitle": "subtitles.custom.mementomorifire",
+    "sounds":[
+      "custom/aceofspades/mementomorifire"
+    ]
+  },
+  "custom.aceofspadesreload": {
+    "subtitle": "subtitles.custom.aceofspadesreload",
+    "sounds":[
+      "custom/aceofspades/aceofspadesreload"
+    ]
+  },
+  "custom.riventheme": {
+    "subtitle": "subtitles.custom.riventheme",
+    "sounds":[
+      "custom/musicdisc/riventheme"
+    ]
+  },
+  "custom.bibmcaverns": {
+    "subtitle": "subtitles.custom.bibmcaverns",
+    "sounds":[
+      "custom/musicdisc/caverns"
+    ]
+  },
+  "custom.megalovania": {
+    "subtitle": "subtitles.custom.megalovania",
+    "sounds":[
+      "custom/musicdisc/megalovania"
+    ]
+  },
+  "custom.bigshot": {
+    "subtitle": "subtitles.custom.bigshot",
+    "sounds":[
+      "custom/musicdisc/bigshot"
+    ]
+  },
+  "custom.lamentstrongswing": {
+    "subtitle": "subtitles.custom.lamentstrongswing",
+    "sounds":[
+      "custom/lament/lamentstrongswing"
+    ]
+  },
+  "custom.lamentswing1": {
+    "subtitle": "subtitles.custom.lamentswing1",
+    "sounds":[
+      "custom/lament/lamentswing1"
+    ]
+  },
+  "custom.lamentswing2": {
+    "subtitle": "subtitles.custom.lamentswing2",
+    "sounds":[
+      "custom/lament/lamentswing2"
+    ]
+  },
+  "custom.lamentswing3": {
+    "subtitle": "subtitles.custom.lamentswing3",
+    "sounds":[
+      "custom/lament/lamentswing3"
+    ]
+  },
+  "custom.guardianawakens": {
+    "subtitle": "subtitles.custom.guardianawakens",
+    "sounds":[
+      "custom/dynamicmusic/guardianawakens"
+    ]
+  },
+  "custom.redeadscream": {
+    "subtitle": "subtitles.custom.redeadscream",
+    "sounds":[
+      "custom/hostilemobs/redeadscream"
+    ]
+  },
+  "custom.houston": {
+    "subtitle": "subtitles.custom.houston",
+    "sounds":[
+      "custom/musicdisc/houston"
+    ]
+  },
+  "custom.molgerabattle": {
+    "subtitle": "subtitles.custom.molgerabattle",
+    "sounds":[
+      "custom/dynamicmusic/molgerabattle"
+    ]
+  },
+  "custom.molgerasummoned": {
+    "subtitle": "subtitles.custom.molgerasummoned",
+    "sounds":[
+      "custom/dynamicmusic/molgerasummoned"
+    ]
+  },
+  "custom.molgerabattle2": {
+    "subtitle": "subtitles.custom.molgerabattle2",
+    "sounds":[
+      "custom/dynamicmusic/molgerabattle2"
+    ]
+  },
+  "custom.finalhours": {
+    "subtitle": "subtitles.custom.finalhours",
+    "sounds":[
+      "custom/majoracraft/finalhours"
+    ]
+  },
+  "custom.mirrorwarp": {
+    "subtitle": "subtitles.custom.mirrorwarp",
+    "sounds":[
+      "custom/zelda/mirrorwarp"
+    ]
+  }
+}

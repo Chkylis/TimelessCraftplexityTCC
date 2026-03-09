@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedvf": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:vastayanfeather_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/givevastayanfeather"
+    }
+}

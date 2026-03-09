@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "SRE",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sculk"
+        },
+        "S": {
+            "item": "minecraft:sculk_sensor"
+        },
+        "R": {
+            "item": "minecraft:sculk_catalyst"
+        },
+        "E": {
+            "item": "minecraft:echo_shard"
+        }
+    },
+    "result": {
+        "item": "minecraft:sculk_shrieker",
+        "count": 1
+    }
+}

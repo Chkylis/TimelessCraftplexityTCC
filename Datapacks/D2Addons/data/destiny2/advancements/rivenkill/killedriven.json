@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "stopmusic": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon",
+                    "nbt": "{Tags:[\"riven1kvoices:1b\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+       "function": "destiny2:mobs/slayedriven",
+        "experience": 1000
+    }
+}

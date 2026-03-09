@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedshovelrosequartz": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:rosequartz_shovel"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainshovelrosequartz"
+    }
+}

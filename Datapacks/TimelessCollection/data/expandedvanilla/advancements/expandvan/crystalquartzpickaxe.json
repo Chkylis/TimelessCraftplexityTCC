@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpickaxecrystalquartz": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:crystalquartz_pickaxe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaincrystalquartzpickaxe"
+    }
+}

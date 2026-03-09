@@ -1,0 +1,56 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Intro",
+            "color": "yellow",
+            "bold": true,
+            "italic": true,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Intro: Craft Coarse Dirt",
+            "color": "dark_green",
+            "bold": false,
+            "italic": false
+        },
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "parent": "craftorama:craftoramaadv",
+    "criteria": {
+        "cdirt": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:dirt"],
+                        "count": {
+                            "min": 9,
+                            "max": 9
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftorama:saddle",
+            "craftorama:podzol",
+            "craftorama:sponge",
+            "craftorama:skeleton_skull",
+            "craftorama:zombie_head",
+            "craftorama:player_head",
+            "craftorama:chainmail_chestplate",
+            "craftorama:grass_block"
+        ],
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Craftorama",
+        "description": "New recipes for uncraftable items!",
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:ownerchkylis",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

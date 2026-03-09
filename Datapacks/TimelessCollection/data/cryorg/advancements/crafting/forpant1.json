@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedfortunepant": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cryorg:fortune_pant"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 150,
+        "function": "cryorg:crafting/give_fortune_pants"
+    }
+}

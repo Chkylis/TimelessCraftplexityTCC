@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Sg",
+        "gEg",
+        "gS#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:feather"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "E": {
+            "item": "minecraft:elytra"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

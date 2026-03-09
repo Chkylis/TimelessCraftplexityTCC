@@ -1,0 +1,43 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Kokiri's Treasure",
+            "color": "green"
+        },
+        "description": {
+            "text": "Acquire the Kokiri Sword.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:stone_sword",
+            "nbt": "{display:{Name:'{\"text\":\"Kokiri Sword\"}'}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "swordget": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:stone_sword"],
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "nbt": "{kokirisword:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/startersetadv"
+}

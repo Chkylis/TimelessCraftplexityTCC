@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "wither": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:carrot_on_a_stick"
+                                ],
+                                "nbt": "{fiercedeitysword:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "rewards": {
+        "function": "timelesscraft:witherfight/wanticheap"
+    }
+}

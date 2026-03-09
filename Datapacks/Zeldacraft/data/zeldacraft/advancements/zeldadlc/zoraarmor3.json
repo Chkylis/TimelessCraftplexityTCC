@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedzoraleggings": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:zoraleggingsrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainzoraleggings"
+    }
+}

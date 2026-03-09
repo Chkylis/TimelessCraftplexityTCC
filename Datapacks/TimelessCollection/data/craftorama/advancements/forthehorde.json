@@ -1,0 +1,74 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "For The Horde",
+            "color": "dark_gray"
+        },
+        "description": {
+            "text": "Craft a Monster Spawner",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "spawnernext": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:spawner"],
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftorama:zombie_spawn_egg",
+            "craftorama:villager_spawn_egg",
+            "craftorama:magma_cube_spawn_egg",
+            "craftorama:slime_spawn_egg",
+            "craftorama:spider_spawn_egg",
+            "craftorama:cave_spider_spawn_egg",
+            "craftorama:piglin_spawn_egg",
+            "craftorama:zombified_piglin_spawn_egg",
+            "craftorama:rabbit_spawn_egg",
+            "craftorama:shulker_spawn_egg",
+            "craftorama:drowned_spawn_egg",
+            "craftorama:ocelot_spawn_egg",
+            "craftorama:mooshroom_spawn_egg",
+            "craftorama:wolf_spawn_egg",
+            "craftorama:squid_spawn_egg",
+            "craftorama:sheep_spawn_egg",
+            "craftorama:cow_spawn_egg",
+            "craftorama:chicken_spawn_egg",
+            "craftorama:pig_spawn_egg",
+            "craftorama:creeper_spawn_egg",
+            "craftorama:wither_skeleton_spawn_egg",
+            "craftorama:stray_spawn_egg",
+            "craftorama:husk_spawn_egg",
+            "craftorama:horse_spawn_egg",
+            "craftorama:mule_spawn_egg",
+            "craftorama:zombie_villager_spawn_egg",
+            "craftorama:donkey_spawn_egg",
+            "craftorama:zombie_horse_spawn_egg",
+            "craftorama:skeleton_horse_spawn_egg",
+            "craftorama:elder_guardian_spawn_egg",
+            "craftorama:guardian_spawn_egg",
+            "craftorama:skeleton_spawn_egg"
+        ],
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "craftorama:intro"
+}

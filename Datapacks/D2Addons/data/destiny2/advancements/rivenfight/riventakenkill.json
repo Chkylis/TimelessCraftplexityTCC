@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "phantomslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither_skeleton",
+                    "nbt": "{Tags:[\"rivenacolyte:1b\"]}",
+                    "location": {
+                        "dimension": "the_end"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "destiny2:rivenfight/rivenweaken"
+    }
+}

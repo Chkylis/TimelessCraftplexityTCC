@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedswordrosequartz": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:rosequartz_sword"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainswordrosequartz"
+    }
+}

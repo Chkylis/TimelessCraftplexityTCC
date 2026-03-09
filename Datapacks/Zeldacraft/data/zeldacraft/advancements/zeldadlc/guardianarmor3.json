@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedbootsguardian": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:guardian_boots_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainguardianboots"
+    }
+}

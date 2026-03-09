@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:red_sand"
+        }
+    },
+    "result": {
+        "item": "minecraft:gold_nugget",
+        "count": 5
+    }
+}

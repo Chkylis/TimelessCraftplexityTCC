@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:emerald",
+        "minecraft:emerald_block",
+        "minecraft:arrow",
+        "minecraft:redstone_torch",
+        "minecraft:spectral_arrow",
+        "minecraft:torch",
+        "minecraft:emerald_ore",
+        "minecraft:deepslate_emerald_ore",
+        "minecraft:soul_torch",
+        "minecraft:experience_bottle",
+        "minecraft:tipped_arrow",
+        "minecraft:ender_pearl",
+        "minecraft:ender_eye",
+        "minecraft:tnt_minecart",
+        "minecraft:tnt"
+    ]
+}

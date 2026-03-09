@@ -1,0 +1,57 @@
+{
+    "display": {
+        "title": {
+            "text": "The Man With The Golden Gun",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Acquire The Last Word.",
+            "color": "purple"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{display:{Name:'{\"text\":\"The Last Word\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "craftlastword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "destiny2:lastword_recipe"
+            }
+        },
+        "buylastword": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                      "minecraft:carrot_on_a_stick"
+                    ],
+                    "count": {
+                      "min": 1,
+                      "max": 1
+                    },
+                    "nbt": "{lastword:1b}"
+                    
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "craftlastword",
+            "buylastword"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500
+    },
+    "parent": "destiny2:achievements/d2addonsadv"
+}

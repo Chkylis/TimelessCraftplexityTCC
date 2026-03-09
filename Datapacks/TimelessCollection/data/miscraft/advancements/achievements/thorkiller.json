@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Thunderstruck",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Kill the god of thunder.",
+            "color": "blue"
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "phantomslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:drowned",
+                    "nbt": "{Tags:[\"godthor:1b\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "miscraft:achievements/miscraftslayer"
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedvh": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:vastayanhood_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/givevastayanhood"
+    }
+}

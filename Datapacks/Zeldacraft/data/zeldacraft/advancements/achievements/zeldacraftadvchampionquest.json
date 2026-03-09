@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "ZeldaAddons -Call of Champions",
+        "description": "Uncover the powers of the lost Champions.",
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{display:{Name:'{\"text\":\"Master Sword Lv3\"}'}}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvmainstory",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

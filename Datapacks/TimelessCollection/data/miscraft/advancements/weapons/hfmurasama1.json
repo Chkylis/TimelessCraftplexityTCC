@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedhfmurasama": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:hfmurasama_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:weapons/givehfmurasama"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "lament": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{thelament:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "rewards": {
+        "function": "destiny2:exotic/thelamentabilities"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsteelleggings": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:steel_leggings"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainsteelleggings"
+    }
+}

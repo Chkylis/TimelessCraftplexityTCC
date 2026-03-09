@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Entry: Bulblin",
+            "color": "green"
+        },
+        "description": {
+            "text": "Bulblin Drops: Boko Stick, Boko Machete, Green Rupees.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:pillager_spawn_egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "phantomslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:vindicator",
+                    "nbt": "{Tags:[\"bokoblin:1b\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier1"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvslayer"
+}

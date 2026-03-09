@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "CNC",
+        "PFP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "C": {
+            "item": "minecraft:cod"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "P": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "F": {
+            "item": "minecraft:pufferfish"
+        }
+    },
+    "result": {
+        "item": "minecraft:guardian_spawn_egg",
+        "count": 1
+    }
+}

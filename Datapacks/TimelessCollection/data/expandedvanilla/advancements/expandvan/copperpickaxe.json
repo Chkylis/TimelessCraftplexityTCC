@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpickaxecopper": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:copper_pickaxe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaincopperpickaxe"
+    }
+}

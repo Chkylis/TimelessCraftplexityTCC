@@ -1,0 +1,46 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Secret Formula",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Help Peris Mourn make Narcorite Formula.",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:potion"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "mafia": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                      "minecraft:potion"
+                    ],
+                    "count": {
+                      "min": 1,
+                      "max": 64
+                    },
+                    "nbt": "{narcoriteformula:1b}"
+                    
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier1"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "miscraft:achievements/narconian"
+}

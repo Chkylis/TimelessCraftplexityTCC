@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "An Ending",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Escape the End.",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "anend": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "the_end",
+                "to": "overworld"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 9999,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+"parent": "expandedvanilla:expandvan/dragonslayer"
+}

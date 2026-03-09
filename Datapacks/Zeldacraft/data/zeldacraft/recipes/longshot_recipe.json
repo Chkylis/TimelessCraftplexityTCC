@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#DS",
+        "OCD",
+        "FO#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "S": {
+            "item": "minecraft:spectral_arrow"
+        },
+        "O": {
+            "item": "minecraft:diamond"
+        },
+        "C": {
+            "item": "minecraft:chain"
+        },
+        "F": {
+            "item": "minecraft:fishing_rod"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

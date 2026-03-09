@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedlightbow": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:bow_of_light_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainbowoflight"
+    }
+}

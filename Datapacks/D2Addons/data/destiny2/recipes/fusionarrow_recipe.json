@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "KKK",
+        "#S#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:debug_stick"
+        },
+        "S": {
+            "item": "minecraft:structure_void"
+        },
+        "K": {
+            "item": "minecraft:knowledge_book"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

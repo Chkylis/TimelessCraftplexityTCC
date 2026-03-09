@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedfairyocarina": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:fairyocarinarecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/givefairyocarina"
+    }
+}

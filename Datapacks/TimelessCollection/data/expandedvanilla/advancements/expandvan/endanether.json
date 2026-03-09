@@ -1,0 +1,38 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Now You're Thinking With Portals",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Make it to the Nether, from the End, by any means possible",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:respawn_anchor"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "anchorwarp": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "the_end",
+                "to": "the_nether"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 5000,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+
+},
+"parent": "expandedvanilla:expandvan/dragonslayer"
+}

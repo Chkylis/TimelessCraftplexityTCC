@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedlament": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "destiny2:lament_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "destiny2:crafting/craftedlament"
+    }
+}

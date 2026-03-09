@@ -1,0 +1,34 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Hooked on Hooks",
+            "color": "red"
+        },
+        "description": {
+            "text": "Craft the Nethershot",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:fishing_rod",
+            "nbt": "{display:{Name:'{\"text\":\"Hookshot\"}'}}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "hookshotgain": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier3"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/stoneshotadv"
+}

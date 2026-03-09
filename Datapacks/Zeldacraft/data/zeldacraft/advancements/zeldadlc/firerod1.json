@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedfirerod": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:firerodrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/givefirerod"
+    }
+}

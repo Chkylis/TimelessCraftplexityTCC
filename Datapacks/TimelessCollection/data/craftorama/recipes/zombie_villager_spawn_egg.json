@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Z#",
+        "#N#",
+        "#V#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:egg"
+        },
+        "Z": {
+            "item": "minecraft:zombie_spawn_egg"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "V": {
+            "item": "minecraft:villager_spawn_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:zombie_villager_spawn_egg",
+        "count": 1
+    }
+}

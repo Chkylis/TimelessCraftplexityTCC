@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Red Chu Jelly",
+                "color": "red"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{redchujelly:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

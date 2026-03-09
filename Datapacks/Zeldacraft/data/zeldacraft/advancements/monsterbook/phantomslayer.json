@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Entry: Phantom Knight",
+            "color": "red"
+        },
+        "description": {
+            "text": "Phantom Knight Drops: Phantom Knight Sword, Phantom Iron Armor Set, Red Rupees, Reward Orb.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:stray_spawn_egg"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "phantomslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:stray",
+                    "nbt": "{Tags:[\"phantomknight:1b\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier3"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvslayer"
+}

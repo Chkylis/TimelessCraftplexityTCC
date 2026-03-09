@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedfortunehood": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cryorg:fortune_hood"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 150,
+        "function": "cryorg:crafting/give_fortune_hood"
+    }
+}

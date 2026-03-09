@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Triforce's Power",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Use the Triforce to reach the Master Sword's true potential",
+            "color": "gold"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{display:{Name:'{\"text\":\"Master Sword Lv3\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "msstep4": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:masterswordtriforcerecipe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/masterswordadv3"
+}

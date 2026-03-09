@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "The Lie"
+        },
+        "description": {
+            "text": "Bake cake using wheat, sugar, milk, and eggs!"
+        },
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cpodzol": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:cake"],
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },    
+    "rewards": 
+    {
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "expandedvanilla:expandvan/legacy/benchmarking"
+}

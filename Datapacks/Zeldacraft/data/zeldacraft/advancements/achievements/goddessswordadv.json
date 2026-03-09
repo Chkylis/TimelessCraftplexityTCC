@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Blade of the Goddess",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Acquire the Goddess Sword.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:iron_sword",
+            "nbt": "{display:{Name:'{\"text\":\"Goddess Sword\"}'}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "goddessswordget": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:callofchampions/goddess_blade_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier1"
+        ],
+        "experience": 100,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/goddessplumeadv"
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedgunsmith": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "destiny2:gunsmithmaterials_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "destiny2:crafting/craftedgunsmithmaterials"
+    }
+}

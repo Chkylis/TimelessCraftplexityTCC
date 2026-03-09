@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #M",
+        "###",
+        "S# "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:chain"
+        },
+        "M": {
+            "item": "minecraft:minecart"
+        },
+        "S": {
+            "item": "minecraft:spawner"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Courage of the Hero",
+            "color": "green"
+        },
+        "description": {
+            "text": "Acquire the Triforce of Courage",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:nether_star",
+            "nbt": "{display:{Name:'{\"text\":\"Triforce of Courage\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "bladesawgain": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:triforceofcourage_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/masterswordadv3"
+}

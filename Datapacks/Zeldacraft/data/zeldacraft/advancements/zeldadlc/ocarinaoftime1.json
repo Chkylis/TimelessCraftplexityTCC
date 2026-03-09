@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedocarinaoftime": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:ocarinaoftimerecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/giveocarinaoftime"
+    }
+}

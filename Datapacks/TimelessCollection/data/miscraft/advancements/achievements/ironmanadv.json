@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "I Am Iron Man.",
+            "color": "red"
+        },
+        "description": {
+            "text": "Acquire the Mark V Suitcase.",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:iron_ingot",
+            "nbt": "{display:{Name:'{\"text\":\"Mark V Suitcase\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "miphatrident": {
+            "trigger": "impossible",
+            "conditions": {
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 100,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "miscraft:achievements/miscraftcrafting"
+}

@@ -1,0 +1,255 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:wooden_pickaxe"
+                    ],
+                    "nbt": "{copperhammer:1b}"
+                 }
+               }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 2,
+                    "max": 6
+                  }
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{graveldust:1b}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "entity": "this",
+                  "name": {
+                    "color": "white",
+                    "text": "Gravel Dust"
+                  }
+                }
+              ],
+          "name": "minecraft:chain_command_block"
+          },
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:iron_pickaxe"
+                  ],
+                  "nbt": "{steelhammer:1b}"
+               }
+             }
+            ],
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 9
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{graveldust:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "color": "white",
+                  "text": "Gravel Dust"
+                }
+              }
+            ],
+        "name": "minecraft:chain_command_block"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:stone_pickaxe"
+                ],
+                "nbt": "{quartzhammer:1b}"
+             }
+           }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{graveldust:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "color": "white",
+                "text": "Gravel Dust"
+              }
+            }
+          ],
+      "name": "minecraft:chain_command_block"
+      },
+      {
+        "type": "minecraft:item",
+        "conditions": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:iron_pickaxe"
+              ],
+              "nbt": "{crystalquartzhammer:1b}"
+           }
+         }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 4,
+              "max": 12
+            }
+          },
+          {
+            "function": "minecraft:apply_bonus",
+            "enchantment": "minecraft:fortune",
+            "formula": "minecraft:ore_drops"
+          },
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{graveldust:1b}"
+          },
+          {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "name": {
+              "color": "white",
+              "text": "Gravel Dust"
+            }
+          }
+        ],
+    "name": "minecraft:chain_command_block"
+    },
+    {
+      "type": "minecraft:item",
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ],
+            "nbt": "{bluesteelhammer:1b}"
+         }
+       }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 5,
+            "max": 15
+          }
+        },
+        {
+          "function": "minecraft:apply_bonus",
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:ore_drops"
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{graveldust:1b}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "entity": "this",
+          "name": {
+            "color": "white",
+            "text": "Gravel Dust"
+          }
+        }
+      ],
+  "name": "minecraft:chain_command_block"
+      },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "minecraft:gravel"
+            },
+            {
+              "type": "minecraft:alternatives",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:table_bonus",
+                      "enchantment": "minecraft:fortune",
+                      "chances": [
+                        0.1,
+                        0.14285715,
+                        0.25,
+                        1.0
+                      ]
+                    }
+                  ],
+                  "name": "minecraft:flint"
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:gravel"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Roar of the Ender Dragon",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Craft the Draconic Pickaxe",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "msstep1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:draconicpickaxerecipe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 2000,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "expandedvanilla:expandvan/tridentadv"
+}

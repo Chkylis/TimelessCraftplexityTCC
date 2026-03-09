@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Entry: ???",
+            "color": "gold",
+            "obfuscated": true
+        },
+        "description": {
+            "text": "??? Drops: Unknown.",
+            "color": "dark_green",
+            "obfuscated": true
+        },
+        "icon": {
+            "item": "minecraft:warden_spawn_egg"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "wardendetected": {
+            "trigger": "minecraft:impossible",
+            "conditions": {
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 500
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvslayer"
+}

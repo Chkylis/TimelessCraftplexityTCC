@@ -1,0 +1,83 @@
+{
+    "criteria": {
+        "zombie": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "husk": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:husk"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "stray": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:stray"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "zombie",
+            "husk",
+            "stray"
+        ]
+    ],
+    "rewards": {
+        "function": "zeldacraft:windwakersongsfunc/windsreqiuemplay"
+    }
+}

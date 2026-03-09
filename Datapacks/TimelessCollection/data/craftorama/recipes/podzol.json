@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "CUC",
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "tag": "craftorama:treeleaves"
+        },
+        "C": {
+            "item": "minecraft:coarse_dirt"
+        },
+        "U": {
+            "item": "minecraft:clay"
+        }
+    },
+    "result": {
+        "item": "minecraft:podzol",
+        "count": 1
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "It's Yours My Friend!",
+            "color": "green"
+        },
+        "description": {
+            "text": "Have a stack of Red Rupees in your inventory.",
+            "color": "dark_green"
+        },
+            "icon": {
+                "item": "minecraft:emerald",
+                "nbt": "{display:{Name:'{\"text\":\"Red Rupee\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "rupee1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:emerald"],
+                        "count": {
+                            "min": 64,
+                            "max": 64
+                        },
+                        "nbt": "{redrupee:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:trading/rupeeredadv"
+}

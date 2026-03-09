@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedwindwaker": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:windwakerrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:windwakersongscraft/obtainwindwaker"
+    }
+}

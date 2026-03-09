@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedtruemastersword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:masterswordtriforcerecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainmasterswordtriforce"
+    }
+}

@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 15
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Mighty Banana",
+                "color": "yellow"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{mightybanana:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Green Rupee",
+                "color": "green"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{greenrupee:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Reward Orb",
+                "color": "yellow"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{rewardorb:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "dimension": "timelesscraft:darkworld_dimension"
+                    }
+                  }
+                ],
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Prism Shards",
+                "color": "light_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{prismshards:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

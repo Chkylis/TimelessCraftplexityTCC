@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockeddivinitydread": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cryorg:netherite_protection_framework_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 150,
+        "function": "cryorg:crafting/give_netherite_proct_framework"
+    }
+}

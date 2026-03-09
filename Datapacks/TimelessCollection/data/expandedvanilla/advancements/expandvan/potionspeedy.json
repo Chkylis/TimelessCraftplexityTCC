@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpotionspeedy": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:speedy_potion"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainpotionspeedy"
+    }
+}

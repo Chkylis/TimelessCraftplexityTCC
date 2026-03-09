@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Til Death Do Us Part",
+            "color": "black"
+        },
+        "description": {
+            "text": "Obtain the secret item",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:wither_rose"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "gainwrose": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:wither_rose"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "expandedvanilla:expandvan/davidandgoliath"
+}

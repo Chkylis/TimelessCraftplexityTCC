@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpickaxegod": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:infinity_pickaxe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaininfinitypickaxe"
+    }
+}

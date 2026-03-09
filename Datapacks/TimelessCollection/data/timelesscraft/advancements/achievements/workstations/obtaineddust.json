@@ -1,0 +1,81 @@
+{
+    "display": {
+        "title": {
+            "text": "Dust It Off",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Acquire dust by mining Cobble, Sand, or Gravel with your Hammer.",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:chain_command_block",
+            "nbt": "{display:{Name:'{\"text\":\"Sand Dust\"}'}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "sanddust": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:chain_command_block"],
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        },
+                        "nbt": "{sanddust:1b}"
+                    }
+                ]
+            }
+        },
+        "cobbledust": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:chain_command_block"],
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        },
+                        "nbt": "{stonedust:1b}"
+                    }
+                ]
+            }
+        },
+        "graveldust": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:chain_command_block"],
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        },
+                        "nbt": "{graveldust:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "sanddust",
+            "cobbledust",
+            "graveldust"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier1"
+        ],
+        "experience": 500
+    },
+    "parent": "timelesscraft:achievements/workstations/obtainedhammer"
+}

@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Complex Crafting",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Build your first Timeless Crafter",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:dropper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500
+    },
+    "parent": "global:tccworkstations"
+}

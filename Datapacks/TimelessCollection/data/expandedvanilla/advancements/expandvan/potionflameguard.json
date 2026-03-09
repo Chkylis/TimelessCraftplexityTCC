@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpotionflameguard": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:flameguard_potion"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainpotionflameguard"
+    }
+}

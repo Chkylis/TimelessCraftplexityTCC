@@ -1,0 +1,1 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:sculk_shrieker",Count:1b,tag:{BlockStateTag:{can_summon:"true"}}}]}

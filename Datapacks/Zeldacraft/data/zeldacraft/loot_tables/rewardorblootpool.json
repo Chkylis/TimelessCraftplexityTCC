@@ -1,0 +1,515 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+      {
+        "rolls": {
+          "min": 4,
+          "max": 7
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_gold"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lapis_lazuli"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:experience_bottle"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_gold"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lapis_lazuli"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:experience_bottle"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_copper"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:copper_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_copper"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:copper_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:charcoal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:quartz"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:charcoal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:quartz"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_copper"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:copper_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_copper"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:copper_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:charcoal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:quartz"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:charcoal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:quartz"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_copper"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:copper_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_copper"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:copper_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:charcoal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:quartz"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:charcoal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:quartz"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_copper"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:copper_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_copper"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:copper_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:charcoal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:quartz"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:charcoal"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:quartz"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Green Rupee",
+                  "color": "green"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{greenrupee:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Green Rupee",
+                  "color": "green"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{greenrupee:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Green Rupee",
+                  "color": "green"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{greenrupee:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Green Rupee",
+                  "color": "green"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{greenrupee:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Green Rupee",
+                  "color": "green"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{greenrupee:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Green Rupee",
+                  "color": "green"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{greenrupee:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:slime_ball",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Green Chu Jelly",
+                  "color": "green"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{greenchujelly:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:slime_ball",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Red Chu Jelly",
+                  "color": "red"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{redchujelly:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:slime_ball",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Green Chu Jelly",
+                  "color": "green"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{greenchujelly:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:slime_ball",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Red Chu Jelly",
+                  "color": "red"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{redchujelly:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:amethyst_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Goddess Plume",
+                  "color": "light_purple"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{goddessplume:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

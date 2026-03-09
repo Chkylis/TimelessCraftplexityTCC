@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedhoerosequartz": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:rosequartz_hoe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainhoerosequartz"
+    }
+}

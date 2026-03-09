@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#R#",
+        "R#R",
+        "#R#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:command_block"
+        },
+        "R": {
+            "item": "minecraft:repeating_command_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:chain_command_block",
+        "count": 1
+    }
+}

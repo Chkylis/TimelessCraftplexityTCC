@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Slayer of the Sage",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Acquire the Sword of the Six Sages.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{display:{Name:'{\"text\":\"Sword of the Six Sages\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "miphatrident": {
+            "trigger": "impossible",
+            "conditions": {
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 100,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvequipment"
+}

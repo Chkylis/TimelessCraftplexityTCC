@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "patentgive": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                      "minecraft:potion"
+                    ],
+                    "count": {
+                      "min": 1,
+                      "max": 64
+                    },
+                    "nbt": "{bluepotion:1b}"
+                    
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function" : "timelesscraft:villagers/givebluepotionrecipe"
+    }
+}

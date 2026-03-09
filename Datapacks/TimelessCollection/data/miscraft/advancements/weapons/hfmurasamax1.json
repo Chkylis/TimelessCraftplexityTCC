@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedhfmurasamax": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:hfmurasamax_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:weapons/givehfmurasamax"
+    }
+}

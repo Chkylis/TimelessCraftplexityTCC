@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedvm": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:virtuosomask_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/givevirtuosomask"
+    }
+}

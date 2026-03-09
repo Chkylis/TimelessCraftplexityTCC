@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedchestplatephantom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:phantom_chestplate_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainphantomchestplate"
+    }
+}

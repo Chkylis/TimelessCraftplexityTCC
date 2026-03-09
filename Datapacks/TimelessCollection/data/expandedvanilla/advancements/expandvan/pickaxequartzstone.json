@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpickaxequartzstone": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:quartzstone_pickaxe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainpickaxequartzstone"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedordinaryapple": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:ordinaryapplerecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/giveordinaryapple"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "hurtmob": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:stone_sword"
+                                ],
+                                "nbt": "{manasteal:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "rewards": {
+        "function": "miscraft:spells/manasteal"
+    }
+}

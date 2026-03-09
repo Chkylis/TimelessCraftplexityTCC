@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedelegyocarina": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:elegyocarinarecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/giveelegyofemptiness"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "David and Goliath",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Kill an Iron Golem... With a block of Stone.",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "goliathkilled": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:iron_golem"
+                },
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                    "minecraft:stone" 
+                                  ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+        "rewards": {
+            "loot": [
+                "zeldacraft:advrewardspooltier2"
+            ],
+            "experience": 200,
+            "function": "timelesscraft:touchgrass/touchgrassincrement"
+        },
+    "parent": "expandedvanilla:expandvan/villagerkilled"
+}

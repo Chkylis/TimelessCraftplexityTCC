@@ -1,0 +1,107 @@
+{
+    "criteria": {
+        "drowned": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:drowned"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "squid": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:squid"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "glowsquid": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:glow_squid"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "guardian": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:guardian"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:iron_sword"
+                                ],
+                                "nbt": "{windwaker:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "drowned",
+            "squid",
+            "glowsquid",
+            "guardian"
+        ]
+    ],
+    "rewards": {
+        "function": "zeldacraft:windwakersongsfunc/balladofgalesplay"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "BPB",
+        "BBB"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:obsidian"
+        },
+        "B": {
+            "item": "minecraft:bedrock"
+        },
+        "P": {
+            "item": "minecraft:beacon"
+        }
+    },
+    "result": {
+        "item": "minecraft:end_portal_frame",
+        "count": 1
+    }
+}

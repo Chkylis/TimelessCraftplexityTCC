@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockeddinblessing": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:dinsfirerecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/givedinblessing"
+    }
+}

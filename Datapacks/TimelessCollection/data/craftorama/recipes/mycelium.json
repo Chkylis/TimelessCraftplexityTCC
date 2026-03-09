@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "CBC",
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:podzol"
+        },
+        "C": {
+            "item": "minecraft:clay"
+        },
+        "B": {
+            "tag": "craftorama:bigmushroom"
+        }
+    },
+    "result": {
+        "item": "minecraft:mycelium",
+        "count": 1
+    }
+}

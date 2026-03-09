@@ -1,0 +1,60 @@
+{
+    "criteria": {
+        "phantom": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:phantom"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{phantomsword:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "phantom knight": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:stray",
+                    "nbt": "{Tags:[\"phantomknight:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{phantomsword:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "phantom",
+            "phantom knight"
+        ]
+    ],
+    "rewards": {
+        "function": "zeldacraft:championpowers/phantomsworduse"
+    }
+}

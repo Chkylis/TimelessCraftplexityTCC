@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedaxequartzstone": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:quartzstone_axe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainaxequartzstone"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Blade of the Blazing Mountain",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Acquire Biggoron's Sword.",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{display:{Name:'{\"text\":\"Biggoron\\'s Sword\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "narcomoneybag": {
+            "trigger": "impossible",
+            "conditions": {
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 100,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:biggoronquest/bigswordstep6"
+}

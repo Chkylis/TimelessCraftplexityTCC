@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedzorahelm": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:zorahelmrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainzorahelm"
+    }
+}

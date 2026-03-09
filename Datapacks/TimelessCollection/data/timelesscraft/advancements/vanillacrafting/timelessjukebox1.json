@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "jukeboxmade": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "timelesscraft:timelessjukeboxsummon"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "timelesscraft:customrecords/jukeboxkit"
+    }
+}

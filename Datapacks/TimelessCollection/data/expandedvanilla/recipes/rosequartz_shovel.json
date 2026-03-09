@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#SN",
+        "RRB"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:quartz"
+        },
+        "S": {
+            "item": "minecraft:stone_shovel"
+        },
+        "N": {
+            "item": "minecraft:nether_brick"
+        },
+        "R": {
+            "item": "minecraft:red_dye"
+        },
+        "B": {
+            "item": "minecraft:blaze_powder"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

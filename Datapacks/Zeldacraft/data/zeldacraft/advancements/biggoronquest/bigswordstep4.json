@@ -1,0 +1,42 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Biggoron's Sword 4: Potion Approval",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Help Peris get some Monster Guts to make more Formula.",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "narcomoneybag": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                      "minecraft:paper"
+                    ],
+                    "count": {
+                      "min": 1,
+                      "max": 1
+                    },
+                    "nbt": "{perispotionapproval:1b}"
+                    
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "zeldacraft:biggoronquest/bigswordstep3"
+}

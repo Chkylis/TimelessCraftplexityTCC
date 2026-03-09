@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedhookshot": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:hookshot_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainhookshot"
+    }
+}

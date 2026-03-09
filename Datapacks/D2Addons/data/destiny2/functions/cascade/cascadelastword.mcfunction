@@ -1,0 +1,9 @@
+#### Last Word
+
+execute as @a[scores={lwfired=1},nbt={SelectedItem:{id:'minecraft:carrot_on_a_stick',tag:{lastword:1b}},Inventory:[{id:"minecraft:tipped_arrow",Slot:-106b,tag:{fusionarrow:1b,Potion:"minecraft:empty",CustomPotionColor:4259718}}]}] at @s run function destiny2:exotic/lastwordraycast/lastwordstartraycast
+execute as @a[scores={lwfired=1},nbt={SelectedItem:{id:'minecraft:carrot_on_a_stick',tag:{lastword:1b}},Inventory:[{id:"minecraft:tipped_arrow",Slot:-106b,tag:{fusionarrow:1b,Potion:"minecraft:empty",CustomPotionColor:4259718}}]}] at @s run playsound minecraft:custom.lastwordshot player @s
+execute as @a[scores={lwfired=1},nbt={SelectedItem:{id:'minecraft:carrot_on_a_stick',tag:{lastword:1b}},Inventory:[{id:"minecraft:tipped_arrow",Slot:-106b,tag:{fusionarrow:1b,Potion:"minecraft:empty",CustomPotionColor:4259718}}]}] at @s run clear @s tipped_arrow{display:{Name:'{"text":"Fusion Arrow","color":"#40FF86"}',Lore:['{"text":"Used with Destiny 2 Weapons","color":"gold"}']},fusionarrow:1b,CustomPotionEffects:[{Id:7b,Amplifier:1b,Duration:20,ShowParticles:1b},{Id:9b,Amplifier:1b,Duration:20,ShowParticles:1b},{Id:24b,Amplifier:1b,Duration:20,ShowParticles:1b}],Potion:"minecraft:empty",CustomPotionColor:4259718} 1
+msg @p[scores={lwfired=1},nbt=!{Inventory:[{id:"minecraft:tipped_arrow",Slot:-106b,tag:{fusionarrow:1b,Potion:"minecraft:empty",CustomPotionColor:4259718}}]},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{lastword:1b}}}] Out of Ammo!
+execute as @a[scores={lwfired=1},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{lastword:1b}}}] run scoreboard players add @s lwfired 1
+execute as @a[scores={lwfired=2..}] run scoreboard players set @s lwfired 0
+execute as @a[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{lastword:1b}}}] at @s run scoreboard players set @s lwfired 0

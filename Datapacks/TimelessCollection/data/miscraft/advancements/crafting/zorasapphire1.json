@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedzs": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:zorasapphire_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/givezorasapphire"
+    }
+}

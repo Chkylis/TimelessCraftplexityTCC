@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "Elder Guardian",
+            "color": "green"
+        },
+        "description": {
+            "text": "Kill The Elder Guardian",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:sponge"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "elderguard": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500
+    },
+    "parent": "timelesscraft:achievements/bosschecklist/kingslime"
+}

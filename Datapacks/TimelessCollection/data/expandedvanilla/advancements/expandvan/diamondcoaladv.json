@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Diamond In The Rough",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Compress coal for an expensive outcome",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "msstep1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:pressurized_diamond"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier1"
+        ],
+        "experience": 300,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "expandedvanilla:expandvan/appledoctor"
+}

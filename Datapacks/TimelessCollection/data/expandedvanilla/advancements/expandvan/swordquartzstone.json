@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedswordquartzstone": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:quartzstone_sword"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainswordquartzstone"
+    }
+}

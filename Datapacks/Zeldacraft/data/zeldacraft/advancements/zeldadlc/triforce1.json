@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedtriforce": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:triforce_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtaintriforce"
+    }
+}

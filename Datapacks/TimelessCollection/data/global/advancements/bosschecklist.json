@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Boss Progression",
+        "description": "Use this page in case you are stuck on what to do.",
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "background": "minecraft:textures/block/gray_concrete.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedbsteel": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "timelesscraft:complexium_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "timelesscraft:vanillacrafting/craftedcomplexium"
+    }
+}

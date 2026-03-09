@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpickaxedraconic": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:draconicpickaxerecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaindraconicpickaxe"
+    }
+}

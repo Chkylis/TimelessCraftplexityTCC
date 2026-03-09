@@ -1,0 +1,1 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Moon Pearl","color":"aqua","bold":true,"italic":false}',Lore:['{"text":"Takes you to and from the Dark World","color":"light_purple"}']},moonpearl:1b}}]}

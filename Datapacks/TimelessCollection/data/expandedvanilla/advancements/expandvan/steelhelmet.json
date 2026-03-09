@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsteelhelmet": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:steel_helmet"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainsteelhelmet"
+    }
+}

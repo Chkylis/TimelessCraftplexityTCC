@@ -1,0 +1,41 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Highway to Hell",
+            "color": "red"
+        },
+        "description": {
+            "text": "Enter the nether to unlock new recipes.",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "hellhighway": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "overworld",
+                "to": "the_nether"
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftorama:warped_fungus",
+            "craftorama:warped_wart_block",
+            "craftorama:nether_wart",
+            "craftorama:nether_wart_block",
+            "craftorama:bottle_o_enchanting",
+            "craftorama:craftablenetherite/craftable_netherite_sword"
+        ],
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "craftorama:intro"
+}

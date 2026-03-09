@@ -1,0 +1,7 @@
+recipe take @s miscraft:hfmurasamax_recipe
+
+advancement revoke @s only miscraft:weapons/hfmurasamax1
+
+give @p carrot_on_a_stick{display:{Name:'{"text":"High Frequency Murasama","color":"dark_red","bold":true,"italic":true}',Lore:['{"text":"\\"Play time\'s over!","color":"light_purple"}','{"text":"\\"We\'re done here.\\"","color":"red"}','{"text":"A more finely crafted murasama.","color":"gold"}','{"text":"Right Click to toggle \\"OVERDRIVE\\"","color":"dark_red"}','{"text":"OVERDRIVE cosumes HP and ENERGY","color":"dark_red"}','{"text":"but grants STRENGTH, SPEED,","color":"dark_red"}','{"text":"and JUMP BOOST","color":"dark_red"}']},HideFlags:7,RepairCost:999999,Unbreakable:1b,hfmurasamax:1b,Enchantments:[{id:"minecraft:sharpness",lvl:20s},{id:"minecraft:fire_aspect",lvl:2s},{id:"minecraft:unbreaking",lvl:5s},{id:"minecraft:mending",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:20,Operation:0,UUID:[I;-1817390994,1971276636,-1245651336,-371959366],Slot:"mainhand"},{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:20,Operation:0,UUID:[I;-1529341408,1462977074,-1215799187,1489462710],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:8,Operation:2,UUID:[I;485072371,-757382576,-1305039428,-1534393518],Slot:"mainhand"},{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:2,Operation:2,UUID:[I;-1038475863,399983145,-1750749484,-492303236],Slot:"mainhand"}]} 1
+
+clear @s minecraft:knowledge_book

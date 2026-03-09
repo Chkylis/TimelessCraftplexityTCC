@@ -1,0 +1,46 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Unbreakable, but not Unobtainable",
+            "color": "light_purple",
+            "bold": false,
+            "italic": true
+        },
+        "description": {
+            "text": "Obtain Bedrock, but beware where you place it.",
+            "color": "dark_red"
+        },
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "bedcockrock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:bedrock"],
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftorama:command_block"
+        ],
+        "experience": 5000,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "craftorama:intro"
+}

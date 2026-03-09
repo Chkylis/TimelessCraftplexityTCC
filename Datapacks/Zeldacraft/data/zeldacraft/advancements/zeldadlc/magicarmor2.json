@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedbootsmagic": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:magic_boots_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainmagicboots"
+    }
+}

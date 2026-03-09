@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "World Shift",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "You caused irreversible changes to the World.",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "elderguard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 500
+    },
+    "parent": "timelesscraft:achievements/bosschecklist/wither"
+}

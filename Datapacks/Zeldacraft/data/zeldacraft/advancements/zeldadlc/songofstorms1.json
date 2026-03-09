@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsongofstormsocarina": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:songofstormsrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/givesongofstorms"
+    }
+}

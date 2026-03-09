@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 6,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Green Rupee",
+                "color": "green"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{greenrupee:1b}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Reward Orb",
+                "color": "yellow"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{rewardorb:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:entity"
+}

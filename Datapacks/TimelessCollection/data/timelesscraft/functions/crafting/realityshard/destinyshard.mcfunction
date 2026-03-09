@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:experience_bottle",Count:1b}]}
+give @p diamond{display:{Name:'{"text":"Destiny Shard","color":"gold"}',Lore:['{"text":"I can be where ever I wish,","color":"gold"}','{"text":"O\' freer mine.","color":"gold"}']},HideFlags:1,destinyshard:1b,Enchantments:[{id:"minecraft:looting",lvl:255s},{id:"minecraft:fortune",lvl:255s}],AttributeModifiers:[{AttributeName:"generic.luck",Name:"generic.luck",Amount:4444,Operation:0,UUID:[I;-1938788635,-1778890434,-1692298242,283490505],Slot:"offhand"}]} 1

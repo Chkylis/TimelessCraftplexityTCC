@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsteelchestplate": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:steel_chestplate"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainsteelchestplate"
+    }
+}

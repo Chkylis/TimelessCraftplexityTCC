@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockeddivinitydread": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cryorg:divinity_dread"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 150,
+        "function": "cryorg:crafting/give_divinity"
+    }
+}

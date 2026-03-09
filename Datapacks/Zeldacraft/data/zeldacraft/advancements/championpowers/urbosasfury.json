@@ -1,0 +1,347 @@
+{
+    "criteria": {
+        "zombie": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "husk": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:husk"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "stray": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:stray"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "vindicator": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:vindicator"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "pillager": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pillager"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "skeleton": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:skeleton"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "phantom": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:phantom"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "spider": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "cave spider": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cave_spider"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "wither skeleton": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither_skeleton"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "ravager": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ravager"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "guardian": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:guardian"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "drowned": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:drowned"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "blaze": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:blaze"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{sevenscimitar:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "zombie",
+            "husk",
+            "stray",
+            "vindicator",
+            "pillager",
+            "skeleton",
+            "spider",
+            "cave spider",
+            "blaze",
+            "ravager",
+            "drowned",
+            "guardian",
+            "wither skeleton",
+            "phantom"
+        ]
+    ],
+    "rewards": {
+        "function": "zeldacraft:championpowers/urbosafuryuse"
+    }
+}

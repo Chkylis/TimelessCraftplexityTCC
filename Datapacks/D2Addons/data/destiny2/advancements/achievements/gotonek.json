@@ -1,0 +1,57 @@
+{
+    "display": {
+        "title": {
+            "text": "One Last Wish",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Acquire One Thousand Voices.",
+            "color": "purple"
+        },
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "onek": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "destiny2:onek_recipe"
+            }
+        },
+        "buyonek": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                      "minecraft:bow"
+                    ],
+                    "count": {
+                      "min": 1,
+                      "max": 1
+                    },
+                    "nbt": "{onekvoices:1b}"
+                    
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "onek",
+            "buyonek"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "destiny2:achievements/d2addonsadv"
+}

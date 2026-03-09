@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsyncro": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cryorg:sync_arrow"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 150,
+        "function": "cryorg:crafting/give_sync"
+    }
+}

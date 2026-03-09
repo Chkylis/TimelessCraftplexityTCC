@@ -1,0 +1,159 @@
+{
+    "criteria": {
+        "wither": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{thelament:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "thor": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:drowned",
+                    "nbt": "{Tags:[\"godthor:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{thelament:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "dragon": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{thelament:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "guardian": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper",
+                    "nbt": "{Tags:[\"guardian:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{thelament:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "guardianlegs": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider",
+                    "nbt": "{Tags:[\"guardianlegs:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{thelament:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "molgera": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:phantom",
+                    "nbt": "{Tags:[\"molgera:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:diamond_sword"
+                                ],
+                                "nbt": "{thelament:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "wither",
+            "dragon",
+            "guardian",
+            "guardianlegs",
+            "thor",
+            "molgera"
+        ]
+    ],
+    "rewards": {
+        "function": "destiny2:exotic/thelamentbossabilities"
+    }
+}

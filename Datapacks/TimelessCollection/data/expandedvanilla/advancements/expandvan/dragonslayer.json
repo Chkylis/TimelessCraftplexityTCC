@@ -1,0 +1,50 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Final S'hoe'w Down",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Land the killing blow on the Ender Dragon with a Netherite Hoe",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:netherite_hoe"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "goliathkilled": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                },
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_hoe" 
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+            "rewards": {
+                "loot": [
+                    "zeldacraft:advrewardspooltier5"
+                ],
+                "experience": 5000,
+                "function": "timelesscraft:touchgrass/touchgrassincrement"
+            },
+    "parent": "expandedvanilla:expandvan/guardianelderslain"
+}

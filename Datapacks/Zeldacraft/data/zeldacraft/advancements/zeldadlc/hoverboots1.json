@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedhoverboots": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:hoverbootsrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainhoverboots"
+    }
+}

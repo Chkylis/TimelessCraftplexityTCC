@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedbsteel": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "timelesscraft:hammer_quartz"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "timelesscraft:vanillacrafting/craftedhammerquartz"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "CGC",
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:white_terracotta"
+        },
+        "C": {
+            "item": "minecraft:clay_ball"
+        },
+        "G": {
+            "item": "minecraft:glowstone_dust"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpremastersword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:unawakenedmasterswordrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainpremastersword"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedheromask": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:heromaskrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainheromask"
+    }
+}

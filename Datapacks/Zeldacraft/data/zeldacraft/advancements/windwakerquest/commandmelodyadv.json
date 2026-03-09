@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Song of the Tower",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Learn the Command Melody.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:orange_stained_glass_pane"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "msstep1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:windwakersongslearn/learncommandmelody"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:windwakerquest/galeballadadv"
+}

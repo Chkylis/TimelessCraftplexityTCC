@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "ZeldaAddons - Trading",
+        "description": "For completing all those fetch quests.",
+        "icon": {
+            "item": "minecraft:emerald",
+            "nbt": "{display:{Name:'{\"text\":\"Green Rupee\"}'}}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "zeldacraft:zeldadlc/zeldacraftadv",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

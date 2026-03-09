@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "ZeldaAddons - Main Quest",
+        "description": "Start your journey to becoming a Hero of Hyrule.",
+        "icon": {
+            "item": "minecraft:nether_star",
+            "nbt": "{display:{Name:'{\"text\":\"Triforce\"}'}}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "zeldacraft:zeldadlc/zeldacraftadv",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

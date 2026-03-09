@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Green Chu Jelly",
+                "color": "green"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{greenchujelly:1b}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

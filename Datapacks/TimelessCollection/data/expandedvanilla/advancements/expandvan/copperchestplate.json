@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedchestplatecopper": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:copper_chestplate"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaincopperchestplate"
+    }
+}

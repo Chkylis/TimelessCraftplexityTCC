@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpotionwither": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:witherbombrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainpotionwither"
+    }
+}

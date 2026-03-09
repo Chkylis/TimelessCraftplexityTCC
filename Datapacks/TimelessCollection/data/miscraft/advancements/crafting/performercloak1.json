@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpc": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:performercloak_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/giveperformercloak"
+    }
+}

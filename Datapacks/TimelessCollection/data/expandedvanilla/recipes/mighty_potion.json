@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#GS",
+        "SSS"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:raw_iron"
+        },
+        "G": {
+            "item": "minecraft:glass_bottle"
+        },
+        "S": {
+            "item": "minecraft:slime_ball"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

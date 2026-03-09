@@ -1,0 +1,215 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:wooden_pickaxe"
+                    ],
+                    "nbt": "{copperhammer:1b}"
+                 }
+               }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 2,
+                    "max": 5
+                  }
+                },
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{sanddust:1b}"
+                },
+                {
+                  "function": "minecraft:set_name",
+                  "entity": "this",
+                  "name": {
+                    "color": "white",
+                    "text": "Sand Dust"
+                  }
+                }
+              ],
+          "name": "minecraft:chain_command_block"
+          },
+          {
+            "type": "minecraft:item",
+            "conditions": [
+              {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "items": [
+                    "minecraft:iron_pickaxe"
+                  ],
+                  "nbt": "{steelhammer:1b}"
+               }
+             }
+            ],
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 3,
+                  "max": 9
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{sanddust:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "color": "white",
+                  "text": "Sand Dust"
+                }
+              }
+            ],
+        "name": "minecraft:chain_command_block"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "items": [
+                  "minecraft:stone_pickaxe"
+                ],
+                "nbt": "{quartzhammer:1b}"
+             }
+           }
+          ],
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{sanddust:1b}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "color": "white",
+                "text": "Sand Dust"
+              }
+            }
+          ],
+      "name": "minecraft:chain_command_block"
+      },
+      {
+        "type": "minecraft:item",
+        "conditions": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:iron_pickaxe"
+              ],
+              "nbt": "{crystalquartzhammer:1b}"
+           }
+         }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 4,
+              "max": 12
+            }
+          },
+          {
+            "function": "minecraft:apply_bonus",
+            "enchantment": "minecraft:fortune",
+            "formula": "minecraft:ore_drops"
+          },
+          {
+            "function": "minecraft:set_nbt",
+            "tag": "{sanddust:1b}"
+          },
+          {
+            "function": "minecraft:set_name",
+            "entity": "this",
+            "name": {
+              "color": "white",
+              "text": "Sand Dust"
+            }
+          }
+        ],
+    "name": "minecraft:chain_command_block"
+    },
+    {
+      "type": "minecraft:item",
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ],
+            "nbt": "{bluesteelhammer:1b}"
+         }
+       }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "min": 5,
+            "max": 15
+          }
+        },
+        {
+          "function": "minecraft:apply_bonus",
+          "enchantment": "minecraft:fortune",
+          "formula": "minecraft:ore_drops"
+        },
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{sanddust:1b}"
+        },
+        {
+          "function": "minecraft:set_name",
+          "entity": "this",
+          "name": {
+            "color": "white",
+            "text": "Sand Dust"
+          }
+        }
+      ],
+  "name": "minecraft:chain_command_block"
+      },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:red_sand",
+            "conditions": [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

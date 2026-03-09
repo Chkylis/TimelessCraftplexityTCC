@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "stopmusic": {
+        "trigger": "minecraft:entity_killed_player",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:warden",
+            "nbt": "{Tags:[\"ssguardian:1b\"]}"
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "stopmusic"
+      ]
+    ],
+    "rewards": {
+      "function": "zeldacraft:dynamicmusic/guardianawakenstop"
+    }
+  }

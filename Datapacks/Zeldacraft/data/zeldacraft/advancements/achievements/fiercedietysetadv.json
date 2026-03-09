@@ -1,0 +1,70 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "In Just Three Days",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Obtain the Fierce Deity Set",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:netherite_helmet",
+            "nbt": "{display:{Name:'{\"text\":\"Fierce Deity Mask\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "set": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["timelesscomplexity:zelda_fierce_deity_armor_helmet"],
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "nbt": "{fiercedeitymask:1b}"
+                    },
+                    {
+                        "items": ["timelesscomplexity:zelda_fierce_deity_armor_chestplate"],
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "nbt": "{fiercedeitytunic:1b}"
+                    },
+                    {
+                        "items": ["timelesscomplexity:zelda_fierce_deity_armor_leggings"],
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "nbt": "{fiercedeitypants:1b}"
+                    },
+                    {
+                        "items": ["timelesscomplexity:zelda_fierce_deity_armor_boots"],
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        },
+                        "nbt": "{fiercedeityboots:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/darklinksetadv"
+}

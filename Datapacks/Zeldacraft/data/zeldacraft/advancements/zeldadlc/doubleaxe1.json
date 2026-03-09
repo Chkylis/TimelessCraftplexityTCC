@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockeddoubleaxe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:double_axe_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtaindoubleaxe"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedenergizedgapple": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:infinitysteak_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/giveinfinitysteak"
+    }
+}

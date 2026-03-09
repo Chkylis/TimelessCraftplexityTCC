@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Chkylis",
+        "description": "",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Name: \"Chkylis\", Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTY3Njc0OTY5MzIwOSwKICAicHJvZmlsZUlkIiA6ICIwZWU2M2UwNWZmOTk0MWY2YjQ0NWY0ZGFlZmMxODE2ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaGt5bGlzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNkMDNjZTdiZjc2ZGI2MmUzYjAzOTIzNjJkMWI0ZmJiOGQwNjdlOGM2NWNhMDM3MzExYzhjNTk4ZDRjNTdjODMiCiAgICB9CiAgfQp9\"}]}}}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

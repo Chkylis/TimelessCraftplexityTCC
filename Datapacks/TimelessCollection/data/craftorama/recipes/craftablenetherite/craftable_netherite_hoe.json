@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#NN",
+        "N/Q",
+        "Q/Q"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:blaze_powder"
+        },
+        "N": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "/": {
+            "item": "minecraft:blaze_rod"
+        },
+        "Q": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "item": "minecraft:netherite_hoe",
+        "count": 1
+    },
+    "group": "netherite"
+}

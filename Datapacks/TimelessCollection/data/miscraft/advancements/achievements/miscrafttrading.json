@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Other - Trading",
+        "description": "Become the capitalist of your dreams.",
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "miscraft:achievements/miscraftadv",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

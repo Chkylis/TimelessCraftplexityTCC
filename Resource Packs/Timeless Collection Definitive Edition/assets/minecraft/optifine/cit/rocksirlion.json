@@ -1,0 +1,108 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "custom/bone",
+		"1": "custom/rock",
+		"particle": "custom/bone"
+	},
+	"elements": [
+		{
+			"from": [6.25, 1, 9],
+			"to": [9.25, 4, 12],
+			"rotation": {"angle": -45, "axis": "x", "origin": [6.5, 1.5, 10.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [6, 0, 6],
+			"to": [9, 3, 9],
+			"rotation": {"angle": -45, "axis": "z", "origin": [8.5, 1.5, 6.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [7.3125, 1.75, 4],
+			"to": [8.3125, 2.75, 13.25],
+			"rotation": {"angle": 45, "axis": "z", "origin": [7.8125, 2.25, 8.625]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -89.75, 0],
+			"translation": [1, 6.5, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -271, 0],
+			"translation": [0, 6, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 81.25, 0],
+			"translation": [-2.5, 9.75, 3.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-24.25, 76.5, 7],
+			"translation": [-2.75, 9.25, 2.5]
+		},
+		"ground": {
+			"translation": [0, 1, 0]
+		},
+		"gui": {
+			"rotation": [0, -81.25, 0],
+			"translation": [1.25, 9.75, 0],
+			"scale": [4, 1.76172, 1.66992]
+		},
+		"fixed": {
+			"rotation": [0, -91.25, 0],
+			"translation": [1, 11, 0],
+			"scale": [2.81836, 1.85742, 1.89453]
+		}
+	},
+	"groups": [
+		{
+			"name": "rocksirlion",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "ball1",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [0]
+				},
+				{
+					"name": "ball2",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [1]
+				},
+				{
+					"name": "bone",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [2]
+				}
+			]
+		}
+	]
+}

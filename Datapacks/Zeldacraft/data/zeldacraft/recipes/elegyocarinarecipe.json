@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "CAC",
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:light_blue_terracotta"
+        },
+        "C": {
+            "item": "minecraft:clay_ball"
+        },
+        "A": {
+            "item": "minecraft:armor_stand"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

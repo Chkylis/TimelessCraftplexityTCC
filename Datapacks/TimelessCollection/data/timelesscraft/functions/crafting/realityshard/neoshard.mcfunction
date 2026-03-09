@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:experience_bottle",Count:1b}]}
+give @p diamond{display:{Name:'{"text":"NEO Shard","color":"light_purple"}',Lore:['{"text":"I thought NEO was known for high ATK...","color":"red"}','{"text":"clearly the salesman misunderstood.","color":"red"}']},HideFlags:1,neoshard:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:255s}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:999,Operation:0,UUID:[I;712191646,-421181772,-1354093022,452122069],Slot:"offhand"}]} 1

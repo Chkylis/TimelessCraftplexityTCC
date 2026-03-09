@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#L#",
+        "BZB",
+        "#B#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:rotten_flesh"
+        },
+        "L": {
+            "item": "minecraft:leather_helmet"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "Z": {
+            "item": "minecraft:zombie_head"
+        }
+    },
+    "result": {
+        "item": "minecraft:player_head",
+        "count": 1
+    }
+}

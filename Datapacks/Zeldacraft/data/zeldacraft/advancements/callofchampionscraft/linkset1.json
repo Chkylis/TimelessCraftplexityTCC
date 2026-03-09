@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlocklinkset": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:callofchampions/link_set_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:callofchampionsitems/linksetcraft"
+    }
+}

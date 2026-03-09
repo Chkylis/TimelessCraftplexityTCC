@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "ENE",
+        "ELE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:hay_block"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "L": {
+            "item": "minecraft:leather_horse_armor"
+        }
+    },
+    "result": {
+        "item": "minecraft:horse_spawn_egg",
+        "count": 1
+    }
+}

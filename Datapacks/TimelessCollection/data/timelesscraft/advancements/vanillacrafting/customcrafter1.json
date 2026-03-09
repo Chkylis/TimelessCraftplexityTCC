@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "craftermade": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "timelesscraft:customcraftersummon"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "timelesscraft:crafting/tier1crafter/summontier1"
+    }
+}

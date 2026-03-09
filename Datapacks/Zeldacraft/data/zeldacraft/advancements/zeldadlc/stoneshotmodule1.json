@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedssm": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:stoneshotmodule_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainstoneshotmodule"
+    }
+}

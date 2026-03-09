@@ -1,0 +1,1677 @@
+__________________________________________________________ZeldaAddons:________________________________________________________________
+
+---====----====!!![UPDATED IN 6.0]!!!====----====---
+Pre-Master Sword:
+RECIPE UPDATED IN 6.0
+
+	XXX
+	XXX
+	XXX
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Master Sword [CUSTOM CRAFTER]:
+Diamond Block(B), Pre Master Sword(S)
+
+	 B
+	 B
+	 S
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Master Sword Lv2 [CUSTOM CRAFTER]:
+Din's Fire(F), Nayru's Love(L), Master Sword(S)
+
+	 F
+	 L
+	 S
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Master Sword Lv3 [CUSTOM CRAFTER]:
+Master Sword Lv2(S), Triforce(T)
+
+	   
+	 T
+	 S
+
+---====----====!!![UPDATED IN 6.0]!!!====----====---
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Fierce Deity Sword:
+- RECIPE REMOVED, ITEM REWORKED
+
+	XXX
+	XXX
+	XXX
+
+Sledge Hammer:
+Iron Block(B), Iron Ingot(I), Stick(S)
+
+	BIB
+	 S
+	 S
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Ancient Blade:
+Blaze Powder(P), Blaze Rod(R), Diamond(D), Netherite Scarp(N)
+
+	PDD
+	NDN
+	RNP
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Ancient Bladesaw:
+Diamond Axe(A), Diamond(D), Chain[block](C), Netherite Sword(S), Netherite Scrap(N)
+
+	 CD
+	NAC
+	SN
+
+Double Axe:
+Wooden Sword(W), Stick (S), Iron Axe(A), Chain[Block](C)
+
+	ACA
+	 W
+	 S
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Guardian Helm:
+Netherite Scrap(N), Gold Block(G), Blaze Powder(P)
+
+	PNN
+	NGN
+	NNP
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Guardian Chestplate:
+Netherite Scrap(N), Gold Block(G), Diamond Block(D), Blaze Powder(P)
+
+	NPN
+	DND
+	NGN
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Guardian Greaves:
+Netherite Scrap(N), Gold Block(G), Diamond Block(D), Blaze Powder(P)
+
+	NGN
+	P P
+	D D
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Guardian Boots:
+Netherite Scrap(N), Diamond Block(D), Blaze Powder(P)
+
+	NN
+	DP
+	NDP
+
+Zora Helm:
+Prismarine Shards(S), Prismarine Crystals(P), Lapis Lazuil(L), Chain[Block](C)
+
+	SPS
+	SCS
+	LLL
+
+Zora Chestplate:
+Prismarine Shards(S), Prismarine Crystals(P), Lapis Lazuil(L)
+
+	LSL
+	LPL
+	SLS
+
+Zora Greaves:
+Prismarine Shards(S), Prismarine Crystals(P), Lapis Lazuil(L)
+
+	LPL
+	L L
+	S S
+
+Zora Flippers:
+Prismarine Shards(S), Prismarine Crystals(P), Lapis Lazuil(L)
+
+	PSP
+	L L
+	L L
+
+---====----====!!![UPDATED IN 6.0]!!!====----====---
+Magic Helm:
+Diamond Block(D), Emerald Block(E)
+
+	EEE
+	EDE
+	
+---====----====!!![UPDATED IN 6.0]!!!====----====---
+Magic Chestplate:
+Diamond Block(D), Emerald Block(E)
+
+	EDE
+	EEE
+	EEE
+
+---====----====!!![UPDATED IN 6.0]!!!====----====---
+Magic Greaves:
+Diamond Block(D), Emerald Block(E)
+
+	EDE
+	EEE
+	E E
+
+---====----====!!![UPDATED IN 6.0]!!!====----====---
+Magic Boots:
+Diamond Block(D), Emerald Block(E)
+
+	EDE
+	E E
+	
+
+Phantom Helm:
+Raw Iron(R), Ameythst Shard(A), Phantom Membrane(M)
+
+	ARA
+	RMR
+	
+
+Phantom Chestplate:
+Raw Iron(R), Ameythst Shard(A), Phantom Membrane(M)
+
+	R R
+	AMA
+	RAR
+
+Phantom Greaves:
+Raw Iron(R), Ameythst Shard(A), Phantom Membrane(M)
+
+	RMR
+	A A
+	R R
+
+Phantom Boots:
+Raw Iron(R), Amethyst Shard(A), Phantom Membrane(M)
+
+	AMA
+	R R
+
+
+Fire Rod:
+Gunpowder(G), Magma Cream(M), Blaze Powder(P), Blaze Rod(R)
+
+	GMM
+	PRM
+	RPG
+
+Din's Fire [CUSTOM CRAFTER]:
+Splash Potion(S), Blaze Powder(B), Gunpowder(P), Firework Star(F), Gold Ingot(G), Triforce Shard(T)
+
+	GPF
+	BTP
+	SBG
+
+Fairy Ocarina:
+White Terracotta(W), Clay(C), Glowstone(G)
+
+	WCW
+	CGC
+	WCW
+
+Ocarina of Time [CUSTOM CRAFTER]:
+Light Blue Terracotta(B), Clay(C), Triforce Shard(T)
+
+	BCB
+	CTC
+	BCB	
+
+Sun's Song:
+Light Blue Terracotta(B), Clay(C), Daylight Sensor(D)
+
+	BCB
+	CDC
+	BCB
+
+Bow of Light [CUSTOM CRAFTER]:
+Spectral Arrow(S), Bow(B), Triforce Shard(T)
+
+	SB
+	SNB
+	SB
+
+Great Fairy's Sword
+Amethyst Block(A), Totem of Undying(T), Diamond Sword(S)
+
+	 AA
+	ATA
+	SA
+
+Hover Boots:
+Feather(F), String(S), Gold Ingot(G), Elytra(E)
+
+	FSG
+	GEG
+	GSF
+
+Hero's Mask:
+Gold Ingot (G), Totem of Undying(T), Blaze Powder(P)
+
+	GGG
+	GTG
+	PPP
+
+
+__________________________________________________________Expanded Vanilla:________________________________________________________________
+
+Copper Axe:
+Copper Ingot(C), Stick(S)
+
+	 CC
+	 SC
+	 S
+
+Copper Shovel:
+Copper Ingot(C), Stick(S)
+	
+	 C
+	 S
+	 S
+
+Copper Hoe:
+Copper Ingot(C), Stick(S)
+
+	 CC
+	 S
+	 S
+
+Copper Sword:
+Copper Ingot(C), Stick(S)
+
+	 C
+	 C
+	 S
+
+Copper Pickaxe:
+Copper Ingot(C), Stick(S)
+
+	 CCC
+	  S
+	  S
+
+Copper Helm:
+Copper Ingot(C)
+
+	CCC
+	C C
+
+
+Copper Chestplate:
+Copper Ingot(C)
+
+	C C
+	CCC
+	CCC
+
+Copper Leggings:
+Copper Ingot(C)
+
+	CCC
+	C C
+	C C
+
+Copper Boots:
+Copper Ingot(C)
+
+	C C
+	C C
+
+Steel Axe:
+Copper Ingot(C), Iron Ingot(I), Stick(S)
+
+	 CI
+	 SI
+	 S
+
+Steel Shovel:
+Copper Ingot(C), Iron Ingot(I), Stick(S)
+
+	  CI
+	  SC
+	 S
+
+Steel Hoe:
+Copper Ingot(C), Iron Ingot(I), Stick(S)
+
+	 CI
+	 S
+	 S
+
+Steel Sword:
+Copper Ingot(C), Iron Ingot(I), Stick(S)
+
+	 C
+	 I
+	 S
+
+Steel Pickaxe:
+Copper Ingot(C), Iron Ingot(I), Stick(S)
+
+	 ICI
+	  S
+	  S
+
+Steel Helm:
+Copper Ingot(C), Iron Ingot(I)
+
+	III
+	C C
+
+
+Steel Chestplate:
+Copper Ingot(C), Iron Ingot(I)
+
+	I I
+	CCC
+	ICI
+
+Steel Leggings:
+Copper Ingot(C), Iron Ingot(I)
+
+	ICI
+	C C
+	I I
+
+Steel Boots:
+Copper Ingot(C), Iron Ingot(I)
+
+	I I
+	C C
+
+
+Wither Bomb:
+Black Dye(D), Bone(B), Glass Bottle(G), Coal(C), Wither Skeleton Skull(W)
+
+	DBD
+	BGB
+	CWC
+
+Tough Potion:
+Iron Ingot(I), Glass Bottle(G), Bone(B)
+
+	III
+	IGB
+	BBB
+
+Speedy Potion:
+Sugar(S), Rabbit Foot(R), Glass Bottle(G)
+
+	SSS
+	SGR
+	RRR
+
+Super Potion:
+Amethyst Shard(A), Ghast Tear(T), Glass Bottle(G)
+
+	AAA
+	AGT
+	TTT
+
+Hearty Potion:
+Beetroot(B), Glass Bottle(G), Rotten Flesh(F)
+
+	BBB
+	BGF
+	FFF
+
+Flameguard Potion:
+Crimson Fungus(C), Glass Bottle (G), Magma Cream(M)
+
+	CCC
+	CGM
+	MMM
+
+Glow Potion:
+Amethyst Shard(A), Glow Berries(B), Glass Bottle(G)
+
+	AAA
+	AGB
+	BBB
+
+Mighty Potion:
+Raw Iron(R), Glass Bottle(G), Slimeball(S)
+
+	RRR
+	RGS
+	SSS
+
+Diamond Spreading:
+Diamond(D), Baked Potato(B)
+
+	DDD
+	DBD
+	DDD
+
+Rose Quartz Axe:
+Quartz(Q), Nether Brick[ITEM](N), Red Dye(R), Blaze Powder(P), Stone Axe(S)
+
+	QQQ
+	QSN
+	RRP
+
+Rose Quartz Shovel:
+Quartz(Q), Nether Brick[ITEM](N), Red Dye(R), Blaze Powder(P), Stone Shovel(S)
+
+	QQQ
+	QSN
+	RRP
+
+Rose Quartz Hoe:
+Quartz(Q), Nether Brick[ITEM](N), Red Dye(R), Blaze Powder(P), Stone Hoe(S)
+
+	QQQ
+	QSN
+	RRP
+
+Rose Quartz Sword:
+Quartz(Q), Nether Brick[ITEM](N), Red Dye(R), Blaze Powder(P), Stone Sword(S)
+
+	QQQ
+	QSN
+	RRP
+
+Rose Quartz Pickaxe:
+Quartz(Q), Nether Brick[ITEM](N), Red Dye(R), Blaze Powder(P), Stone Pickaxe(S)
+
+	QQQ
+	QSN
+	RRP
+
+Crystal Quartz Axe:
+Crystal Item[Amethyst OR Prismarine](C), Quartz(Q), Stick(S)
+
+	 CQ
+	 SC
+	 S
+
+Crystal Quartz Shovel:
+Crystal Item[Amethyst OR Prismarine](C), Quartz(Q), Stick(S)
+
+	 C
+	QSQ
+	 S
+
+Crystal Quartz Hoe:
+Crystal Item[Amethyst OR Prismarine](C), Quartz(Q), Stick(S)
+
+	CQ
+	S
+	S
+
+Crystal Quartz Sword:
+Crystal Item[Amethyst OR Prismarine](C), Quartz(Q), Stick(S)
+
+	 C
+	 Q
+	 S
+
+Crystal Quartz Pickaxe:
+Crystal Item[Amethyst OR Prismarine](C), Quartz(Q), Stick(S)
+
+	CQC
+	 S
+	 S
+
+Infinity Pickaxe:
+- REMOVED, UPDATED IN 2.0
+
+	RDE
+	#@#
+	GCA
+
+Netherite [SCRAP]:
+Obsidian(O), Diamond BLOCK(D), Crying Obsidian(C)
+
+	OOO
+	ODC
+	CCC
+
+Diamond:
+Coal(C), Charcoal(H), Coal Block (B)
+
+	HCH
+	BBB
+	HCH
+
+Trident:
+Prismarine Shard(P), Diamond Sword(S)
+
+	 PP
+	 SP
+	S
+
+Slime Ball:
+Milk Bucket, Water Bucket, 2 Lime Dye, 2 Egg, 2 Green Dye, Clay Ball
+
+Quartzstone Tools:
+Stone Tool + Quartz at smithing table
+
+Draconic Pickaxe:
+Netherite Pickaxe + Dragon Egg at Smithing Table
+
+=============================================================2.0 Content:=============================================================================
+
+Song of Storms:
+Light Blue Terracotta(B), Clay(C), Lightning Rod(L)
+
+	BCB
+	CLC
+	BCB
+
+- Sushi: Heal a minor amount and gives minor water-breathing for 10 seconds
+- 8 Kelp, Fish
+
+-Steak Dinner: Full restore and gives 1 minute of saturation
+Steak, 3 Carrots, Bread
+
+- Rock Sirlion: Heals all hearts but give hunger for 5 seconds
+Steak(S), Stone(R)
+
+	RRR
+	RSR
+	RRR
+
+- Honey Piston
+Honey, Normal Piston
+
+High Frequency Murasama:
+- Netherite Sword (S) and Redstone Blocks(R)
+
+	RRR
+	RSR
+	RRR
+
+Trinity Ghoul:
+- Now a PURCHASABLE ITEM
+- Also CRAFTABLE as of 4.0
+
+	XXX
+	XXX
+	XXX
+
+One Thousand Voices
+- Now a PURCHASABLE ITEM
+- Also CRAFTABLE as of 4.0
+
+	XXX
+	XXX
+	XXX
+
+---====----====!!![UPDATED IN 6.0 Part 3]!!!====----====---
+The Lament
+- Now a PURCHASABLE ITEM
+- Also CRAFTABLE as of 4.0
+
+	XXX
+	XXX
+	XXX
+
+Infinity Pickaxe:
+- NOW UPDATED IN 5.5, HOWEVER OLD RECIPE STILL REMAINS, !!!OLD RECIPE NO LONGER REMAINS AS OF 6.0 PART 2!!!
+Redstone Block(R), Copper Block(C), Diamond Block(D), Gold Block(G), Emerald Block(E), Amethyst Block(A), CHAIN COMMAND BLOCK(#), DRAGON EGG(@)
+
+	RDE
+	#@#
+	GCA
+
+Infinity Stage 1: Command Block Recipe
+
+Infinity Stage 2: 5 Dragon Eggs, 4 Command Blocks = Repeat Command Block
+
+Infinity Stage 3: 5 Command Block, 4 Repeat Command Block = Chain Command Block
+
+Infinity Stage 4: 5 Repeat Command Block, 4 Chain Command Block = Structure Block
+
+Infinity Stage 5: 9 Structure Block = Structure Void
+
+Infinity Stage 6: 9 Structure Void = Barrier
+
+---====----====!!![UPDATED IN 6.0 Part 4]!!!====----====---
+Hookshot:
+- Diamond(D), Amethyst Shard(S), Chain[BLOCK](C), Fishing Rod(F), Arrow(A)
+
+	SDA
+	DCD
+	FDS
+
+Elegy of Emptiness:
+Light Blue Terracotta(B), Clay(C), Armor Stand(A)
+
+	BCB
+	CAC
+	BCB
+
+Bomb:
+- TNT(T), Spash Potion(S)
+
+	TTT
+	TST
+	TTT
+
+Iron Boots:
+Iron Ingot(I), Iron Block(B)
+
+	I I
+	B B
+
+HF Murasama OVERDRIVE
+Netherite Bar(N), Redstone Block(R), Netherite Sword(S)
+
+	NNN
+	NSR
+	RRR
+
+King Slime Spawn Egg
+Slime Block(S), Diamond Helmet(D)
+
+	SSS
+	SDS
+	SSS
+
+Energized Gapple
+Redstone Block(R), Enchanted Gapple(G)
+
+	RRR
+	RGR
+	RRR
+
+Obsidian Skull
+Obsidian(O), Skeleton Skull(S)
+
+	OOO
+	OSO
+	OOO
+
+Custom Crafting Kit:
+Cobblestone(C), Diamond(D)
+
+	CCC
+	CDC
+	CCC
+
+Zora Sapphire:
+Diamond Block(D), Gold Block(G), Nether Star(T)
+
+	 D
+	GTG
+	DGD
+
+Goron Ruby:
+Redstone Block(R), Gold Block(G), Nether Star(T)
+
+	RRR
+	GTG
+	 G
+
+Kokori Emerald:
+Gold Block(G), Emerald Block(E), Nether Star(T)
+
+	GGE
+	GTG
+	EGE
+
+Cryotic Cube
+Blue Ice(B), Diamond Block(D), Nether Star(N)
+
+	BBB
+	BND
+	DDD
+
+==============================================2.0 CUSTOM CRAFTING[[[NOW REWORKED]]]===========================================================
+--------------------------------------------
+Guardian Sword++
+
+Items: Guardian Core (1), Unpowered Ancient Blade (1)
+
+Crafting Score: 5
+--------------------------------------------
+
+===============================================================3.0 CONTENT [Consolidation Update]======================================================================
+Nayru's Love [CUSTOM CRAFTER]:
+Lapis Lazuli(L), Amethyst Shard(A), Diamond(D), Water Bucket(W), Triforce Shard(T)
+	
+	DLA
+	WTW
+	ALD
+
+Triforce Shard:
+Nether Star(S), Gold Ingot(G)
+
+	GGG
+	GSG
+	GGG
+
+---====----====!!![UPDATED IN 6.0 Part 4]!!!====----====---
+Triforce of Courage [CUSTOM CRAFTER]:
+Triforce Shard(T), Farore's Wind(F)
+
+	TTT
+	TFT
+	TTT
+
+Triforce of Wisdom [CUSTOM CRAFTER]:
+Triforce Shard(T), Nayru's Love(N)
+
+	TTT
+	TNT
+	TTT
+
+Triforce of Power [CUSTOM CRAFTER]:
+Triforce Shard(T), Din's Fire(D)
+
+	TTT
+	TDT
+	TTT
+
+Triforce [CUSTOM CRAFTER]:
+Trifoce of Wisdom(W), Triforce of Courage(C), Triforce of Power(P)
+
+	 P
+	   
+	W C
+
+---====----====!!![UPDATED IN 6.0]!!!====----====---
+True Master Sword [CUSTOM CRAFTER]: 
+Fierce Deity Sword(F), Savage Lynel Sword(L), Great Fairys Sword(G), Master Sword Lv3(M), Ancient Blade(A), High Frequency Murasama OVERDRIVE(H), Phantom Knight Sword(P)
+
+	FLG
+	 M
+	AHP
+
+
+===============================================================4.0 CONTENT [Custom Crafting and Content Expansion]======================================================================
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Vastayan Hood [CUSTOM CRAFTER]:
+Vastayan Feather(V), Diamond Helmet(D)
+
+	VVV
+	VDV
+	VVV
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Vastayan Dress [CUSTOM CRAFTER]:
+Vastayan Feather(V), Diamond Chestplate(D)
+
+	VVV
+	VDV
+	VVV
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Vastayan Wraps [CUSTOM CRAFTER]:
+Vastayan Feather(V), Diamond Leggings(D)
+
+	VVV
+	VDV
+	VVV
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Vastayan Talons [CUSTOM CRAFTER]:
+Vastayan Feather(V), Diamond Boots(D)
+
+	VVV
+	VDV
+	VVV
+
+Virtuoso Mask [CUSTOM CRAFTER]:
+Bluesteel Ingot(B), Iron Helmet(I)
+
+	BBB
+	BIB
+	BBB
+
+Performer's Cloak [CUSTOM CRAFTER]:
+Bluesteel Ingot(B), Iron Chestplate(I)
+
+	BBB
+	BIB
+	BBB
+
+Lunatic Greaves [CUSTOM CRAFTER]:
+Bluesteel Ingot(B), Iron Leggings(I)
+
+	BBB
+	BIB
+	BBB
+
+Lunatic Talons [CUSTOM CRAFTER]:
+Bluesteel Ingot(B), Iron Boots(I)
+
+	BBB
+	BIB
+	BBB
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Vastayan Feather:
+Amethyst Shard(A), Eye of Ender(E), Feather(F)
+
+	AAA
+	AEF
+	FFF
+
+Bluesteel:
+Iron Ingot(I), Diamond(D), Lapis Lazuli Block(L)
+
+	III
+	ILD
+	DDD
+
+Overshield Armor:
+Enchanted Golden Apple(E), Diamond(D)
+
+	DED
+	DDD
+	DDD
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Guardian Sword++ [CUSTOM CRAFTER]:
+Guardian Core(C), Unpowered Ancient Blade(U)
+
+	
+	 U
+	 C
+
+Gunsmith Materials:
+Charcoal, Coal, Gold Ingot, 3 Iron Ingots, Diamond, Gunpowder, Flint
+
+One Thousand Voices [CUSTOM CRAFTER]:
+Eye of Ender[16](E), Exotium(X), Nether Star(S), Bow(B), Gunsmith Materials[3](G), Gunsmith Materials[2](M)
+
+	MEM
+	BXS
+	GMG
+
+---====----====!!![UPDATED IN 6.0 Part 3]!!!====----====---
+The Lament [CUSTOM CRAFTER]:
+Redstone Block[8](R), Chain{BLOCK}[32](C), Netherite Sword(N), Gunsmith Materials[3](G), Exotium(X)
+
+	GRG
+	CXC
+	GNG
+
+Trinity Ghoul [CUSTOM CRAFTER]:
+Lightning Rod[4](L), Arrow[16](A), Crossbow(B), Gunsmith Materials[3](G), Exotium(X)
+
+	GBG
+	AXA
+	GLG
+
+The Chaperone [CUSTOM CRAFTER]:
+Gunsmith Materials[3](G), Gunsmith Materials[2](M), Exotium(X), Crossbow(B), Iron Ingot[8](I)
+
+	MBM
+	IXI
+	GMG
+
+Fusion Arrow [CUSTOM CRAFTER]:
+Gunsmith Materials[3](G), Arrow[4](A), Emerald(E)
+
+	 G
+	 A
+	 E
+
+Slug Round [CUSTOM CRAFTER]:
+Gunsmith Materials[3](G), Arrow[4](A), Iron Ingot(I)
+
+	 G
+	 A
+	 I
+
+Stoneshot Upgrade Module:
+Diamond(D), Diamond Pickaxe(P), Fishing Rod(F), Iron Ingot(I), Stone Bricks(S), Deepslate Bricks(B), Lead(L),
+
+	DPD
+	IFI
+	SLB
+
+---====----====!!![UPDATED IN 6.0 Part 4]!!!====----====---
+Stoneshot [CUSTOM CRAFTER]:
+Stone(S), Hookshot(H), Stoneshot Upgrade Module(U)
+
+	SSS
+	SHS
+	SUS
+
+===============================================================5.0 CONTENT [Maestros and Merchants]======================================================================
+
+Wind's Requiem (Speed, Haste) [Zombies, Husks, Strays] {Also aquired when you first craft the WIND WAKER}:
+Water Bucket(W), Heart of the Sea(H), Feather(F), Any Boat(B), Map(M)
+
+	FFF
+	MHB
+	FWF
+
+Ballad of Gales (Dolphin's Grace) [Drowned, Squids, Glow Squids, Guardians]:
+Scute(S), Trident(T), Turtle Helmet(H), Turtle Egg(E), Heart of the Sea(S), Nautilus Shell(N)
+
+	NHN
+	TSE
+	NSN
+
+Command Melody (Give everything glowing temporarily) [Creepers]:
+Glow Lichen(L), Glow Berries(G), Glow Ink Sac(I), Creeper Head(C), Spectral Arrow(S), Bell(B)
+
+	LBL
+	GCG
+	ISI
+
+Earth God's Lyric (Strength) [Skeletons, Piglin, Piglin Brute, Hoglin, Pig, Ravager] {CUSTOM CRAFTER}:
+Triforce Shard(T), Dirt(D), Stone(S)
+
+	DDD
+	DTS
+	SSS
+
+Wind God's Aria (Slow Falling, Levitation) [Endermen, Shulkers, Chickens, Ghasts, Vex] {CUSTOM CRAFTER}:
+Triforce Shard(T), Feather(F)
+
+	FFF
+	FTF
+	FFF
+
+Bolero of Fire (Fire Resistance) [Magma Cubes, Blazes] {CUSTOM CRAFTER}:
+(Also gives Ocarina Version) [Teleports you to the start of the Nether] {SINGLE USE}
+Ocarina of Time(T), Magma Block(M)
+
+	MMM
+	MTM
+	MMM
+
+Song of Healing (Regeneration) [Zombie Villager] {CUSTOM CRAFTER}:
+Fairy Ocarina(F), Golden Apple(G)
+
+	GGG
+	GFG
+	GGG
+
+Saria's Song (Luck) [Spiders, Slimes] {CUSTOM CRAFTER}:
+Fairy Ocarina, Oak Log(O)
+
+	OOO
+	OFO
+	OOO
+
+Nocturne of Shadow (Invisbility) [Vindicators, Witches, Pillager] {CUSTOM CRAFTER}:
+(Also gives Ocarina Version) [Teleports you to the start of the End] {SINGLE USE}
+Ocarina of Time(T), Amethyst Block(A), Phantom Membrane(P)[2], Eye of Ender(E)[6]
+
+	PAP
+	ETE
+	PAP
+
+Prelude of Light (Clears Harmful Status Effects) [Wither Skeletons, Cave Spiders, Husk, Stray, Witch] {CUSTOM CRAFTER}:
+(Also gives Ocarina Version) [Teleports you to the start of the Overworld] {SINGLE USE}
+Ocarina of Time(T), Gold Block(G)
+
+	GGG
+	GTG
+	GGG
+
+Wind Waker [CUSTOM CRAFTER]:
+Emerald[12](E), Amethyst Shard(A), Iron Ingot(I), Triforce Shard(T), Heart of the Sea(H)
+
+	EHE
+	ITI
+	AIA
+
+Song of Time (Useful in a pinch, Takes the player to the start of the Overworld, clears ALL status effects, and resets the player's spawnpoint to 0, 83, 0 in the Overworld.)
+This item has a cooldown until it can be used again. 
+This item is reusable, however it clears the following items from your inventory upon each use:
+- Arrows
+- Emeralds
+- TNT
+- Bombs (ZeldaCraft Item)
+- Experience Bottle
+- Ender Pearl
+- Eye of Ender
+- Torches
+- Sets your XP Level to 0
+- Sets your Energy (Datapack Variable) to 0
+[CUSTOM CRAFTER]:
+Lapis Block[3](L), Ocarina of Time(O), 
+
+	LLL
+	LOL
+	LLL
+
+===============================================================5.5 CONTENT [Infinite Complexity Update]======================================================================
+---====----====!!![UPDATED IN 6.0 Part 4]!!!====----====---
+Nether Hookshot [CUSTOM CRAFTER]:
+Hookshot(H), Nethershot Upgrade Module(U)
+
+	
+	 H
+	 U
+
+Nethershot Upgrade Module [CUSTOM CRAFTER]:
+Stoneshot Upgrade Module(S), Nether Bricks(N), Block of Quartz(Q)
+
+	NNN
+	NSQ
+	QQQ
+
+Infinity Steak:
+Steak(S), Enchanted Golden Apple(E)
+
+	SSS
+	SES
+	SSS
+
+Infinity Bread (Careful with all the Gluton):
+Bread(B), Golden Apple(G)
+
+	BBB
+	BGB
+	BBB
+
+---====----====!!![UPDATED IN 6.0 Part 3]!!!====----====---
+Complexium Ingot [CUSTOM CRAFTER]:
+RECIPE REWORKED.
+
+	XXX
+	XXX
+	XXX
+
+Complexium Core [CUSTOM CRAFTER]:
+Nether Star(N), Complexium Ingot(C)
+
+	 C
+	CNC
+	 C
+
+Infinity Pickaxe [CUSTOM CRAFTER]:
+Reality Stone(R), Time Stone(T), Space Stone(S), Soul Stone(U), Power Stone(P), Mind Stone(M), Complexium Ingot(C)
+
+	PSR
+	CCC
+	UTM
+
+
+Infinity Dust [CUSTOM CRAFTER]:
+Drops from ENDER DRAGON
+
+	XXX
+	XXX
+	XXX
+
+Power Stone [CUSTOM CRAFTER]:
+Infinity Dust(I), Amethyst Block(A)
+
+	III
+	IAI
+	III
+
+Space Stone [CUSTOM CRAFTER]:
+Infinity Dust(I), Diamond Block(D)
+
+	III
+	IDI
+	III
+
+Reality Stone [CUSTOM CRAFTER]:
+Infinity Dust(I), Redstone Block(R)
+
+	III
+	IRI
+	III
+
+Soul Stone [CUSTOM CRAFTER]:
+Infinity Dust(I), Copper Block(C)
+
+	III
+	ICI
+	III
+
+Time Stone [CUSTOM CRAFTER]:
+Infinity Dust(I), Emerald Block(E)
+
+	III
+	IEI
+	III
+
+Mind Stone [CUSTOM CRAFTER]:
+Infinity Dust(I), Gold Block(G)
+
+	III
+	IGI
+	III
+
+
+Complexity Helm Mold [CUSTOM CRAFTER]:
+Bluesteel(B)
+
+	BBB
+	B B
+	
+
+Complexity Chestplate Mold [CUSTOM CRAFTER]:
+Bluesteel(B)
+
+
+	B B
+	BBB
+	BBB
+
+Complexity Leggings Mold [CUSTOM CRAFTER]:
+Bluesteel(B)
+
+	BBB
+	B B
+	B B
+
+Complexity Boots Mold [CUSTOM CRAFTER]:
+Bluesteel(B)
+
+	B B
+	B B
+	
+
+Complexity Helm [CUSTOM CRAFTER]:
+Complexity Helm Mold(H), Complexium Core(C), Complexium Ingot(I)
+
+	III
+	ICI
+	IHI
+
+Complexity Chestplate [CUSTOM CRAFTER]:
+Complexity Chestplate Mold(M), Complexium Core(C), Complexium Ingot(I)
+
+
+	III
+	ICI
+	IMI
+
+Complexity Leggings [CUSTOM CRAFTER]:
+Complexity Leggings Mold(L), Complexium Core(C), Complexium Ingot(I)
+
+	III
+	ICI
+	ILI
+
+Complexity Boots [CUSTOM CRAFTER]:
+Complexity Boots Mold(B), Complexium Core(C), Complexium Ingot(I)
+
+	III
+	ICI
+	IBI
+
+===============================================================6.0 CONTENT [Call of Champions Part 1 The Champion's Call]======================================================================
+-=-=-=-=[THE DEFINITIVE FINAL UPDATE]=-=-=-=-
+
+Hero's Set (AKA Starter Set)
+Log(L), Crafting Table(T)
+
+	LLL
+	LTL
+	LLL
+
+Goddess Sword [CUSTOM CRAFTER]:
+Goddess Plume(G), Diamond(D), Kokori Sword(K)
+
+	 D
+	GDG
+	 K
+
+Unawakend Master Sword [CUSTOM CRAFTER]:
+Goddess Sword(G), Diamond(D), Iron(I)
+
+	 I
+	DID
+	 G
+
+Cobble Crusher [CUSTOM CRAFTER]:
+Cobblestone(C), Goddess Plume(G)
+
+	CCC
+	 G
+	 G
+
+Stone Smasher [CUSTOM CRAFTER]:
+Stone[4](S), Goddess Plume(G), Cobble Crusher(C)
+
+	SGS
+	GCG
+	SGS
+
+Boulder Breaker [CUSTOM CRAFTER]:
+Goddess Plume[2](G), Diamond Block(D), Stone Smasher(S)
+
+	GDG
+	DSD
+	GDG
+
+Gerudo Scimitar [CUSTOM CRAFTER]:
+Iron Ingot(I), Gold Ingot(G), Goddess Plume(P)
+
+	 GI
+	GIG
+	PG
+
+Scimitar of the Seven [CUSTOM CRAFTER]:
+Diamond[3](D), Gold Ingot[4](G), Gerudo Scimitar(S), Goddess Plume[3](P)
+
+	GDD
+	PSD
+	GPG
+
+Lightscale Trident [CUSTOM CRAFTER]:
+Prismarine Shard[3](P), Prismarine Crystal[2](C), Diamond[4](D), Goddess Plume[5](G)
+
+	PPP
+	CPC
+	DPD
+
+Great Eagle Bow [CUSTOM CRAFTER]:
+String[3](S), Stick[4](T), Diamond[8](D), Goddess Plume[2](G)
+
+	TGG
+	SDG
+	SST
+
+Rito Wings [CUSTOM CRAFTER]:
+Feather[18](F), Elytra(E), Triforce Shard(T)
+
+	FFF
+	FEF
+	FTF
+
+Sword of the Six Sages [CUSTOM CRAFTER]:
+Blaze Rod[8](B), Goddess Plume[5](G), Triforce Shard(T)
+
+	GTT
+	TBT
+	BTG
+
+Phantom Sword [CUSTOM CRAFTER]:
+Diamond[2](D), Sand[48](S), Goddess Plume[3](G), Kokiri Sword(K)
+
+	DGG
+	DSG
+	KDD
+
+Ganondorf's Sword [CUSTOM CRAFTER]:
+Dark Rupee[64](D), Blaze Rod[10](B), Netherite Sword(N), Triforce of Power(P)
+
+	 DN
+	DPD
+	BD
+
+Phantom Ganon's Sword [CUSTOM CRAFTER]:
+Ganondorf's Sword(G), Phantom Sword(P), Dark Rupee[4](D)
+
+	DDD
+	DGD
+	DPD
+
+True Master Sword [CUSTOM CRAFTER]:
+Master Sword Lv3(M), Biggoron's Sword(B), Phantom Sword(P), Gilded Sword(G), Fierce Deity Sword(D), Great Fairys Sword(F), Ancient Bladesaw(A), Ancient Blade(C),
+Sword of the Six Sages(S)
+
+	DGF
+	PMS
+	BCA
+
+---====----====!!![UPDATED IN 6.0 Part 2]!!!====----====---
+Dark Link Set [CUSTOM CRAFTER]:
+Dark Rupee[5](D), Hero Armor Piece(H)
+
+	DDD
+	DHD
+	DDD
+
+Fierce Deity Set [CUSTOM CRAFTER]:
+Moon's Tear[2](M), Dark Link Armor Piece(D)
+
+	MMM
+	MDM
+	MMM
+
+Mighty Potion [CUSTOM CRAFTER]:
+Mighty Banana(M), Monster Guts(G), Bottle(B)
+
+	MMM
+	MBG
+	GGG
+
+================================================ [Call of Champions Part 2: Non Zelda Content, Adjustments, and Bugfixes] ===================================================
+
++=+=+=+= Adjusted Recipe =+=+=+=+=+
+Vastayan Armor Piece [CUSTOM CRAFTER]:
+Vastayan Feather(V), Leather Armor Piece(L)
+
+	VVV
+	VLV
+	VVV
+
++=+=+=+= Adjusted Recipe =+=+=+=+=+
+Vastayan Feather: (now makes 3 instead of 2)
+Amethyst Shard(A), Ender Pearl(E), Feather(F)
+
+	AAA
+	AEF
+	FFF
+
+Iron Man Suitcase [CUSTOM CRAFTER]:
+Copper Block[5](C), Iron Block[4](I), Redstone Block[6](R), Nether Star[2](S)
+- Uses Energy to fly
+
+	CIC
+	ISI
+	RIR
+
+World Shaper Armor Piece [CUSTOM CRAFTER]:
+Complexium Core(C), Netherite Ingot(N), Netherite Armor Piece(A)
+
+	NNN
+	NCN
+	NAN
+
+=============================================================== [Call of Champions Part 2 Grass% Patch] ===========================================================================
+
+Last Word [CUSTOM CRAFTER]:
+Gold Block[4](G), Iron Block [3](I), Emerald Block(B), Crimson Stem[16](C), Gunsmith Materials[6](M), Exotium(E)
+
+	IGG
+	IEB
+	MCM
+
+Ace of Spades [CUSTOM CRAFTER]:
+Iron Block [2](I), Blaze Powder[40](P), Netherite Ingot[3](N), Magma Cream[40](C), Gunsmith Materials[6](M), Exotium(E)
+
+	III
+	PEC
+	MNM
+
+!!!!![{( DO NOT PLACE MULTIPLE WITHIN 40ish BLOCKS OF ANOTHER AS IT WILL SEVERLY BREAK THEM }]!!!!!!
+Timeless Jukebox Kit
+Planks(P), Emerald(E), Diamond(D)
+
+	PEP
+	EDE
+	PEP
+
+----------------BlackIc3's Content----------------------
+
+Singlaic Core- 1x Nether Star + 1x Amethyst +1 1x Diamond + 1x Emerald + 1x Gold Ingot
+
+Netherite Protection Framework:
+Netherite Scrap(S), Netherite Ingot(I), Netherite Chestplate(C)
+
+	SIS
+	ICI
+	SIS
+
+Energy Crystal:
+Amethyst(A), Glowstone Dust(G)
+
+	 A
+	AGA
+	 A
+
+Neutro plate Scrap [CUSTOM CRAFTER]:
+Netherite Scrap(N), Energy Crystal(E)
+
+	 N
+	NEN
+	 N
+
+---====----====!!![UPDATED VERSION]!!!====----====---
+Lunar Fate [CUSTOM CRAFTER]:
+Energy Crystal(E), Netherite Axe(N), Neutro Plate Scrap(P), Singlaic Core(S)
+
+	 EN
+	 PE
+	S 
+
+---====----====!!![UPDATED VERSION]!!!====----====---
+Shield Of The Unfeeling God [CUSTOM CRAFTER]:
+Netherite Protection Framework (P), Shield (E), Energy Crystal(C), Singlaic Core(S)
+
+	 P
+	CEC
+	 S 
+
+Fortune Armor Set
+Netherite Ingot(N), Diamond(D), Iron Armor Piece(A)
+
+	NNN
+	NAD
+	DDD
+
+Syncrotron:
+Phantom Membrane(P), Amethyst Shard(A), Bone(B), Spectral Arrow(S), Feather(F)
+
+	 PA
+	BSM
+	FB
+
+Divinity Dread:
+Netherite Scrap (N), Amethyst Shard (A), Spectral Arrow (S), Copper Ingot (C)
+  
+	 NA
+	NSN
+	CN 
+
+============================================================ [Call of Champions Part 3 The Expanding Horizon] ==================================================================
+Unlock all Miscellaneous Recipes
+Book, Dirt block, Cobblestone, Wood Plank
+
+
+Timeless Crafter Summon Tier 1
+(This will spawn on top of you when summoned, so be careful. "Summoned" by crafting at a Crafting Table.):
+Iron Ingot(I), Dropper(R), Crafting Table(C), Armor Stand(A)
+
+	IAI
+	IRI
+	ICI
+
+Timeless Crafter Upgrade Tier 2 [DONE IN TIER 1 TIMELESS CRAFTER]
+(This coverts a Tier 1 Crafter into a Tier 2 one. Does not refund the materials used for the Tier 1 Crafter.):
+Diamond(D), Crafting Table(C)
+
+	DDD
+	DCD
+	DDD
+
+Timeless Crafter Upgrade Tier 3 [DONE IN TIER 2 TIMELESS CRAFTER]
+(This coverts a Tier 2 Crafter into a Tier 3 one. Does not refund the materials used for the Tier 2 Crafter.):
+Netherite Ingot(N), Crafting Table(C)
+
+	 N
+	NCN
+	 N
+
+Copper Hammer:
+Stick(S), Copper Ingot(C)
+
+	CCC
+	CSC
+	 S
+
+Quartz Hammer:
+Stick(S), Quartz(Q)
+
+	QQQ
+	QSQ
+	 S
+
+Steel Hammer:
+Stick(S), Copper(C), Iron Ingot(I)
+
+	CIC
+	ISI
+	 S
+
+Crystal Quartz Hammer:
+Stick(S), Crystal Item(C), Quartz(Q)
+
+	CQC
+	CSC
+	 S
+
+Bluesteel Hammer [CUSTOM CRAFTER]:
+Stick(S), Bluesteel(B)
+
+	BBB
+	BSB
+	 S
+
+-----------[CUSTOM FURNACE RECIPES]------------
+=============[TIER 1]================
+Gold Ingot [TimelessCrafter Tier 1]
+Sand Dust[4] + Coal[1]
+
+Iron Ingot [TimelessCrafter Tier 1]
+Stone Dust[4] + Coal[1]
+
+Iron Ingot + 4 Nuggets [TimelessCrafter Tier 1]
+Gravel Dust[6] + Coal[1]
+
+=============[TIER 2]================
+
+8 Gold Ingots [TimelessCrafter Tier 2]
+Sand Dust[16] + Coal[2]
+
+8 Iron Ingots [TimelessCrafter Tier 2]
+Stone Dust[16] + Coal[2]
+
+12 Iron Ingots + 8 Nuggets [TimelessCrafter Tier 2]
+Gravel Dust[16] + Coal[2]
+
+=============[TIER 3]================
+
+15 Gold Ingots [TimelessCrafter Tier 3]
+Sand Dust[45] + Coal[3]
+
+15 Iron Ingots [TimelessCrafter Tier 3]
+Stone Dust[45] + Coal[3]
+
+20 Iron Ingots + 16 Nuggets [TimelessCrafter Tier 3]
+Gravel Dust[50] + Coal[3]
+
+3 Complexium Ingots [TimelessCrafter Tier 3]
+Iron Ingot[8] + Gold Ingot[8] + Copper Ingot[8] + Netherite Ingot[3] + Bluesteel[6] + Lava Bucket[1]
+-----------------------------------------------
+
+
+256 Gold Ingots (Liquid Kromer) [CUSTOM CRAFTER]:
+Kromer[64]
+
+
+-----------[Dismantling (Done in the Timeless Crafter Tier 2+)]------------
+
+Exotium Item = 1 Exotium Refunded
+
+Legendary Shards Items:
+[COMMON] 2-5 Shard Price = 2 Shards Refunded
+[UNCOMMON] 6-10 Shard Price = 4 Shards Refunded
+[LOW RARE] 11-20 Shard Price = 8 Shards Refunded
+[HIGH RARE] 21-30 Shard Price = 16 Shards Refunded
+[LEGENDARY] 40-64 Shard Price = 32 Shards Refunded
+[EXOTIC] 64+ Shard Price = 50 Shards Refunded
+
+Boss Items:
+Slimeblade = 1 Legendary Shard Refunded
+
+-----------------------------------------------
+============================================================ [Call of Champions Part 4 1.19 Conversion] ==================================================================
+
+Refund Any Tier Timeless Crafter Materials (This disables the Crafter as well):
+Paper named "REFUND CUSTOM CRAFTER" - any slot
+
+Sculk:
+Sculk Vein(S)
+
+	SSS
+	SSS
+	SSS
+
+Sculk Vein(9):
+Sculk
+
+Sculk Vein Doubled:
+Sculk(S) Glow Lichen(G)
+
+	GGG
+	GSG
+	GGG
+
+Sculk Sensor:
+Sculk(S), Echo Shard(E)
+
+	SSS
+	SES
+	SSS
+
+Sculk Catalyst:
+Sculk(S), Echo Shard(E), Sculk Sensor(R)
+
+	SRS
+	RER
+	SRS
+
+Sculk Shrieker:
+Sculk(S), Echo Shard(E), Sculk Sensor(R), Sculk Catalyst(C)
+
+	SSS
+	RCE
+	SSS
+
+Reinforced Deepslate(32):
+Netherite Block(B), Netherite Ingot(I), Endstone(E), Deepslate(D)
+
+	EIE
+	DBD
+	EIE
+
+Goddess Bow [TIER 3 TIMELESS CRAFTER]:
+Goddess Plume(G)[5], Triforce(T), Bow of Light(B)
+
+	GGG
+	GTG
+	GBG
+
+Molgera Spawn Egg [TIER 2+ TIMELESS CRAFTER] {!PROGRESSION LOCKED!}:
+Phantom Membrane(M)[8], Sand(S)[32], Monster Guts(G)
+
+	MGM
+	GSG
+	MGM
+
+Magelock Set:
+Enchanted Book(B), Experience Bottle(E), Ender Pearl(P)
+
+	BEB
+	EPE
+	BEB
+
+Farore's Wind [TIER 1+ TIMELESS CRAFTER]:
+Triforce Shard(T), Eye of Ender(E)[2], Ender Pearl(P)[4]
+
+	EPE
+	PTP
+	EPE
+
+
+You can duplicate Most Datapack Music Discs with that Music Disc and a Blank Music Disc in a Tier 2 or higher Timeless Crafter.
+
+To activate any broken Sculk Shrieker, simply put it in a Timeless Crafter of any Tier.
+
+Due to minecraft being buggy, you will have to put your Blank Music Discs in a Timeless Crafter (any tier) to fix the NBT data in order to trade them with David.
+Otherwise they still work as intended.
+
+============================================================ [The Dark World and The Great Beyond] ==================================================================
+
+Force Gem Transmutations:
+
+Bread [ TIER 1+ TIMELESS CRAFTER]
+5 Force Gems, Wheat Seeds
+
+Moon Pearl [TIER 3 TIMELESS CRAFTER]
+Prism Shards(P)[64], Diamond Force Gem(D)[64]
+
+	PPP
+	PDP
+	PPP

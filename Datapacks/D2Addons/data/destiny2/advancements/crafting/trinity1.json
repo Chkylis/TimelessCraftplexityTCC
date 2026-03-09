@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedtg": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "destiny2:trinity_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "destiny2:crafting/craftedtrinity"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsteelsword": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:steel_sword"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainsteelsword"
+    }
+}

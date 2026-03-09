@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Song of the Forest",
+            "color": "green"
+        },
+        "description": {
+            "text": "Learn Saria's Song.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:lime_stained_glass_pane"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "msstep1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:windwakersongslearn/learnsariasong"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:windwakerquest/windreqadv"
+}

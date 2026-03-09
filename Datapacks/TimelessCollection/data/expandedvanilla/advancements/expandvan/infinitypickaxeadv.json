@@ -1,0 +1,37 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "In the Endgame",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Craft the Infinity Pickaxe",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:netherite_pickaxe",
+            "nbt": "{display:{Name:'{\"text\":\"Infinity Pickaxe\"}'}}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "msstep1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:infinity_pickaxe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier6"
+        ],
+        "experience": 999999,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "expandedvanilla:expandvan/infinitystonesadv"
+}

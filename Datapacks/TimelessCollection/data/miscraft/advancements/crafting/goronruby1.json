@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedgr": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:goronruby_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/givegoronruby"
+    }
+}

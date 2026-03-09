@@ -1,0 +1,58 @@
+{
+    "display": {
+        "title": {
+            "text": "All Arc Based",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Acquire Trinity Ghoul.",
+            "color": "purple"
+        },
+        "icon": {
+            "item": "minecraft:crossbow",
+            "nbt": "{display:{Name:'{\"text\":\"Trinity Ghoul\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "trinity": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "destiny2:trinity_recipe"
+            }
+        },
+        "buytrinity": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                      "minecraft:crossbow"
+                    ],
+                    "count": {
+                      "min": 1,
+                      "max": 1
+                    },
+                    "nbt": "{trinityghoul:1b}"
+                    
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "trinity",
+            "buytrinity"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "destiny2:achievements/d2addonsadv"
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#W#",
+        "ENE",
+        "ESE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:soul_sand"
+        },
+        "W": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "S": {
+            "item": "minecraft:skeleton_spawn_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:wither_skeleton_spawn_egg",
+        "count": 1
+    }
+}

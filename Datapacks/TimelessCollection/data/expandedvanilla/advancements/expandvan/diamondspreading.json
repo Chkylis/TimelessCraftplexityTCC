@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockeddiamondspreading": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:diamondspreadingrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/givediamondspreading"
+    }
+}

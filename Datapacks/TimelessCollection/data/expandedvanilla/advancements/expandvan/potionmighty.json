@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedpotionmighty": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:mighty_potion"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainpotionmighty"
+    }
+}

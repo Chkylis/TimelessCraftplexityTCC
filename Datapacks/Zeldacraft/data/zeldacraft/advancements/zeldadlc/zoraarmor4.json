@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedzoragreaves": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:zorabootsrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainzoragreaves"
+    }
+}

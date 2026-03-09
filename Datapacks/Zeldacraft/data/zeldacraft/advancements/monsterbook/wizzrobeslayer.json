@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Entry: Wizzrobe",
+            "color": "red"
+        },
+        "description": {
+            "text": "Wizzrobe Drops: Flame Bow, Red Rupees, Diamonds, Reward Orb.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:witch_spawn_egg"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "phantomslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:illusioner",
+                    "nbt": "{Tags:[\"wizzrobe:1b\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvslayer"
+}

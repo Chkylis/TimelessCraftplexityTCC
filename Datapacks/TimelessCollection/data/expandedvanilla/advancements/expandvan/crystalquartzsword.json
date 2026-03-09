@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedswordcrystalquartz": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:crystalquartz_sword"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaincrystalquartzsword"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsushi": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:sushi_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/givesushi"
+    }
+}

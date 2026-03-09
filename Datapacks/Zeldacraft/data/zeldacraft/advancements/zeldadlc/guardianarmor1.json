@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedhelmetguardian": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:guardian_helm_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainguardianhelmet"
+    }
+}

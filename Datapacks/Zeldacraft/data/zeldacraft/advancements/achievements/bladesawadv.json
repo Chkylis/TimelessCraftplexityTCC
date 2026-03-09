@@ -1,0 +1,67 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Ancient Arsenal",
+            "color": "red"
+        },
+        "description": {
+            "text": "Craft all Ancient/Guardian pieces of gear.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:netherite_axe",
+            "nbt": "{display:{Name:'{\"text\":\"Ancient Bladesaw\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "bladesaw": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:ancientbladesawrecipe"
+            }
+        },
+        "ancientblade": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:ancientbladerecipe"
+            }
+        },
+        "guardianhelm": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:guardian_helm_recipe"
+            }
+        },
+        "guardianchestplate": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:guardian_chestplate_recipe"
+            }
+        },
+        "guardianlegs": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:guardian_leggings_recipe"
+            }
+        },
+        "guardianboots": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:guardian_boots_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvequipment"
+}

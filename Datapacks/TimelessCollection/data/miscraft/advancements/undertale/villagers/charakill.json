@@ -1,0 +1,511 @@
+{
+    "display": {
+        "title": {
+            "text": "...",
+            "color": "red"
+        },
+        "description": {
+            "text": "... But nobody came.",
+            "color": "dark_red"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{display:{Name:'{\"text\":\"Rusted Blade\"}'}}"
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "aaron": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"aaron:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "bill": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"billgates:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "barry": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"barry:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "carl": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"carl:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "cletus": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"cletus:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "daniel": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"daniel:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "darrel": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"darrel:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "david": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"david:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "elise": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"elise:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "frank": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"frank:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "garry": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"garry:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "larry": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"larry:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "lonny": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"lonny:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "marco": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"marco:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "marx": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"marx:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "narco": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"narco:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "peris": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"peris:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "skulven": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"skulven:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "spamton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"spamton:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "spamtonneo": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"spamtonneo:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "steven": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{Tags:[\"steven:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "xur": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wandering_trader",
+                    "nbt": "{Tags:[\"xur:1b\"]}"
+                },
+            "killing_blow": {
+                "source_entity": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": [ 
+                                "minecraft:carrot_on_a_stick"
+                            ],
+                            "nbt": "{genosplicer:1b}"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1997,
+        "function": "miscraft:undertale/genocomplete"
+    },
+    "parent": "timelesscraft:achievements/bosschecklist/postriven"
+}

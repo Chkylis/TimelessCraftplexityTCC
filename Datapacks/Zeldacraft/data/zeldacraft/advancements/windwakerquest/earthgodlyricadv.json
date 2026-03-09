@@ -1,0 +1,35 @@
+{
+    "display": {
+        "title": {
+            "text": "Earth God's Blessing",
+            "color": "dark_gray"
+        },
+        "description": {
+            "text": "Learn the Earth God's Lyric.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:brown_stained_glass_pane"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "msstep1": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:windwakersongslearn/learnearthgodlyric"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier3"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:windwakerquest/commandmelodyadv"
+}

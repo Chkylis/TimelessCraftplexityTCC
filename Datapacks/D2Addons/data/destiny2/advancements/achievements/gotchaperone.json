@@ -1,0 +1,58 @@
+{
+    "display": {
+        "title": {
+            "text": "Roadborn",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Acquire The Chaperone.",
+            "color": "purple"
+        },
+        "icon": {
+            "item": "minecraft:crossbow",
+            "nbt": "{display:{Name:'{\"text\":\"The Chaperone\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "chaperone": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "destiny2:chaperone_recipe"
+            }
+        },
+        "buychaperone": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                      "minecraft:crossbow"
+                    ],
+                    "count": {
+                      "min": 1,
+                      "max": 1
+                    },
+                    "nbt": "{chaperone:1b}"
+                    
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "chaperone",
+            "buychaperone"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "destiny2:achievements/d2addonsadv"
+}

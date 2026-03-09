@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedchestplateguardian": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:guardian_chestplate_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainguardianchestplate"
+    }
+}

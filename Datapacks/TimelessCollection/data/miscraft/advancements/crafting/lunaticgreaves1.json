@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedlg": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:lunaticgreaves_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/givelunaticgreaves"
+    }
+}

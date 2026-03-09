@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "N/N",
+        "N/N"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:quartz"
+        },
+        "N": {
+            "item": "minecraft:netherite_scrap"
+        },
+        "/": {
+            "item": "minecraft:blaze_rod"
+        }
+    },
+    "result": {
+        "item": "minecraft:netherite_boots",
+        "count": 1
+    },
+    "group": "netherite"
+}

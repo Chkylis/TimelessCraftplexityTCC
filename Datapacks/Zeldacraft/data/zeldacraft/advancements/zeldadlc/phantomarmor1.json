@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedhelmetphantom": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:phantom_helmet_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainphantomhelmet"
+    }
+}

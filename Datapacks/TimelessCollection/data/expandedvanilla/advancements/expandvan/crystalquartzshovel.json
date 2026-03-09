@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedshovelcrystalquartz": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:crystalquartz_shovel"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaincrystalquartzshovel"
+    }
+}

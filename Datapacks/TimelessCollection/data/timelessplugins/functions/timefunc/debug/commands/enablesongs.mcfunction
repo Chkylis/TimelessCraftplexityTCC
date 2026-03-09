@@ -1,0 +1,10 @@
+#### Disable all wind waker songs
+scoreboard players set @p bfiregot 1
+scoreboard players set @p bgalesgot 1
+scoreboard players set @p sariasonggot 1
+scoreboard players set @p healsonggot 1
+scoreboard players set @p windgodgot 1
+scoreboard players set @p windreqgot 1
+scoreboard players set @p nshadowgot 1
+scoreboard players set @p plightgot 1
+scoreboard players set @p cmelodygot 1

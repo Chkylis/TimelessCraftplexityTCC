@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockgoddessblade": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:callofchampions/goddess_blade_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:callofchampionsitems/goddessswordcraft"
+    }
+}

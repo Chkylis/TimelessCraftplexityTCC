@@ -1,0 +1,161 @@
+{
+    "criteria": {
+        "Guardian Body AB": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper",
+                    "nbt": "{Tags:[\"guardian:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{ancientblade:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "Guardian Body BS": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper",
+                    "nbt": "{Tags:[\"guardian:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_axe"
+                                ],
+                                "nbt": "{ancientbladesaw:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "Guardian Legs AB": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider",
+                    "nbt": "{Tags:[\"guardianlegs:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{ancientblade:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "Guardian Legs BS": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider",
+                    "nbt": "{Tags:[\"guardianlegs:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_axe"
+                                ],
+                                "nbt": "{ancientbladesaw:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "Decayed Guardian AB": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper",
+                    "nbt": "{Tags:[\"activateddecayguardian:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_sword"
+                                ],
+                                "nbt": "{ancientblade:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        },
+        "Decayed Guardian BS": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper",
+                    "nbt": "{Tags:[\"activateddecayguardian:1b\"]}"
+                },
+                "damage": {
+                    "type" : {
+                    "direct_entity": {
+                        "type": "minecraft:player",
+                        "equipment": {
+                            "mainhand": {
+                                "items": [ 
+                                  "minecraft:netherite_axe"
+                                ],
+                                "nbt": "{ancientbladesaw:1b}"
+                            }
+                        }
+                    }
+                }
+              }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Guardian Body AB",
+            "Guardian Body BS",
+            "Guardian Legs AB",
+            "Guardian Legs BS",
+            "Decayed Guardian AB",
+            "Decayed Guardian BS"
+        ]
+    ],
+    "rewards": {
+        "function": "zeldacraft:championpowers/guardianbanepoweruse"
+    }
+}

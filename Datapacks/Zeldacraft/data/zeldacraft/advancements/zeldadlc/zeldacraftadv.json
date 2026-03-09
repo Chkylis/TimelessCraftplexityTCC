@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "ZeldaAddons",
+        "description": "To be used with the Wind Waker Resource Pack, adds Zelda themed content to your world!",
+        "icon": {
+            "item": "minecraft:nether_star",
+            "nbt": "{display:{Name:'{\"text\":\"Triforce\"}'}}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:ownerchkylis",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

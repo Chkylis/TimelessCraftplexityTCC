@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedchap": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "destiny2:chaperone_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "destiny2:crafting/craftedchaperone"
+    }
+}

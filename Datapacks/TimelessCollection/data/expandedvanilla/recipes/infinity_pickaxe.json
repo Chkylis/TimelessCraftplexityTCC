@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#DE",
+        "COC",
+        "GAI"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:redstone_block"
+        },
+        "D": {
+            "item": "minecraft:diamond_block"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        },
+        "C": {
+            "item": "minecraft:chain_command_block"
+        },
+        "O": {
+            "item": "minecraft:debug_stick"
+        },
+        "G": {
+            "item": "minecraft:gold_block"
+        },
+        "A": {
+            "item": "minecraft:copper_block"
+        },
+        "I": {
+            "item": "minecraft:amethyst_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

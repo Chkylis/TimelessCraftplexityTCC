@@ -1,0 +1,7 @@
+recipe take @s zeldacraft:fiercedietybladerecipe
+
+advancement revoke @s only zeldacraft:zeldadlc/fiercedietyblade1
+
+give @s carrot_on_a_stick{display:{Name:'{"text":"Fierce Deity Sword","color":"aqua"}',Lore:['{"text":"A blade of a dark being\'s wrath."}']},RepairCost:9999999,Unbreakable:1b,fiercedeitysword:1b,Enchantments:[{id:"minecraft:smite",lvl:255s},{id:"minecraft:looting",lvl:5s},{id:"minecraft:sweeping",lvl:5s},{id:"minecraft:mending",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:1,Operation:0,UUID:[I;271903186,-1881980443,-1401472789,2062948947],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:5,Operation:0,UUID:[I;296803352,1393576701,-1443252201,-1780370268],Slot:"mainhand"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:30,Operation:0,UUID:[I;1661882535,-1576648452,-1316059656,222282977],Slot:"mainhand"},{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:2,Operation:2,UUID:[I;507231856,-443202814,-1532218009,-1634173932],Slot:"mainhand"},{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:3,Operation:2,UUID:[I;1615263760,-690469205,-1193038782,-1458687192],Slot:"mainhand"}]} 1
+
+clear @s minecraft:knowledge_book

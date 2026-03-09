@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "BGB",
+        "CWC"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:black_dye"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "G": {
+            "item": "minecraft:glass_bottle"
+        },
+        "C": {
+            "item": "minecraft:coal"
+        },
+        "W": {
+            "item": "minecraft:wither_skeleton_skull"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

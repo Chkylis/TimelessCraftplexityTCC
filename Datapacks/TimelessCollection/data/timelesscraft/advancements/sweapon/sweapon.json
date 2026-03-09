@@ -1,0 +1,43 @@
+{
+    "display": {
+        "title": {
+            "text": "A Timeless Collection",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Acquire the secret hidden and buried within this Datapack.",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword",
+            "nbt": "{display:{Name:'{\"text\":\"Reality Splicer\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "miphatrident": {
+            "trigger": "impossible",
+            "conditions": {
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:rewardorblootpool",
+            "zeldacraft:rewardorblootpool",
+            "zeldacraft:rewardorblootpool",
+            "zeldacraft:rewardorblootpool",
+            "zeldacraft:rewardorblootpool",
+            "zeldacraft:rewardorblootpool"
+        ],
+        "experience": 64646464
+    },
+    "parent": "global:ownerchkylis"
+}

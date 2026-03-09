@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedcryogen": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:cryoticcube_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/givecryoticcube"
+    }
+}

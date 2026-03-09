@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsunssongocarina": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:sunssongrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/givesunssongocarina"
+    }
+}

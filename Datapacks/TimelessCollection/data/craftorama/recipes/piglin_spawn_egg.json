@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Eg",
+        "ENE",
+        "EPE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:crossbow"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "g": {
+            "item": "minecraft:gold_ingot"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "P": {
+            "item": "minecraft:pig_spawn_egg"
+        }
+    },
+    "result": {
+        "item": "minecraft:piglin_spawn_egg",
+        "count": 1
+    }
+}

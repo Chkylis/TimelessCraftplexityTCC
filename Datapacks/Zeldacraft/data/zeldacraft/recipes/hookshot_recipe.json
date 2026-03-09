@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#DA",
+        "DCD",
+        "FD#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "A": {
+            "item": "minecraft:arrow"
+        },
+        "C": {
+            "item": "minecraft:chain"
+        },
+        "F": {
+            "item": "minecraft:fishing_rod"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+      {
+        "rolls": {
+          "min": 20,
+          "max": 64
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_ingot"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:experience_bottle"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    ]
+  }

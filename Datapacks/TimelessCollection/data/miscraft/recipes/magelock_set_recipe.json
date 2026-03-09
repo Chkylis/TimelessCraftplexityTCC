@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#E#",
+        "EME",
+        "#E#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:enchanted_book"
+        },
+        "E": {
+            "item": "minecraft:experience_bottle"
+        },
+        "M": {
+            "item": "minecraft:ender_pearl"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

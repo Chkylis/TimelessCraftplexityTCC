@@ -1,0 +1,209 @@
+{
+    "display": {
+        "title": {
+            "text": "Complete Compendium",
+            "color": "white"
+        },
+        "description": {
+            "text": "Complete all Monster Tracker entries.",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wizzrobeslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:illusioner",
+                    "nbt": "{Tags:[\"wizzrobe:1b\"]}"
+                }
+            }
+        },
+        "phantomslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:stray",
+                    "nbt": "{Tags:[\"phantomknight:1b\"]}"
+                }
+            }
+        },
+        "bokoblinslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pillager",
+                    "nbt": "{Tags:[\"bokoblin:1b\"]}"
+                }
+            }
+        },
+        "darknutslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:vindicator",
+                    "nbt": "{Tags:[\"darknut:1b\"]}"
+                }
+            }
+        },
+        "moblinslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin",
+                    "nbt": "{Tags:[\"moblin:1b\"]}"
+                }
+            }
+        },
+        "stalfosslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombified_piglin",
+                    "nbt": "{Tags:[\"stalfos:1b\"]}"
+                }
+            }
+        },
+        "guardianslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper",
+                    "nbt": "{Tags:[\"guardian:1b\"]}"
+                }
+            }
+        },
+        "moblinbruteslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin_brute",
+                    "nbt": "{Tags:[\"moblinbrute:1b\"]}"
+                }
+            }
+        },
+        "redlynelslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_villager",
+                    "nbt": "{Tags:[\"redlynel:1b\"]}"
+                }
+            }
+        },
+        "bluelynelslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_villager",
+                    "nbt": "{Tags:[\"bluelynel:1b\"]}"
+                }
+            }
+        },
+        "silverlynelslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pillager",
+                    "nbt": "{Tags:[\"silverlynel:1b\"]}"
+                }
+            }
+        },
+        "goldlynelslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_villager",
+                    "nbt": "{Tags:[\"goldlynel:1b\"]}"
+                }
+            }
+        },
+        "yigaslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:vindicator",
+                    "nbt": "{Tags:[\"yigaclan:1b\"]}"
+                }
+            }
+        },
+        "poeslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman",
+                    "nbt": "{Tags:[\"poe:1b\"]}"
+                }
+            }
+        },
+        "redpoeslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman",
+                    "nbt": "{Tags:[\"redpoe:1b\"]}"
+                }
+            }
+        },
+        "bluechuslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Tags:[\"bluechu:1b\"]}"
+                }
+            }
+        },
+        "greenchuslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Tags:[\"greenchu:1b\"]}"
+                }
+            }
+        },
+        "redchuslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Tags:[\"redchu:1b\"]}"
+                }
+            }
+        },
+        "decayguardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper",
+                    "nbt": "{Tags:[\"activateddecayguardian:1b\"]}"
+                }
+            }
+        },
+        "redeadslain": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie",
+                    "nbt": "{Tags:[\"redead:1b\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier6"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvslayer"
+}

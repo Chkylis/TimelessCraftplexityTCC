@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "Byproduct of the Brinians",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Craft a Complexium Ingot.",
+            "color": "purple"
+        },
+        "icon": {
+            "item": "minecraft:netherite_ingot",
+            "nbt": "{display:{Name:'{\"text\":\"Complexium Ingot\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "ingot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:netherite_ingot"],
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        },
+                        "nbt": "{complexium:1b}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "miscraft:achievements/miscraftcrafting"
+}

@@ -1,0 +1,2 @@
+schedule function timelesscraft:cascade/cascadetentick 10t replace
+#function zeldacraft:cascade/cascadehookshots

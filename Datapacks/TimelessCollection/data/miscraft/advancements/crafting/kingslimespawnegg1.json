@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedkingslimespawnegg": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:kingslimespawnegg_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/givekingslimespawnegg"
+    }
+}

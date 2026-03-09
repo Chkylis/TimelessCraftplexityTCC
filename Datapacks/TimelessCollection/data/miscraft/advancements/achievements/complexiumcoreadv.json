@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {
+            "text": "Henry \"Stark\" Triason",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Craft a Complexium Core.",
+            "color": "purple"
+        },
+        "icon": {
+            "item": "minecraft:nether_star",
+            "nbt": "{display:{Name:'{\"text\":\"Complexium Core\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ingot": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "timelesscraft:complexiumcore_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "miscraft:achievements/complexiumadv"
+}

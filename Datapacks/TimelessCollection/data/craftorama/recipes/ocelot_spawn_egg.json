@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "ENE",
+        "EJE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:feather"
+        },
+        "S": {
+            "item": "minecraft:string"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        },
+        "J": {
+            "item": "minecraft:jungle_log"
+        }
+    },
+    "result": {
+        "item": "minecraft:ocelot_spawn_egg",
+        "count": 1
+    }
+}

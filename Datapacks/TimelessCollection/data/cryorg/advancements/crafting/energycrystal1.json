@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockeddivinitydread": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cryorg:energy_crystal_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 150,
+        "function": "cryorg:crafting/give_energy_crystal"
+    }
+}

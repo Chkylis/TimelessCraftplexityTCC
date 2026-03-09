@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedvw": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:vastayanwraps_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/givevastayanwraps"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedlt": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "miscraft:lunatictalons_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "miscraft:crafting/givelunatictalons"
+    }
+}

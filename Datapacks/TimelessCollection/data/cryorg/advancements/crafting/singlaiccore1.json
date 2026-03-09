@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockeddivinitydread": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cryorg:singlaic_core_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 150,
+        "function": "cryorg:crafting/give_singlaic_core"
+    }
+}

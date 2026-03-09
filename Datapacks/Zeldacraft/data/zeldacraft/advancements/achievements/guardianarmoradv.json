@@ -1,0 +1,63 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Guardian Slayer",
+            "color": "red"
+        },
+        "description": {
+            "text": "Craft a piece of Guardian Armor",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:netherite_chestplate",
+            "nbt": "{display:{Name:'{\"text\":\"Guardian Chestplate\"}'}}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "guardianarmorchest": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:guardian_chestplate_recipe"
+            }
+        },
+        "guardianarmorlegs": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:guardian_leggings_recipe"
+            }
+        },
+        "guardianarmorboots": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:guardian_boots_recipe"
+            }
+        },
+        "guardianarmorhelm": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:guardian_helm_recipe"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "guardianarmorhelm",
+            "guardianarmorboots",
+            "guardianarmorlegs",
+            "guardianarmorchest"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier4"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/magicarmoradv"
+}

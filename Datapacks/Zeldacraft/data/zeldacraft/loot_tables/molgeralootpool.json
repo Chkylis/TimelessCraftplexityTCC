@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 8,
+        "max": 20
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Red Rupee",
+                "color": "red"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{redrupee:1b}"
+            }
+          ],
+          "conditions": [
+            {
+            "condition": "random_chance",
+            "chance": 0.80
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Reward Orb",
+                "color": "yellow"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{rewardorb:1b}"
+            }
+          ],
+          "conditions": [
+            {
+            "condition": "random_chance",
+            "chance": 0.85
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Monster Guts",
+                "color": "light_purple"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{monsterguts:1b}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 7,
+        "max": 16
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane"
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:entity"
+}

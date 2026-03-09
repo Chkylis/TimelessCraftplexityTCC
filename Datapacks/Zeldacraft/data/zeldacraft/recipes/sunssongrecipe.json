@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#",
+        "CDC",
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:light_blue_terracotta"
+        },
+        "C": {
+            "item": "minecraft:clay_ball"
+        },
+        "D": {
+            "item": "minecraft:daylight_detector"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

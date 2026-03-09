@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedhoequartzstone": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:quartzstone_hoe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainhoequartzstone"
+    }
+}

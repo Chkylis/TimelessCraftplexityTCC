@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "ENE",
+        "EEE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:leather"
+        },
+        "B": {
+            "item": "minecraft:beef"
+        },
+        "E": {
+            "item": "minecraft:egg"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:cow_spawn_egg",
+        "count": 1
+    }
+}

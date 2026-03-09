@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedswordcopper": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:copper_sword"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaincoppersword"
+    }
+}

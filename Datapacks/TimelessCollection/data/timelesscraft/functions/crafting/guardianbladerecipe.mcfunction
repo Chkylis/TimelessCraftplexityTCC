@@ -1,0 +1,4 @@
+
+#### Craft Guardian Blade
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:experience_bottle",Count:1b}]}
+give @p netherite_sword{display:{Name:'{"text":"Guardian Sword++","color":"dark_aqua"}',Lore:['{"text":"A blade of ancient times.","color":"dark_blue"}','{"text":"Guardian\'s Bane:","color":"gold"}','{"text":"This item deals increased damage against","color":"gold"}','{"text":"Zelda Guardians.","color":"gold"}']},RepairCost:9999999,Damage:0,ancientblade:1b,Enchantments:[{id:"minecraft:sharpness",lvl:10s},{id:"minecraft:sweeping",lvl:3s},{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:mending",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:30,Operation:0,UUID:[I;-1524193996,-1064220829,-2146822125,-1051998520],Slot:"mainhand"}]} 1

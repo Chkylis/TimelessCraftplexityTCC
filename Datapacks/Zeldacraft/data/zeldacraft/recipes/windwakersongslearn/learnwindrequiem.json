@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "MBH",
+        "#W#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:feather"
+        },
+        "M": {
+            "item": "minecraft:map"
+        },
+        "H": {
+            "tag": "zeldacraft:boattagwind"
+        },
+        "B": {
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "W": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

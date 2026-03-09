@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedrocksirion": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:rocksirlion_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/giverocksirlion"
+    }
+}

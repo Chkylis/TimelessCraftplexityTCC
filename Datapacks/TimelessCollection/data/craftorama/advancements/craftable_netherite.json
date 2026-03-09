@@ -1,0 +1,98 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Craftable... Netherite?",
+            "color": "dark_red",
+            "bold": true,
+            "italic": true,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Use a datapack to craft netherite items.",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "getitems": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:redstone"],
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:netherite_scrap"],
+                        "count": {
+                            "min": 4,
+                            "max": 4
+                        }
+                    },
+                    {
+                        "items": ["minecraft:blaze_powder"],
+                        "count": {
+                            "min": 3,
+                            "max": 3
+                        }
+                    },
+                    {
+                        "items": ["minecraft:blaze_rod"],
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "getrecipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "craftorama:craftablenetherite/craftable_netherite_sword"
+            }
+        },
+        "getsword": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:netherite_sword"],
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [ 
+        "craftorama:craftablenetherite/craftable_netherite_shovel", 
+        "craftorama:craftablenetherite/craftable_netherite_axe", 
+        "craftorama:craftablenetherite/craftable_netherite_pickaxe", 
+        "craftorama:craftablenetherite/craftable_netherite_hoe", 
+        "craftorama:craftablenetherite/craftable_netherite_helmet", 
+        "craftorama:craftablenetherite/craftable_netherite_chestplate", 
+        "craftorama:craftablenetherite/craftable_netherite_leggings", 
+        "craftorama:craftablenetherite/craftable_netherite_boots", 
+        "craftorama:craftablenetherite/craftable_pigstep"
+        ],
+        "experience": 5000,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "craftorama:furtherbeyond"
+}

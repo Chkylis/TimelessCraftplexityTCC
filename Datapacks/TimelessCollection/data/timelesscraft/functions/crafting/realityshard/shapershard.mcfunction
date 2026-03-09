@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:experience_bottle",Count:1b}]}
+give @p diamond{display:{Name:'{"text":"Shaper Shard","color":"green"}',Lore:['{"text":"This shard, forged by the power of creation,","color":"light_purple"}','{"text":"wields immense radioactivity.","color":"dark_red"}','{"text":"Its purpose is unknown.","color":"gray"}']},HideFlags:1,shapershard:1b,Enchantments:[{id:"minecraft:power",lvl:1s}]} 1

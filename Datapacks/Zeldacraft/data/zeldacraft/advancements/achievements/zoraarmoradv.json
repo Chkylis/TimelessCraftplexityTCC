@@ -1,0 +1,63 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Elegant Craftsmanship",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Craft a piece of Zora Armor",
+            "color": "aqua"
+        },
+        "icon": {
+            "item": "minecraft:chainmail_chestplate",
+            "nbt": "{display:{Name:'{\"text\":\"Zora Tunic\"}'}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "zoraarmorchest": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:zorachestplaterecipe"
+            }
+        },
+        "zoraarmorlegs": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:zoraleggingsrecipe"
+            }
+        },
+        "zoraarmorboots": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:zorabootsrecipe"
+            }
+        },
+        "zoraarmorhelm": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:zorahelmrecipe"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "zoraarmorhelm",
+            "zoraarmorboots",
+            "zoraarmorlegs",
+            "zoraarmorchest"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier3"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/phantomarmoradv"
+}

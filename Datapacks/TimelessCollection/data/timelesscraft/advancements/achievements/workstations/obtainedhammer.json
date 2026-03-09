@@ -1,0 +1,68 @@
+{
+    "display": {
+        "title": {
+            "text": "Hammer Time!",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Craft your first Hammer (Can be any Tier).",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:wooden_pickaxe",
+            "nbt": "{display:{Name:'{\"text\":\"Copper Hammer\"}'}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "copperhammer": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "timelesscraft:hammer_copper"
+            }
+        },
+        "steelhammer": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "timelesscraft:hammer_steel"
+            }
+        },
+        "quartzhammer": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "timelesscraft:hammer_quartz"
+            }
+        },
+        "crystalquartzhammer": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "timelesscraft:hammer_crystalquartz"
+            }
+        },
+        "bluesteelhammer": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "timelesscraft:hammer_bluesteel"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "copperhammer",
+            "steelhammer",
+            "quartzhammer",
+            "crystalquartzhammer",
+            "bluesteelhammer"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier1"
+        ],
+        "experience": 500
+    },
+    "parent": "global:tccworkstations"
+}

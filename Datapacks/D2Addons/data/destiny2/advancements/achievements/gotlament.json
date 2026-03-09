@@ -1,0 +1,58 @@
+{
+    "display": {
+        "title": {
+            "text": "Banshee of The Crypt",
+            "color": "gold"
+        },
+        "description": {
+            "text": "Acquire The Lament.",
+            "color": "purple"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword",
+            "nbt": "{display:{Name:'{\"text\":\"The Lament\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "lament": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "destiny2:lament_recipe"
+            }
+        },
+        "buylament": {
+            "trigger": "minecraft:villager_trade",
+            "conditions": {
+                "item": {
+                    "items": [
+                      "minecraft:diamond_sword"
+                    ],
+                    "count": {
+                      "min": 1,
+                      "max": 1
+                    },
+                    "nbt": "{thelament:1b}"
+                    
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "lament",
+            "buylament"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "destiny2:achievements/d2addonsadv"
+}

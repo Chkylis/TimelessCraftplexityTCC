@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "SET",
+        " N "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:debug_stick"
+        },
+        "S": {
+            "item": "minecraft:scute"
+        },
+        "E": {
+            "item": "minecraft:shield"
+        },
+        "T": {
+            "item": "minecraft:knowledge_book"
+        },
+        "N": {
+            "item": "minecraft:structure_void"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsteelshovel": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:steel_shovel"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtainsteelshovel"
+    }
+}

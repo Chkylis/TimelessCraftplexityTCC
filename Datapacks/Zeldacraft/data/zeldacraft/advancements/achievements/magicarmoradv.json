@@ -1,0 +1,63 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Cover Me With Rupees",
+            "color": "green"
+        },
+        "description": {
+            "text": "Craft a piece of Magic Armor",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:diamond_chestplate",
+            "nbt": "{display:{Name:'{\"text\":\"Magic Chestplate\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "magicarmorchest": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:magic_chestplate_recipe"
+            }
+        },
+        "magicarmorlegs": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:magic_leggings_recipe"
+            }
+        },
+        "magicarmorboots": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:magic_boots_recipe"
+            }
+        },
+        "magicarmorhelm": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:magic_helm_recipe"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "magicarmorhelm",
+            "magicarmorboots",
+            "magicarmorlegs",
+            "magicarmorchest"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier3"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zoraarmoradv"
+}

@@ -1,0 +1,63 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Phantom Of The Forest",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Craft a piece of Phantom Armor",
+            "color": "dark_green"
+        },
+        "icon": {
+            "item": "minecraft:iron_chestplate",
+            "nbt": "{display:{Name:'{\"text\":\"Phantom Chestplate\"}'}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "phantomarmorchest": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:phantom_chestplate_recipe"
+            }
+        },
+        "phantomarmorlegs": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:phantom_leggings_recipe"
+            }
+        },
+        "phantomarmorboots": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:phantom_boots_recipe"
+            }
+        },
+        "phantomarmorhelm": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:phantom_helmet_recipe"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "phantomarmorhelm",
+            "phantomarmorboots",
+            "phantomarmorlegs",
+            "phantomarmorchest"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier2"
+        ],
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "zeldacraft:achievements/zeldacraftadvequipment"
+}

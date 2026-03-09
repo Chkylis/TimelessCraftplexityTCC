@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Triforce Shard",
+                "color": "gold"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{triforceshard:1b}"
+            }
+          ],
+          "conditions": [
+            {
+            "condition": "random_chance",
+            "chance": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:entity"
+}

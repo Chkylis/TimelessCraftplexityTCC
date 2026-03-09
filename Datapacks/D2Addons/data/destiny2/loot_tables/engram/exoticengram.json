@@ -1,0 +1,151 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 1
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Ace of Spades Engram",
+                  "color": "gold"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{aosengram:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "The Lament Engram",
+                  "color": "gold"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{lamentengram:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "The Chaperone Engram",
+                  "color": "gold"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{chaperoneengram:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "The Last Word Engram",
+                  "color": "gold"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{lwengram:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gold_nugget",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Trinity Ghoul Engram",
+                  "color": "gold"
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{tgengram:1b}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": {
+                  "text": "Exotium",
+                  "color": "gold"
+                }
+              },
+              {
+                "function": "minecraft:set_enchantments",
+                "enchantments": {
+                  "minecraft:vanishing_curse": 1
+                },
+                "add": true
+              },
+              {
+                "function": "minecraft:set_attributes",
+                "modifiers": [
+                  {
+                    "attribute": "minecraft:generic.armor",
+                    "name": "",
+                    "amount": 5,
+                    "operation": "addition",
+                    "id": "7a91128b-33e8-4ebb-9c38-8c08030f2146",
+                    "slot": "chest"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_lore",
+                "entity": "this",
+                "lore": [
+                  {
+                    "text": "Xur's Specialty Item",
+                    "color": "gold"
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{exotium:1b}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

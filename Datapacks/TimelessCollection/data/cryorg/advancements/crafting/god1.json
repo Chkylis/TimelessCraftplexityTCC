@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedgodshield": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "cryorg:god_shield"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 150,
+        "function": "cryorg:crafting/give_god"
+    }
+}

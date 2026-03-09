@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedsteakdinner": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:steakdinner_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/givesteakdinner"
+    }
+}

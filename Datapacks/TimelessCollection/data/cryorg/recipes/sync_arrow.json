@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " #A",
+        "BS#",
+        "FB "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        },
+        "S": {
+            "item": "minecraft:spectral_arrow"
+        },
+        "F": {
+            "item": "minecraft:feather"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

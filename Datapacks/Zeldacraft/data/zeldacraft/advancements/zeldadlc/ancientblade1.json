@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedancientblade": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:ancientbladerecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainancientsword"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedleggingscopper": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "expandedvanilla:copper_leggings"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "expandedvanilla:expandvan/obtaincopperleggings"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedslug": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "destiny2:sluground_recipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "destiny2:crafting/craftedsluground"
+    }
+}

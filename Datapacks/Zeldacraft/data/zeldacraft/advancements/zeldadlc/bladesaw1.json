@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlockedbladesaw": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "zeldacraft:ancientbladesawrecipe"
+            }
+        }
+    
+    },
+    "rewards": {
+        "function": "zeldacraft:zeldadlc/obtainbladesaw"
+    }
+}

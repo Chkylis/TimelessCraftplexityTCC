@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "Touch Grass",
+            "color": "green"
+        },
+        "description": {
+            "text": "Go Outside, Take a shower, do literally ANYTHING ELSE other than play this game.",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "miphatrident": {
+            "trigger": "impossible",
+            "conditions": {
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6",
+            "zeldacraft:advrewardspooltier6"
+        ],
+        "experience": 420420420420,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
+    },
+    "parent": "global:ownerchkylis"
+}
