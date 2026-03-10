@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "changeworld": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "overworld",
+                "to": "the_end"
+            }
+        }
+    },
+    "rewards": {
+        "function": "majoracraft:majoramask/finalhoursmusic"
+}
+}

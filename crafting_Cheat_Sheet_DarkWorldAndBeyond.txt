@@ -1210,9 +1210,9 @@ Log(L), Crafting Table(T)
 Goddess Sword [CUSTOM CRAFTER]:
 Goddess Plume(G), Diamond(D), Kokori Sword(K)
 
-	 D
+	   D
 	GDG
-	 K
+	   K
 
 Unawakend Master Sword [CUSTOM CRAFTER]:
 Goddess Sword(G), Diamond(D), Iron(I)
@@ -1406,9 +1406,9 @@ Netherite Scrap(S), Netherite Ingot(I), Netherite Chestplate(C)
 Energy Crystal:
 Amethyst(A), Glowstone Dust(G)
 
-	 A
+	   A
 	AGA
-	 A
+	   A
 
 Neutro plate Scrap [CUSTOM CRAFTER]:
 Netherite Scrap(N), Energy Crystal(E)

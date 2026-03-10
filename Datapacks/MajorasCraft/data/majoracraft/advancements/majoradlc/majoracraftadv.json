@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "MajoraCraft by Deathbrine2",
+        "description": "To be used with the Timeless Collection, Adds the Majora's Mask Time Cycle to the game.",
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
