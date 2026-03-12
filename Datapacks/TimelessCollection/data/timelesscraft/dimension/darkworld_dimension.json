@@ -9,7 +9,7 @@
         {
           "biome": "minecraft:forest",
           "parameters": {
-            "continentalness": 0,
+            "continentalness": 0.3,
             "depth": 0,
             "erosion": 0,
             "humidity": 0,
@@ -21,7 +21,7 @@
         {
           "biome": "minecraft:meadow",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": 0.2,
                         "depth": 0,
                         "erosion": 0,
                         "humidity": 0,
@@ -33,7 +33,7 @@
         {
           "biome": "minecraft:plains",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": 0.1,
                         "depth": 0,
                         "erosion": 0,
                         "humidity": 0,
@@ -45,7 +45,7 @@
         {
           "biome": "minecraft:stony_peaks",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": 0.4,
                         "depth": 0,
                         "erosion": 0,
                         "humidity": 0,
@@ -57,7 +57,7 @@
         {
           "biome": "minecraft:beach",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": -0.1,
                         "depth": 0,
                         "erosion": 0,
                         "humidity": 0,
@@ -69,12 +69,12 @@
         {
           "biome": "minecraft:desert",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": 0.4,
                         "depth": 0,
                         "erosion": 0,
-                        "humidity": 0,
+                        "humidity": 1,
                         "offset": 0,
-                        "temperature": 0,
+                        "temperature": 1,
                         "weirdness": 0
           }
         },
@@ -93,7 +93,7 @@
         {
           "biome": "minecraft:jungle",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": 0.4,
                         "depth": 0,
                         "erosion": 0,
                         "humidity": 0,
@@ -105,7 +105,7 @@
         {
           "biome": "minecraft:dark_forest",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": 0.2,
                         "depth": 0,
                         "erosion": 0,
                         "humidity": 0,
@@ -117,7 +117,7 @@
         {
           "biome": "minecraft:ocean",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": -0.5,
                         "depth": 0,
                         "erosion": 0,
                         "humidity": 0,
@@ -129,7 +129,7 @@
         {
           "biome": "minecraft:badlands",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": 0.4,
                         "depth": 0,
                         "erosion": 0,
                         "humidity": 0,
@@ -141,7 +141,7 @@
         {
           "biome": "minecraft:deep_ocean",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": -1,
                         "depth": 0,
                         "erosion": 0,
                         "humidity": 0,
@@ -153,7 +153,7 @@
         {
           "biome": "minecraft:bamboo_jungle",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": 0.3,
                         "depth": 0,
                         "erosion": 0,
                         "humidity": 0,
@@ -165,7 +165,7 @@
         {
           "biome": "minecraft:crimson_forest",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": 0.2,
                         "depth": 0,
                         "erosion": 0,
                         "humidity": 1,
@@ -177,7 +177,7 @@
         {
           "biome": "minecraft:warped_forest",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": 0.2,
                         "depth": 0,
                         "erosion": 0,
                         "humidity": 1,
@@ -189,7 +189,7 @@
         {
           "biome": "minecraft:nether_wastes",
           "parameters": {
-                        "continentalness": 0,
+                        "continentalness": 0.1,
                         "depth": 0,
                         "erosion": 0,
                         "humidity": 1,
