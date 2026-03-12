@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 5
+      },
+      "bonus_rolls": 0,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "Mote"
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{mote:1b}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance_with_looting",
+              "chance": 1,
+              "looting_multiplier": 3
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

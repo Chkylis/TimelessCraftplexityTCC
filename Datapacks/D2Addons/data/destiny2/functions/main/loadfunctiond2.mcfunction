@@ -38,6 +38,8 @@ scoreboard objectives add mentomorircast dummy
 
 #### Mobs ####
 scoreboard players add exot_count d2_mobs 0
+scoreboard players add tknight_count d2_mobs 0
+scoreboard players add tarcher_count d2_mobs 0
 
 #### Lament Rework
 scoreboard objectives add lamenthits dummy
