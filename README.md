@@ -39,6 +39,9 @@ The Legend of Zelda: Nintendo
 - Guardian Core
 - Dual Helix/Fierce Deity Sword
 - Sculk Guardian Reference (Skyward Sword Guardians)
+- Moon Pearl
+- Force Gems
+- Dark World
 
 Metal Gear Rising Revengeance: Hideo Kojima and Konami
 - High Frequnecy Murasama
@@ -49,9 +52,18 @@ Destiny Series: Bungie
 - One Thousand Voices
 - Trinity Ghoul
 - Last Word
+- Motes
+- Drifter's Armor
+- Riven
+- Jade Coin
+
+- Thorn (WIP)
+- Malfeasance (WIP)
+
+- Tangled Shore (WIP)
 
 Warframe: Digital Extremes
-- Volt Armor Set
+- Volt Armor Set (WIP)
 
 UNDERTALE and DELTARUNE: Toby Fox
 - Spamton and NEO Armor
@@ -89,8 +101,8 @@ deleted to avoid conflict with the original texture pack creators.
 Majora's Craft 64:
 Koa_Nueva: Majora's Craft 64; https://www.planetminecraft.com/texture-pack/legend-of-zelda-majoras-craft/
 
-Wind Waker Edition 1.17:
-Pavlovs_Walrus; https://www.planetminecraft.com/texture-pack/wind-waker-edition-3899490/
+Wind Waker Edition:
+Pavlovs_Walrus; https://modrinth.com/resourcepack/wind-waker-edition
 
 =============================================================================================================
 
