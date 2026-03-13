@@ -172,7 +172,7 @@ Raw Iron(R), Ameythst Shard(A), Phantom Membrane(M)
 Phantom Chestplate:
 Raw Iron(R), Ameythst Shard(A), Phantom Membrane(M)
 
-	R R
+	R    R
 	AMA
 	RAR
 
@@ -180,14 +180,14 @@ Phantom Greaves:
 Raw Iron(R), Ameythst Shard(A), Phantom Membrane(M)
 
 	RMR
-	A A
-	R R
+	A    A
+	R    R
 
 Phantom Boots:
 Raw Iron(R), Amethyst Shard(A), Phantom Membrane(M)
 
 	AMA
-	R R
+	R    R
 
 
 Fire Rod:
