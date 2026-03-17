@@ -130,5 +130,17 @@
     "sounds":[
       "custom/zelda/mirrorwarp"
     ]
+  },
+  "custom.thornshot": {
+    "subtitle": "subtitles.custom.thornreload",
+    "sounds":[
+      "custom/thorn/thornshot"
+    ]
+  },
+  "custom.thornreload": {
+    "subtitle": "subtitles.custom.thornshot",
+    "sounds":[
+      "custom/thorn/thornreload"
+    ]
   }
 }

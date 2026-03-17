@@ -26,6 +26,13 @@ scoreboard players add rivendeaths rivenslain 0
 scoreboard objectives add lwrcast dummy
 scoreboard objectives add lwfired minecraft.used:minecraft.carrot_on_a_stick
 
+#### Thorn Fire
+scoreboard objectives add thornrcast dummy
+scoreboard objectives add thornfired2 dummy
+scoreboard objectives add thornpoison dummy
+scoreboard objectives add thornfiredshot dummy
+scoreboard objectives add thornfired minecraft.used:minecraft.carrot_on_a_stick
+
 #### Ace of Spades Fire
 scoreboard objectives add aosrcast dummy
 scoreboard objectives add aosfired2 dummy
