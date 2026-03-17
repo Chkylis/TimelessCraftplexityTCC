@@ -33,6 +33,13 @@ scoreboard objectives add thornpoison dummy
 scoreboard objectives add thornfiredshot dummy
 scoreboard objectives add thornfired minecraft.used:minecraft.carrot_on_a_stick
 
+#### Malfeasance Fire
+scoreboard objectives add malfrcast dummy
+scoreboard objectives add malffired2 dummy
+scoreboard objectives add malfslug dummy
+scoreboard objectives add malffiredshot dummy
+scoreboard objectives add malffired minecraft.used:minecraft.carrot_on_a_stick
+
 #### Ace of Spades Fire
 scoreboard objectives add aosrcast dummy
 scoreboard objectives add aosfired2 dummy

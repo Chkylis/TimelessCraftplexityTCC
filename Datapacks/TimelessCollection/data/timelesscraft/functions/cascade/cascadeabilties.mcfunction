@@ -40,11 +40,8 @@ function zeldacraft:cascade/cascaderitowing
 
 # Destiny 2
 function destiny2:cascade/cascade1k
-function destiny2:cascade/cascadeace
-function destiny2:cascade/cascadelament
-function destiny2:cascade/cascadelastword
 function destiny2:cascade/cascadethorn
-function destiny2:cascade/cascadetrinity
+
 
 # Timeless Complexity
 #function timelesscraft:cascade/abilites/cascadecomplexity

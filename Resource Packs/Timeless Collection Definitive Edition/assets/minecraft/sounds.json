@@ -132,15 +132,27 @@
     ]
   },
   "custom.thornshot": {
-    "subtitle": "subtitles.custom.thornreload",
+    "subtitle": "subtitles.custom.thornshot",
     "sounds":[
       "custom/thorn/thornshot"
     ]
   },
   "custom.thornreload": {
-    "subtitle": "subtitles.custom.thornshot",
+    "subtitle": "subtitles.custom.thornreload",
     "sounds":[
       "custom/thorn/thornreload"
+    ]
+  },
+  "custom.malfshot": {
+    "subtitle": "subtitles.custom.malfshot",
+    "sounds":[
+      "custom/malfeasance/malffire"
+    ]
+  },
+  "custom.malfreload": {
+    "subtitle": "subtitles.custom.malfreload",
+    "sounds":[
+      "custom/malfeasance/malfreload"
     ]
   }
 }
