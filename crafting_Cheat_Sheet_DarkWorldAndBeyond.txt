@@ -1666,10 +1666,11 @@ Otherwise they still work as intended.
 
 Force Gem Transmutations:
 
-Bread [TIER 1+ TIMELESS CRAFTER]
+Bread [ TIER 1+ TIMELESS CRAFTER]:
 5 Force Gems, Wheat Seeds
 
-Steak [TIER 1+ TIMELESS CRAFTER]
+Steak [TIER 1+ TIMELESS CRAFTER]:
+8 Force Gems, 1 Bone, 3 Rotten Flesh
 
 Moon Pearl [TIER 3 TIMELESS CRAFTER]
 Prism Shards(P)[64], Diamond Force Gem(D)[64]
@@ -1677,3 +1678,17 @@ Prism Shards(P)[64], Diamond Force Gem(D)[64]
 	PPP
 	PDP
 	PPP
+=================================================
+
+Thorn [TIER 3 TIMELESS CRAFTER]
+Thorn Engram
+
+Malfeasance [TIER 3 TIMELESS CRAFTER]
+Malfeasance Engram
+
+Banana Milk(2) [TIER 1+  TIMELESS CRAFTER]
+Mighty Banana(B), Milk Bucket(M)
+
+	   B
+	BMB
+	   B
