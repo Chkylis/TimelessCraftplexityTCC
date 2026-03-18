@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:experience_bottle",Count:1b}]}
+give @p potion{display:{Name:'{"text":"Banana Milk","color":"yellow"}',Lore:['{"text":"Link\'s Favorite.","color":"light_purple"}']},bananamilk:1b,CustomPotionEffects:[{Id:6,Amplifier:3b,Duration:1}],Potion:"minecraft:empty",CustomPotionColor:16771095} 2

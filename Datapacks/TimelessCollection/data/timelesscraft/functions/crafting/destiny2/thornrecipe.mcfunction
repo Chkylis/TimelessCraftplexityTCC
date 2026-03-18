@@ -1,0 +1,3 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:experience_bottle",Count:1b}]}
+give @p carrot_on_a_stick{display:{Name:'{"text":"Thorn","color":"gold","bold":true,"italic":false}',Lore:['{"text":"A Dredgen\'s Chosen Weapon.","color":"light_purple"}','{"text":"Mark of the Devourer:","color":"gold","bold":true,"italic":false}','{"text":"Shots spread wither to targets,","color":"gold"}','{"text":"wither spreads to nearby targets","color":"gold"}','{"text":"over time.","color":"gold"}']},HideFlags:1,RepairCost:9999999,thorn:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:255s},{id:"minecraft:mending",lvl:255s}]} 1
+advancement grant @p only destiny2:achievements/gotthorn

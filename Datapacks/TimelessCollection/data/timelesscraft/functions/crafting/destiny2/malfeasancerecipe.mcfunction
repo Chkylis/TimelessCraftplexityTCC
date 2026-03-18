@@ -1,0 +1,3 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:experience_bottle",Count:1b}]}
+give @p carrot_on_a_stick{display:{Name:'{"text":"Malfeasance","color":"gold","bold":true,"italic":false}',Lore:['{"text":"\\"Nothing kills a guardian faster than another guardian\\"","color":"light_purple"}','{"text":"Explosive Shadow","color":"gold","bold":true,"italic":false}','{"text":"Stacking Five or More Slugs causes a detonation.","color":"gold"}']},HideFlags:1,malfeasance:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:255s},{id:"minecraft:mending",lvl:255s}]} 1
+advancement grant @p only destiny2:achievements/gotmalfeasance

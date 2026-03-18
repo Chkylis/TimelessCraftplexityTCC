@@ -400,8 +400,17 @@ execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:emerald",Count:5b,tag:{forc
 #### Steak Transmutation
 execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:emerald",Count:8b,tag:{forcegem:1b}},{id:"minecraft:bone",Count:1b},{id:"minecraft:rotten_flesh",Count:3b}]} unless data block ~ ~ ~ Items[3] run function timelesscraft:crafting/darkworld/forcegemsteak
 
+#### Banana Milk
+execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:apple",Count:1b,tag:{mightybanana:1b}},{Slot:3b,id:"minecraft:apple",Count:1b,tag:{mightybanana:1b}},{Slot:4b,id:"minecraft:milk_bucket",Count:1b},{Slot:5b,id:"minecraft:apple",Count:1b,tag:{mightybanana:1b}},{Slot:7b,id:"minecraft:apple",Count:1b,tag:{mightybanana:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/bananamilkrecipe
+
 #### Moon Pearl
 execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:1b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:2b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:3b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:4b,id:"minecraft:diamond",Count:64b,tag:{diamondforcegem:1b}},{Slot:5b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:6b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:7b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:8b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/darkworld/moonpearlrecipe
+
+#### Thorn Redemption
+execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:golden_chestplate",tag:{thornengram:1b}}]} unless data block ~ ~ ~ Items[1] run function timelesscraft:crafting/destiny2/thornrecipe
+
+#### Malfeasance Redemption
+execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:golden_chestplate",tag:{malfeasanceengram:1b}}]} unless data block ~ ~ ~ Items[1] run function timelesscraft:crafting/destiny2/malfeasancerecipe
 
 ############################################################ ###########################################
 

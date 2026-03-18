@@ -4,8 +4,10 @@ scoreboard players set .distance malfrcast 300
 
 
 execute if score @s malfslug matches 5.. run summon firework_rocket ~ ~ ~ {FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:1,Colors:[I;720887,720887,720887,720887,720887,720887]}]}}}}
-execute if score @s malfslug matches 5.. run execute as @s[nbt=!{Invulnerable:1b},scores={mobHealth=5..},type=!ender_dragon] store result entity @s Health float 1 run scoreboard players remove @s mobHealth 60
-execute if score @s malfslug matches 5.. run execute as @s[nbt=!{Invulnerable:1b},scores={mobHealth=600..},type=ender_dragon] store result entity @s Health float 1 run scoreboard players remove @s mobHealth 120
+execute as @s[nbt=!{Invulnerable:1b},scores={mobHealth=5..,malfslug=5..},type=!ender_dragon] store result entity @s Health float 1 run scoreboard players remove @s mobHealth 999
+execute as @s[nbt=!{Invulnerable:1b},scores={mobHealth=600..,malfslug=5..},type=ender_dragon] store result entity @s Health float 1 run scoreboard players remove @s mobHealth 999
+effect give @s[type=#timelesscraft:undead,scores={malfslug=5..}] instant_health 1 5 false
+effect give @s[type=!#timelesscraft:undead,scores={malfslug=5..}] instant_damage 1 5 false
 execute if score @s malfslug matches 5.. run scoreboard players reset @s malfslug
 scoreboard players add @s malfslug 1
 effect give @s[type=#timelesscraft:undead] instant_health 1 0 false
