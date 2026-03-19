@@ -1,0 +1,92 @@
+=-=-=-=-=-=-=-=-=-=-=Challenges:=-=-=-=-=-=-=-=-=-=-=
+You can only complete 1 Run of a Challenge on a set Difficulty and be Rewarded. 
+(I.E. You can't do normal Grass% twice for more rewards, but you can do Grass% normal and Hero Mode to get their separate rewards if you already completed Grass% normal once.)
+
+Completing a challenge on Hero or Master Mode grants all previous rewards from lower difficulties if you have not already earned them.
+(I.E. Doing Master Mode Moonfall to get all rewards from Normal and Hero Mode Moonfall as well.)
+
+Completing numerous Challenges with similiar rewards will NOT grant extra rewards. (I.E. doing Grass% and Moonfall to get 2 Dedicated Items, 1 per each.)
+
+To have a verified run you must have some form of proof you created the world with the correct settings, started the run with the correct settings, and ended the run legititmately.
+
+Grass%
+- Get the achievements Touch Grass and Touched Grass using the Grass% Rules.
+- Reward on 1st Completion: Dedicated Item, unless said otherwise.
+- Reward on 1st Completion: Name in Credits
+- Reward on 1st Hero Mode Completion: Custom Painting of Winner's choice provided they can give the JPEG or PNG for it.
+- Reward on 1st Hero Mode Completion: Custom Music Disc of winner's choice provided they can give the MP3 or OGG file for it.
+
+Moonfall
+- Beat the Ender Dragon in the Datapack with no other modifications other than the Majora's Mask Time Cycle Datapack. Can play on Hero/Master Mode if desired.
+- Reward on 1st Completion: Dedicated Item, Name in Credits
+- Reward on 1st Hero Mode Completion: Custom Painting of Winner's choice provided they can give the JPEG or PNG for it.
+- Reward on 1st Master Mode Completion: Custom Painting of Winner's choice provided they can give the JPEG or PNG for it.
+- Reward on 1st Master Mode Completion: Custom Music Disc of Winner's choice provided they can give the MP3 or OGG file for it.
+
+Secret Challenge
+- Uncover the secrets of the Datapack.
+- Reward on 1st Completion: Dedicated Armor Set, Name in Credits
+
+Modified Run
+- Play through the Datapack normally on either Hero or Master Mode, this is a for fun challenge.
+- Reward on 1st Completion: None
+
+Registered Recipes
+- Play through the Datapack normally, Hero/Master Mode optional, but with doLimitedCrafting set to True.
+- Untested Challenge, expect things to be broken.
+- Reward on 1st Completion: None
+
+=-=-=-=-=-=-=-=-=-=-=Difficulty Modifiers:=-=-=-=-=-=-=-=-=-=-=
+
+=-=-=-=-=-=Hero Mode:=-=-=-=-=-=
+
+Cheats Off
+
+Shaders only allowed if they help make the game darker in darkness and don't have fullbright
+
+Can use Bonus Chest
+
+Locked at Hard Difficulty
+
+No Natural Regen
+Insomnia On
+Instant Respawn Off
+MobGriefing True
+forgiveDeadPlayers true
+keepInventory false
+universalAnger Off
+Fall, Drowning, Freeze, Fire Damage On
+Mobs, Pillager Patrols, Wandering Traders On
+All Drops On
+All World Updates On
+Kinetic Energy On
+
+=-=-=-=-=-=***Master Mode:***=-=-=-=-=-=
+
+Cheats Off
+
+Brightness at lowest
+
+No Dynamic Lights (if you have the option to turn them on that is)
+
+No Subtitles
+
+Shaders only allowed if they help make the game darker in darkness and don't have fullbright
+
+No Bonus Chest
+
+Hardcore Difficulty
+
+No Natural Regen
+Insomnia On
+Instant Respawn Off
+MobGriefing True
+forgiveDeadPlayers false
+keepInventory false
+universalAnger On
+Fall, Drowning, Freeze, Fire Damage On
+Mobs, Pillager Patrols On
+Wandering Trader Off (this means no Xur!)
+All Drops On
+All World Updates On
+Kinetic Energy On
