@@ -40,6 +40,13 @@ scoreboard objectives add malfslug dummy
 scoreboard objectives add malffiredshot dummy
 scoreboard objectives add malffired minecraft.used:minecraft.carrot_on_a_stick
 
+#### Hawkmoon Fire
+scoreboard objectives add hawkmoonrcast dummy
+scoreboard objectives add hawkmoonfired2 dummy
+scoreboard objectives add hawkmoonbullet dummy
+scoreboard objectives add hawkmoonfiredshot dummy
+scoreboard objectives add hawkmoonfired minecraft.used:minecraft.carrot_on_a_stick
+
 #### Ace of Spades Fire
 scoreboard objectives add aosrcast dummy
 scoreboard objectives add aosfired2 dummy
