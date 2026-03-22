@@ -59,6 +59,7 @@ Destiny Series: Bungie
 
 - Thorn (WIP)
 - Malfeasance (WIP)
+- Hawkmoon (WIP)
 
 - Tangled Shore (WIP)
 

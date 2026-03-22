@@ -154,5 +154,17 @@
     "sounds":[
       "custom/malfeasance/malfreload"
     ]
+  },
+  "custom.hawkmoonshot": {
+    "subtitle": "subtitles.custom.hawkmoonshot",
+    "sounds":[
+      "custom/hawkmoon/hawkmoonfire"
+    ]
+  },
+  "custom.hawkmoonreload": {
+    "subtitle": "subtitles.custom.hawkmoonreload",
+    "sounds":[
+      "custom/hawkmoon/hawkmoonreload"
+    ]
   }
 }

@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Makin' A Comeback",
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Acquire Hawkmoon.",
+            "color": "purple"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{display:{Name:'{\"text\":\"Hawkmoon\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "crafthawkmoon": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "crafthawkmoon"
+        ]
+    ],
+    "rewards": {
+        "loot": [
+            "zeldacraft:advrewardspooltier5"
+        ],
+        "experience": 500
+    },
+    "parent": "destiny2:achievements/d2addonsadv"
+}

@@ -1,0 +1,3 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:experience_bottle",Count:1b}]}
+give @p carrot_on_a_stick{display:{Name:'{"text":"Hawkmoon","color":"gold","bold":true,"italic":false}',Lore:['{"text":"\\"Stalk thy prey and let loose","color":"light_purple"}','{"text":"thy talons upon the Darkness\\"","color":"light_purple"}','{"text":"Paracausal Shot","color":"gold","bold":true,"italic":false}','{"text":"Headshots add a paracausal stack","color":"gold"}','{"text":"the final round in a mag fires a","color":"gold"}','{"text":"paracausal shot.","color":"gold"}']},HideFlags:1,RepairCost:9999999,hawkmoon:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:255s},{id:"minecraft:mending",lvl:255s}]} 1
+advancement grant @p only destiny2:achievements/gothawkmoon

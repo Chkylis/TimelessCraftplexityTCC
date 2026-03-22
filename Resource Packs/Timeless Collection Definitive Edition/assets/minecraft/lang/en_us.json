@@ -5187,5 +5187,7 @@
   "subtitles.custom.thornshot":  "Thorn fires",
   "subtitles.custom.thornreload": "Thorn reloads",
   "subtitles.custom.malfshot":  "Malfeasance fires",
-  "subtitles.custom.malfreload": "Malfeasance reloads"
+  "subtitles.custom.malfreload": "Malfeasance reloads",
+  "subtitles.custom.hawkmoonshot":  "Hawkmoon fires",
+  "subtitles.custom.hawkmoonreload": "Hawkmoon reloads"
 }

@@ -412,6 +412,9 @@ execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:golden_chestplate",tag:{tho
 #### Malfeasance Redemption
 execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:golden_chestplate",tag:{malfeasanceengram:1b}}]} unless data block ~ ~ ~ Items[1] run function timelesscraft:crafting/destiny2/malfeasancerecipe
 
+#### Hawkmoon Redemption
+execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:golden_chestplate",tag:{hawkmoonengram:1b}}]} unless data block ~ ~ ~ Items[1] run function timelesscraft:crafting/destiny2/hawkmoonrecipe
+
 ############################################################ ###########################################
 
 ##ChronoSplicer
