@@ -14,6 +14,13 @@ The Tangled Shore:
 - Add Drifter's Set (New Armor Set)
 - Add Taken (New Enemy Variants)
 
+MisCraft Update:
+
+- Add Volt (New Armor Set)
+- Add NanoMachines (New Item)
+- Add Rewind Core (New Item)
+- Add Anton Clutch (New Weapon)
+
 The Alternative Route:
 
 - Add Secret Boss
