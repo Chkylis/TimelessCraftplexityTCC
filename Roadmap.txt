@@ -1,0 +1,40 @@
+The Dark World Update:
+
+- Add Force Gems (Currency)
+- Add Moon Pearl (Warp Item)
+- Fix Generation
+
+The Tangled Shore:
+
+- Add Xur (Tangled Shore)
+- Add Motes and Jade Coins (Currency)
+- Add Thorn (New Weapon)
+- Add Malfeasance (New Weapon)
+- Add Hawkmoon (New Weapon)
+- Add Drifter's Set (New Armor Set)
+- Add Taken (New Enemy Variants)
+
+The Alternative Route:
+
+- Add Secret Boss
+- Add The Alternative Route Rewards
+
+Dedicated Items Update:
+
+- Add Challenges
+- Add Rewards for completing Challenges
+- Beta Testers are guaranteed one Dedicated Item each.
+
+Adventure Map (if time allows):
+
+- Will come pre-installed with the Modpack
+- Will be Zelda themed
+- Will have a co-op mode
+
+Mod Conversion (if motivated enough):
+
+- Won't be for a long time
+- Will only be if I finish the Dedicated Items Update on time.
+- Will not be through MCreator.
+
+

@@ -1686,6 +1686,9 @@ Thorn Engram
 Malfeasance [TIER 3 TIMELESS CRAFTER]
 Malfeasance Engram
 
+Hawkmoon [TIER 3 TIMELESS CRAFTER]
+Hawkmoon Engram
+
 Banana Milk(2) [TIER 1+  TIMELESS CRAFTER]
 Mighty Banana(B), Milk Bucket(M)
 
