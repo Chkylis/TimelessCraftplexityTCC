@@ -1,7 +1,7 @@
 # Timeless Collection Datapack RULES AND INSTALLATION
 # TIMELESS COLLECTION IS FOR VERSIONS 1.19 AND HIGHER. BUT ONLY FUNCTIONS BEST ON 1.19 #
 
-This will be updated in the coming weeks. For now know that A few rules must be followed using this pack. Here's the Do's and Don't's.
+This will be updated as I work on the pack. For now know that A few rules must be followed using this pack. Here's the Do's and Don't's.
 
 DO's:
 - You may use this pack in your playthroughs of Minecraft.
@@ -142,6 +142,15 @@ Ace of Spades Fire, Memento Mori, and Reload Sounds:
 Game: Destiny 2, Original Authors: BUNGIE
 
 The Lament Blade Sounds:
+Game: Destiny 2, Original Authors: BUNGIE
+
+Thorn Fire and Reload Sounds:
+Game: Destiny 2, Original Authors: BUNGIE
+
+Malfeasance Fire and Reload Sounds:
+Game: Destiny 2, Original Authors: BUNGIE
+
+Hawkmoon Fire and Reload Sounds:
 Game: Destiny 2, Original Authors: BUNGIE
 
 Caverns Music Disc:
