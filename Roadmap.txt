@@ -20,6 +20,7 @@ MisCraft Update:
 - Add NanoMachines (New Item)
 - Add Rewind Core (New Item)
 - Add Anton Clutch (New Weapon)
+- Add Springtrap Suit (New Armor Set)
 
 The Alternative Route:
 
