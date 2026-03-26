@@ -57,11 +57,11 @@ Destiny Series: Bungie
 - Riven
 - Jade Coin
 
-- Thorn (WIP)
-- Malfeasance (WIP)
-- Hawkmoon (WIP)
+- Thorn
+- Malfeasance
+- Hawkmoon
 
-- Tangled Shore (WIP)
+- Tangled Shore
 
 Warframe: Digital Extremes
 - Volt Armor Set (WIP)
