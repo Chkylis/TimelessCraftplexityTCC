@@ -415,6 +415,20 @@ execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:golden_chestplate",tag:{mal
 #### Hawkmoon Redemption
 execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:golden_chestplate",tag:{hawkmoonengram:1b}}]} unless data block ~ ~ ~ Items[1] run function timelesscraft:crafting/destiny2/hawkmoonrecipe
 
+#### Drifter Mask
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:2b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:3b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:5b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/destiny2/driftermaskrecipe
+
+#### Drifter Robes
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:2b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:3b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:4b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:5b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:6b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:7b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:8b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}}]} unless data block ~ ~ ~ Items[8] run function timelesscraft:crafting/destiny2/drifterrobesrecipe
+
+#### Drifter Pants
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:1b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:2b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:3b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:5b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:6b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:8b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}}]} unless data block ~ ~ ~ Items[7] run function timelesscraft:crafting/destiny2/drifterpantsrecipe
+
+#### Drifter Boots
+execute if block ~ ~ ~ dropper{Items:[{Slot:3b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:5b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:6b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:8b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}}]} unless data block ~ ~ ~ Items[4] run function timelesscraft:crafting/destiny2/drifterbootsrecipe
+
+
+
 ############################################################ ###########################################
 
 ##ChronoSplicer

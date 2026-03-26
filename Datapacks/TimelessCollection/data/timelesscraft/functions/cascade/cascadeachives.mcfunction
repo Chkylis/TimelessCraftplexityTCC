@@ -38,4 +38,6 @@ execute as @a[nbt={seenCredits:1b},scores={heardhouston=1}] at @s in timelesscra
 execute as @a[nbt={seenCredits:1b},scores={heardhouston=1}] at @s run give @s music_disc_otherside{display:{Name:'{"text":"Big Giant Circles - Houston","color":"yellow","italic":false}',Lore:['{"text":"Album: The Glory Days","color":"yellow","italic":false}']},musicdischouston:1b} 1
 execute as @a[nbt={seenCredits:1b},scores={heardhouston=2..}] run scoreboard players set @s heardhouston 2
 
+# fuck you visual studio for breaking everything </3
+
 

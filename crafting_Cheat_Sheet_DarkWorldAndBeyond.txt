@@ -1,5 +1,11 @@
 __________________________________________________________ZeldaAddons:________________________________________________________________
 
+Custom Crafter Slots:
+
+	012
+	345
+	678
+
 ---====----====!!![UPDATED IN 6.0]!!!====----====---
 Pre-Master Sword:
 RECIPE UPDATED IN 6.0
@@ -1695,3 +1701,30 @@ Mighty Banana(B), Milk Bucket(M)
 	   B
 	BMB
 	   B
+
+Drifter Mask [TIER 3 TIMELESS CRAFTER]
+Jade Coin(J)
+
+	JJJ
+	J  J
+
+Drifter Robes [TIER 3 TIMELESS CRAFTER]
+Jade Coin(J)
+
+	J J
+	JJJ
+	JJJ
+
+Drifter's Pants [TIER 3 TIMELESS CRAFTER]
+Jade Coin(J)
+
+	JJJ
+	J J
+	J J
+
+Drifter's Boots [TIER 3 TIMELESS CRAFTER]
+Jade Coin(J)
+
+	
+	J J
+	J J

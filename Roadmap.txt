@@ -2,9 +2,9 @@ The Dark World Update:
 
 - [X] Add Force Gems (Currency)
 - [X] Add Moon Pearl (Warp Item)
-- [ ] Fix Generation
-- [ ] Add Valley of Trees (New Biome)
-- [ ] Add Garden of Gravel (New Biome)
+- [X] Fix Generation
+- [X] Add Valley of Trees (New Biome)
+- [X] Add Garden of Gravel (New Biome)
 
 
 The Tangled Shore:
@@ -14,16 +14,16 @@ The Tangled Shore:
 - [X] Add Thorn (New Weapon)
 - [X] Add Malfeasance (New Weapon)
 - [X] Add Hawkmoon (New Weapon)
-- [ ] Add Drifter's Set (New Armor Set)
-- [ ] Add Taken (New Enemy Variants)
+- [X] Add Drifter's Set (New Armor Set)
+- [X] Add Taken (New Enemy Variants)
 
 MisCraft Update:
 
-- Add Volt (New Armor Set)
-- Add NanoMachines (New Item)
-- Add Rewind Core (New Item)
-- Add Anton Clutch (New Weapon)
-- Add Springtrap Suit (New Armor Set)
+- [ ] Add Volt (New Armor Set)
+- [ ] Add NanoMachines (New Item)
+- [ ] Add Rewind Core (New Item)
+- [ ] Add Anton Clutch (New Weapon)
+- [ ] Add Springtrap Suit (New Armor Set)
 
 The Alternative Route:
 

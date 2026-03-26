@@ -68,3 +68,6 @@ scoreboard objectives add lamentdecay dummy
 
 #### Xur Spawn
 scoreboard players add trader_count d2_mobs 0
+
+#### Drifter Set
+scoreboard objectives add drifteron dummy
