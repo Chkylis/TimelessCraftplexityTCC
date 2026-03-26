@@ -1,6 +1,7 @@
 ####### Song of Time
 scoreboard players set @a[nbt={SelectedItem:{id:"minecraft:potato",tag:{songoftime:1b}}}] songtime_delay 2
-execute as @a if score @s songtimecool matches 0 run function zeldacraft:ocarinasongs/songoftimeplay
+#execute as @a if score @s songtimecool matches 0 run function zeldacraft:ocarinasongs/songoftimeplay
+execute as @a[scores={songtime_delay=1..,songtime_used=1,songtimecool=0}] at @s run scoreboard players set @s songtimesong 162
 execute as @a if score @s songtimecool matches 1.. run scoreboard players remove @s songtimecool 1
 msg @p[scores={songtimecool=1}] The Song of Time can now be played again.
 msg @p[scores={songtimecool=14360}] The Song of Time has been used, and must recharge before being used again.

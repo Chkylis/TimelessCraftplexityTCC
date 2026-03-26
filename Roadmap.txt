@@ -1,18 +1,21 @@
 The Dark World Update:
 
-- Add Force Gems (Currency)
-- Add Moon Pearl (Warp Item)
-- Fix Generation
+- [X] Add Force Gems (Currency)
+- [X] Add Moon Pearl (Warp Item)
+- [ ] Fix Generation
+- [ ] Add Valley of Trees (New Biome)
+- [ ] Add Garden of Gravel (New Biome)
+
 
 The Tangled Shore:
 
-- Add Xur (Tangled Shore)
-- Add Motes and Jade Coins (Currency)
-- Add Thorn (New Weapon)
-- Add Malfeasance (New Weapon)
-- Add Hawkmoon (New Weapon)
-- Add Drifter's Set (New Armor Set)
-- Add Taken (New Enemy Variants)
+- [X] Add Xur (Tangled Shore)
+- [X] Add Motes and Jade Coins (Currency)
+- [X] Add Thorn (New Weapon)
+- [X] Add Malfeasance (New Weapon)
+- [X] Add Hawkmoon (New Weapon)
+- [ ] Add Drifter's Set (New Armor Set)
+- [ ] Add Taken (New Enemy Variants)
 
 MisCraft Update:
 
@@ -26,6 +29,11 @@ The Alternative Route:
 
 - Add Secret Boss
 - Add The Alternative Route Rewards
+
+Majora's Craft (Milestone, only if the other parts become successful)
+
+- Majora's Mask Time Cycle
+- Majora's Mask Masks
 
 Dedicated Items Update:
 

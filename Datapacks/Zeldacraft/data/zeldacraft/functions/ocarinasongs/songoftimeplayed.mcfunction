@@ -20,4 +20,4 @@ execute as @a[scores={songtimesong=12}] at @s run playsound minecraft:block.note
 execute as @a[scores={songtimesong=2}] at @s run playsound minecraft:block.note_block.flute player @s ~ ~ ~ 1 0.84 1
 
 ### Run Song Power
-#execute as @a[scores={songtimesong=1..2}] at @s run function zeldacraft:ocarinasongs/songoftimeplay
+execute as @a[scores={songtimesong=1..2}] at @s run function zeldacraft:ocarinasongs/songoftimeplay

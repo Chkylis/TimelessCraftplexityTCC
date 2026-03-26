@@ -4,7 +4,7 @@
 #### (if the player has recently held the custom item and also just ate the base item)
 
 #### Clear Items and Clear Status
-execute as @a[scores={songtime_delay=1..,songtime_used=1}] at @s run scoreboard players set @s songtimesong 162
+#execute as @a[scores={songtime_delay=1..,songtime_used=1}] at @s run scoreboard players set @s songtimesong 162
 execute as @a[scores={songtimesong=2}] at @s run effect give @s instant_health 1 255
 execute as @a[scores={songtimesong=2}] at @s run effect give @s saturation 1 100
 execute as @a[scores={songtimesong=2}] at @s run clear @s #zeldacraft:songtimeremove

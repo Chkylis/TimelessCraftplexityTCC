@@ -4,6 +4,7 @@ schedule function timelesscraft:cascade/cascadedoubletick 2t replace
 # Abilites
 function zeldacraft:cascade/cascadearrows
 function zeldacraft:cascade/cascadeocarinasongs
+function zeldacraft:cascade/cascadeocarinasongtime
 function zeldacraft:cascade/cascadedeitybeam
 function zeldacraft:cascade/cascadehookshots
 

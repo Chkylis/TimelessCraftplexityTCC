@@ -8,7 +8,7 @@ execute as @a if score @s songsunsong matches 1.. run scoreboard players remove 
 execute if score #World postriven matches 1.. run function zeldacraft:ocarinasongs/nocturneplay
 execute if score #World postriven matches 1.. as @a if score @s noctusong matches 1.. run scoreboard players remove @s noctusong 1
 
-########## Nocturne Ocarina
+########## Minuet Ocarina
 function zeldacraft:ocarinasongs/minuetplay
 execute as @a if score @s minuetsong matches 1.. run scoreboard players remove @s minuetsong 1
 

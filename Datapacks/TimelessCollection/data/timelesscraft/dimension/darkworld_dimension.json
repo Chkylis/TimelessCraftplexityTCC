@@ -43,6 +43,30 @@
           }
         },
         {
+          "biome": "timelesscomplexity:gravel_garden",
+          "parameters": {
+            "continentalness": 0.35,
+            "depth": 0,
+            "erosion": 0,
+            "humidity": 0,
+            "offset": 0,
+            "temperature": 0,
+            "weirdness": 0
+          }
+        },
+        {
+          "biome": "timelesscomplexity:tree_valley",
+          "parameters": {
+            "continentalness": 0.25,
+            "depth": 0,
+            "erosion": 0,
+            "humidity": 0,
+            "offset": 0,
+            "temperature": 0,
+            "weirdness": 0
+          }
+        },
+        {
           "biome": "minecraft:stony_peaks",
           "parameters": {
                         "continentalness": 0.4,

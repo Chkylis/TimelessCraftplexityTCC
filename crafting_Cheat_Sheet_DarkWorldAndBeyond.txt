@@ -776,8 +776,8 @@ Trifoce of Wisdom(W), Triforce of Courage(C), Triforce of Power(P)
 True Master Sword [CUSTOM CRAFTER]: 
 Fierce Deity Sword(F), Savage Lynel Sword(L), Great Fairys Sword(G), Master Sword Lv3(M), Ancient Blade(A), High Frequency Murasama OVERDRIVE(H), Phantom Knight Sword(P)
 
-	FLG
-	 M
+	 FLG
+	  M
 	AHP
 
 
