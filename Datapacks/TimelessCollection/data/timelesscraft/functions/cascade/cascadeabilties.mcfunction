@@ -65,3 +65,4 @@ function miscraft:cascade/cascadevolt
 function miscraft:cascade/cascadenanomachines
 function timelesscraft:cascade/abilites/cascaderewindcore
 function zeldacraft:cascade/cascademoonpearl
+function destiny2:cascade/cascadetranslocator

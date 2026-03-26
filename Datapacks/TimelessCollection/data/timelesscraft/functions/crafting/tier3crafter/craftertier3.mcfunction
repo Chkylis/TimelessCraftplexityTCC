@@ -427,6 +427,9 @@ execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:emerald",Count:1b,t
 #### Drifter Boots
 execute if block ~ ~ ~ dropper{Items:[{Slot:3b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:5b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:6b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:8b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}}]} unless data block ~ ~ ~ Items[4] run function timelesscraft:crafting/destiny2/drifterbootsrecipe
 
+#### Translocator
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:1b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:2b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:3b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:4b,id:"minecraft:iron_ingot",Count:64b,tag:{gunsmithmaterials:1b}},{Slot:5b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:6b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:7b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:8b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/destiny2/translocatorrecipe
+
 
 
 ############################################################ ###########################################

@@ -1728,3 +1728,10 @@ Jade Coin(J)
 	
 	J J
 	J J
+
+Translocator [TIER 3 TIMELESS CRAFTER]
+Prism Shards(P)[64], Gunsmith Materials(G)[64]
+
+	PPP
+	PGP
+	PPP

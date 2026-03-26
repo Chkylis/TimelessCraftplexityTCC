@@ -71,3 +71,6 @@ scoreboard players add trader_count d2_mobs 0
 
 #### Drifter Set
 scoreboard objectives add drifteron dummy
+
+#### Translocator
+scoreboard objectives add translocate minecraft.used:minecraft.carrot_on_a_stick

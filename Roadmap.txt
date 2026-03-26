@@ -7,6 +7,8 @@ The Dark World Update:
 - [X] Add Garden of Gravel (New Biome)
 
 
+MisCraft Update and Drifter's Frontier:
+
 The Tangled Shore:
 
 - [X] Add Xur (Tangled Shore)
@@ -16,8 +18,9 @@ The Tangled Shore:
 - [X] Add Hawkmoon (New Weapon)
 - [X] Add Drifter's Set (New Armor Set)
 - [X] Add Taken (New Enemy Variants)
+- [X] Add Translocator
 
-MisCraft Update:
+MisCraft:
 
 - [ ] Add Volt (New Armor Set)
 - [ ] Add NanoMachines (New Item)

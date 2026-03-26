@@ -1,0 +1,35 @@
+#### Tangled Shore Translocator
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=1}] at @s run playsound minecraft:custom.mirrorwarp player @a[distance=..5]
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=1}] if entity @s in timelesscraft:tangledshore_dimension in minecraft:overworld run scoreboard players add @s translocate 1
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=2}] if entity @s in timelesscraft:tangledshore_dimension in minecraft:overworld run setblock 0 79 1 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=2}] if entity @s in timelesscraft:tangledshore_dimension in minecraft:overworld run setblock 1 79 0 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=2}] if entity @s in timelesscraft:tangledshore_dimension in minecraft:overworld run setblock 0 79 -1 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=2}] if entity @s in timelesscraft:tangledshore_dimension in minecraft:overworld run setblock -1 79 0 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=2}] if entity @s in timelesscraft:tangledshore_dimension in minecraft:overworld run setblock -1 79 1 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=2}] if entity @s in timelesscraft:tangledshore_dimension in minecraft:overworld run setblock 1 79 -1 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=2}] if entity @s in timelesscraft:tangledshore_dimension in minecraft:overworld run setblock -1 79 -1 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=2}] if entity @s in timelesscraft:tangledshore_dimension in minecraft:overworld run setblock 1 79 1 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=2}] if entity @s in timelesscraft:tangledshore_dimension in minecraft:overworld run setblock 0 79 0 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=2}] if entity @s in timelesscraft:tangledshore_dimension in minecraft:overworld run tp @s 0 80 0
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=2}] if entity @s in timelesscraft:tangledshore_dimension in minecraft:overworld run tp @s 0 80 0
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=2}] if entity @s in timelesscraft:tangledshore_dimension in minecraft:overworld run scoreboard players add @s translocate 1
+
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=4}] at @s run playsound minecraft:custom.mirrorwarp player @a[distance=..5]
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=4}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run scoreboard players add @s translocate 1
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=5}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run setblock -1 79 0 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=5}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run setblock 0 79 -1 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=5}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run setblock 1 79 0 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=5}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run setblock 0 79 1 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=5}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run setblock -1 79 1 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=5}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run setblock 1 79 -1 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=5}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run setblock -1 79 -1 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=5}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run setblock 1 79 1 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=5}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run setblock 0 79 0 dirt
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=5}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run setblock 0 80 0 air
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=5}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run setblock 0 81 0 air
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=5}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run tp @s 0 80 0
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}},scores={translocate=5}] if entity @s in timelesscraft:darkworld_dimension in timelesscraft:tangledshore_dimension run scoreboard players add @s translocate 1
+
+execute as @a[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{translocator:1b}}}] at @s run scoreboard players reset @s translocate
+
+#/give @p carrot_on_a_stick{display:{Name:'{"text":"Translocator","color":"aqua","bold":true,"italic":false}'},HideFlags:1,RepairCost:9999999,Unbreakable:1b,translocator:1b,Enchantments:[{id:"minecraft:infinity",lvl:255s}]} 1
