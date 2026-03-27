@@ -24,9 +24,11 @@ MisCraft:
 
 - [ ] Add Volt (New Armor Set)
 - [ ] Add NanoMachines (New Item)
-- [ ] Add Rewind Core (New Item)
 - [ ] Add Anton Clutch (New Weapon)
 - [ ] Add Springtrap Suit (New Armor Set)
+
+- [X] Add Rewind Core (New Item)
+- [X] Add HWT Clothes (New Armor Set)
 
 The Alternative Route:
 

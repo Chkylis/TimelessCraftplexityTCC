@@ -415,6 +415,7 @@ execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:golden_chestplate",tag:{mal
 #### Hawkmoon Redemption
 execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:golden_chestplate",tag:{hawkmoonengram:1b}}]} unless data block ~ ~ ~ Items[1] run function timelesscraft:crafting/destiny2/hawkmoonrecipe
 
+####### Drifter Set
 #### Drifter Mask
 execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:2b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:3b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}},{Slot:5b,id:"minecraft:emerald",Count:1b,tag:{jadecoin:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/destiny2/driftermaskrecipe
 
@@ -430,7 +431,23 @@ execute if block ~ ~ ~ dropper{Items:[{Slot:3b,id:"minecraft:emerald",Count:1b,t
 #### Translocator
 execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:1b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:2b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:3b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:4b,id:"minecraft:iron_ingot",Count:64b,tag:{gunsmithmaterials:1b}},{Slot:5b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:6b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:7b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:8b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/destiny2/translocatorrecipe
 
+############################# Drifter's Frontier #############################
 
+###### Henry William Triason Set
+#### Time Traveler's Helm
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:leather",Count:5b},{Slot:1b,id:"minecraft:leather",Count:5b},{Slot:2b,id:"minecraft:leather",Count:5b},{Slot:3b,id:"minecraft:leather",Count:5b},{Slot:4b,id:"minecraft:nether_star",Count:10b,tag:{infinitydust:1b}},{Slot:5b,id:"minecraft:leather",Count:5b},{Slot:6b,id:"minecraft:leather",Count:5b},{Slot:7b,id:"timelesscomplexity:timeless_complexium_armor_helmet",Count:1b},{Slot:8b,id:"minecraft:leather",Count:5b}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/endgame/hwthelmrecipe
+
+#### Time Traveler's Chestplate
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:leather",Count:5b},{Slot:1b,id:"minecraft:leather",Count:5b},{Slot:2b,id:"minecraft:leather",Count:5b},{Slot:3b,id:"minecraft:leather",Count:5b},{Slot:4b,id:"minecraft:nether_star",Count:10b,tag:{infinitydust:1b}},{Slot:5b,id:"minecraft:leather",Count:5b},{Slot:6b,id:"minecraft:leather",Count:5b},{Slot:7b,id:"timelesscomplexity:timeless_complexium_armor_chestplate",Count:1b},{Slot:8b,id:"minecraft:leather",Count:5b}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/endgame/hwtchestplaterecipe
+
+#### Time Traveler's Leggings
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:leather",Count:5b},{Slot:1b,id:"minecraft:leather",Count:5b},{Slot:2b,id:"minecraft:leather",Count:5b},{Slot:3b,id:"minecraft:leather",Count:5b},{Slot:4b,id:"minecraft:nether_star",Count:10b,tag:{infinitydust:1b}},{Slot:5b,id:"minecraft:leather",Count:5b},{Slot:6b,id:"minecraft:leather",Count:5b},{Slot:7b,id:"timelesscomplexity:timeless_complexium_armor_leggings",Count:1b},{Slot:8b,id:"minecraft:leather",Count:5b}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/endgame/hwtleggingsrecipe
+
+#### Time Traveler's Boots
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:leather",Count:5b},{Slot:1b,id:"minecraft:leather",Count:5b},{Slot:2b,id:"minecraft:leather",Count:5b},{Slot:3b,id:"minecraft:leather",Count:5b},{Slot:4b,id:"minecraft:nether_star",Count:10b,tag:{infinitydust:1b}},{Slot:5b,id:"minecraft:leather",Count:5b},{Slot:6b,id:"minecraft:leather",Count:5b},{Slot:7b,id:"timelesscomplexity:timeless_complexium_armor_boots",Count:1b},{Slot:8b,id:"minecraft:leather",Count:5b}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/endgame/hwtbootsrecipe
+
+#### Rewind Core
+execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:4b,id:"minecraft:nether_star",Count:1b,tag:{complexiumcore:1b}},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:7b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/endgame/rewindcorerecipe
 
 ############################################################ ###########################################
 

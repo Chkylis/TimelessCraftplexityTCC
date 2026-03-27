@@ -38,6 +38,7 @@ function zeldacraft:cascade/cascadehoverboot
 function zeldacraft:cascade/cascadeironboot
 function zeldacraft:cascade/cascaderitowing
 function destiny2:cascade/cascadedrifter
+function timelesscraft:cascade/abilites/cascadehwt
 
 # Destiny 2
 function destiny2:cascade/cascade1k

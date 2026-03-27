@@ -1735,3 +1735,39 @@ Prism Shards(P)[64], Gunsmith Materials(G)[64]
 	PPP
 	PGP
 	PPP
+
+
+Time Traveler's Helmet [TIER 3 TIMELESS CRAFTER]:
+Leather(L)[5], Infinity Dust(D)[10], Complexity Helm(C)
+
+	LLL
+	LDL
+	LCL
+
+Time Traveler's Jacket [TIER 3 TIMELESS CRAFTER]:
+Leather(L)[5], Infinity Dust(D)[10], Complexity Chestplate(C)
+
+	LLL
+	LDL
+	LCL
+
+Time Traveler's Pants [TIER 3 TIMELESS CRAFTER]:
+Leather(L)[5], Infinity Dust(D)[10], Complexity Leggings(C)
+
+	LLL
+	LDL
+	LCL
+
+Time Traveler's Boots [TIER 3 TIMELESS CRAFTER]:
+Leather(L)[5], Infinity Dust(D)[10], Complexity Boots(C)
+
+	LLL
+	LDL
+	LCL
+
+Rewind Core [TIER 3 TIMELESS CRAFTER]:
+Complexium Ingot(I), Compleixum Core(C)
+
+	  I
+	ICI
+	  I

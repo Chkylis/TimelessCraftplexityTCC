@@ -55,6 +55,9 @@ scoreboard objectives add ticomsmeltitem dummy
 #### Flight Scoreboard
 scoreboard objectives add flight minecraft.custom:sneak_time
 
+#### Time Travel
+scoreboard objectives add timetravel dummy
+
 ## Custom Music Discs
 scoreboard objectives add gbattledisc dummy
 scoreboard objectives add dgbattledisc dummy

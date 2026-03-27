@@ -12,3 +12,5 @@ execute as @a[nbt={Inventory:[{Slot:-106b,Count:1b,id:"minecraft:totem_of_undyin
 execute as @a[nbt={Inventory:[{Slot:-106b,Count:1b,id:"minecraft:totem_of_undying",tag:{rewindcore3:1b}}]}] at @s run scoreboard players set @s rcore3timer 2
 execute as @a[nbt={Inventory:[{Slot:-106b,Count:1b,id:"minecraft:totem_of_undying",tag:{rewindcore4:1b}}]}] at @s run scoreboard players set @s rcore4timer 2
 execute as @a[nbt=!{Inventory:[{Slot:-106b,Count:1b,id:"minecraft:totem_of_undying"}]}] at @s run function timelesscraft:itempowers/rewindcorerevive
+
+#/give @p totem_of_undying{display:{Name:'{"text":"Rewind Core","color":"#B7EDF7","bold":true,"italic":false}',Lore:['{"text":"A device that prevents fatal injury.","color":"light_purple","italic":false}','{"text":"Functions up to four times before breaking.","color":"blue","italic":false}']},HideFlags:1,rewindcore:1b,Enchantments:[{id:"minecraft:luck_of_the_sea",lvl:100s},{id:"minecraft:mending",lvl:100s}]} 1
