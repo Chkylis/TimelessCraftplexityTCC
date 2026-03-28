@@ -135,19 +135,6 @@ execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:iron_block",Count:2
 
 ############################################# 5.5 UPDATE STUFF ###################################################
 
-#################### 5.5 Update: Chkylis Set
-#### Complexity Helm
-execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:1b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:2b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:4b,id:"minecraft:nether_star",Count:1b,tag:{complexiumcore:1b}},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:6b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:7b,id:"minecraft:netherite_helmet",Count:1b,tag:{chelmmold:1b}},{Slot:8b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/complexityupdate/complexityhelmrecipe
-
-#### Complexity Chestplate
-execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:1b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:2b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:4b,id:"minecraft:nether_star",Count:1b,tag:{complexiumcore:1b}},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:6b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:7b,id:"minecraft:netherite_chestplate",Count:1b,tag:{cchestmold:1b}},{Slot:8b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/complexityupdate/complexitychestplaterecipe
-
-#### Complexity Leggings
-execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:1b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:2b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:4b,id:"minecraft:nether_star",Count:1b,tag:{complexiumcore:1b}},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:6b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:7b,id:"minecraft:netherite_leggings",Count:1b,tag:{clegsmold:1b}},{Slot:8b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/complexityupdate/complexityleggingsrecipe
-
-#### Complexity Boots
-execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:1b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:2b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:4b,id:"minecraft:nether_star",Count:1b,tag:{complexiumcore:1b}},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:6b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:7b,id:"minecraft:netherite_boots",Count:1b,tag:{cbootsmold:1b}},{Slot:8b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/complexityupdate/complexitybootsrecipe
-
 #################### 5.5 Update: Infinity Stones
 #### Reality Stone
 execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:nether_star",Count:1b,tag:{infinitydust:1b}},{Slot:1b,id:"minecraft:nether_star",Count:1b,tag:{infinitydust:1b}},{Slot:2b,id:"minecraft:nether_star",Count:1b,tag:{infinitydust:1b}},{Slot:3b,id:"minecraft:nether_star",Count:1b,tag:{infinitydust:1b}},{Slot:4b,id:"minecraft:redstone_block",Count:1b},{Slot:5b,id:"minecraft:nether_star",Count:1b,tag:{infinitydust:1b}},{Slot:6b,id:"minecraft:nether_star",Count:1b,tag:{infinitydust:1b}},{Slot:7b,id:"minecraft:nether_star",Count:1b,tag:{infinitydust:1b}},{Slot:8b,id:"minecraft:nether_star",Count:1b,tag:{infinitydust:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/complexityupdate/infinitystones/realitystonerecipe
@@ -169,25 +156,6 @@ execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:nether_star",Count:
 
 #### Infinity Pickaxe
 execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:amethyst_block",Count:1b,tag:{powerstone:1b}},{Slot:1b,id:"minecraft:diamond_block",Count:1b,tag:{spacestone:1b}},{Slot:2b,id:"minecraft:redstone_block",Count:1b,tag:{realitystone:1b}},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:4b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:6b,id:"minecraft:copper_block",Count:1b,tag:{soulstone:1b}},{Slot:7b,id:"minecraft:emerald_block",Count:1b,tag:{timestone:1b}},{Slot:8b,id:"minecraft:gold_block",Count:1b,tag:{mindstone:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/complexityupdate/infinitystones/infinitypickaxerecipe
-
-#################### 5.5 Update: Complexity Items
-#### Complexium Ingot
-#execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:iron_ingot",Count:8b},{Slot:1b,id:"minecraft:copper_ingot",Count:8b},{Slot:2b,id:"minecraft:gold_ingot",Count:8b},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b},{Slot:4b,id:"minecraft:netherite_ingot",Count:1b},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b},{Slot:6b,id:"minecraft:iron_ingot",Count:2b,tag:{bluesteel:1b}},{Slot:7b,id:"minecraft:iron_ingot",Count:2b,tag:{bluesteel:1b}},{Slot:8b,id:"minecraft:iron_ingot",Count:2b,tag:{bluesteel:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/complexityupdate/complexiumingotrecipe
-
-#### Complexium Core
-execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:4b,id:"minecraft:nether_star",Count:1b},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:7b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/complexityupdate/complexiumcorerecipe
-
-#### Complexity Chestplate Mold
-execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:2b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:3b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:4b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:5b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:6b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:7b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:8b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}}]} unless data block ~ ~ ~ Items[8] run function timelesscraft:crafting/complexityupdate/complexitychestplatemoldrecipe
-
-#### Complexity Helm Mold
-execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:1b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:2b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:3b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:5b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/complexityupdate/complexityhelmmoldrecipe
-
-#### Complexity Leggings Mold
-execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:1b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:2b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:3b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:5b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:6b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:8b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}}]} unless data block ~ ~ ~ Items[7] run function timelesscraft:crafting/complexityupdate/complexityleggingsmoldrecipe
-
-#### Complexity Boots Mold
-execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:2b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:3b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:5b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}}]} unless data block ~ ~ ~ Items[4] run function timelesscraft:crafting/complexityupdate/complexitybootsmoldrecipe
 
 #################### 5.5 Update: Zelda Items
 #### Nethershot
@@ -298,49 +266,6 @@ execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:netherite_ingot",Co
 
 ##### ##### ##### ##### #####
 
-########### R34L1T7 5PL1C37 #############
-
-#### Shaper Shard
-execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:netherite_pickaxe",Count:1b,tag:{worldshaperpickaxe:1b}},{id:"minecraft:netherite_axe",Count:1b,tag:{worldshaperaxe:1b}},{id:"minecraft:netherite_hoe",Count:1b,tag:{worldshaperhoe:1b}},{id:"minecraft:netherite_shovel",Count:1b,tag:{worldshapershovel:1b}}]} unless data block ~ ~ ~ Items[4] run function timelesscraft:crafting/realityshard/shapershard
-
-#### Infinity Shard
-execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:diamond_block",Count:1b,tag:{spacestone:1b}},{id:"minecraft:copper_block",Count:1b,tag:{soulstone:1b}},{id:"minecraft:emerald_block",Count:1b,tag:{timestone:1b}},{id:"minecraft:redstone_block",Count:1b,tag:{realitystone:1b}},{id:"minecraft:amethyst_block",Count:1b,tag:{powerstone:1b}},{id:"minecraft:gold_block",Count:1b,tag:{mindstone:1b}},{id:"minecraft:netherite_pickaxe",Count:1b,tag:{infinitypickaxe:1b}}]} unless data block ~ ~ ~ Items[7] run function timelesscraft:crafting/realityshard/infinityshard
-
-#### Champion Shard
-execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:crossbow",Count:1b,tag:{greateaglebow:1b}},{id:"minecraft:diamond_sword",Count:1b,tag:{sevenscimitar:1b}},{id:"minecraft:netherite_pickaxe",Count:1b,tag:{boulderbreaker:1b}},{id:"minecraft:trident",Count:1b,tag:{lightscaletrident:1b}}]} unless data block ~ ~ ~ Items[4] run function timelesscraft:crafting/realityshard/championshard
-
-#### Blades Shard
-execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{hfmurasamax:1b}},{id:"minecraft:netherite_sword",Count:1b,tag:{unpoweredancientblade:1b}},{id:"minecraft:netherite_sword",Count:1b,tag:{phantomganonsword:1b}},{id:"minecraft:netherite_sword",Count:1b,tag:{devilsknife:1b}},{id:"minecraft:netherite_sword",Count:1b,tag:{truemastersword:1b}},{id:"minecraft:netherite_sword",Count:1b}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/realityshard/bladeshard
-
-#### Complexity Shard
-execute if block ~ ~ ~ dropper{Items:[{id:"timelesscomplexity:timeless_complexium_armor_helmet",Count:1b,tag:{complexityhelm:1b}},{id:"timelesscomplexity:timeless_complexium_armor_chestplate",Count:1b,tag:{complexitychestplate:1b}},{id:"timelesscomplexity:timeless_complexium_armor_leggings",Count:1b,tag:{complexitygreaves:1b}},{id:"timelesscomplexity:timeless_complexium_armor_boots",Count:1b,tag:{complexityboots:1b}}]} unless data block ~ ~ ~ Items[4] run function timelesscraft:crafting/realityshard/complexityshard
-
-#### Deity Shard
-execute if block ~ ~ ~ dropper{Items:[{id:"timelesscomplexity:zelda_fierce_deity_armor_helmet",Count:1b,tag:{fiercedeitymask:1b}},{id:"timelesscomplexity:zelda_fierce_deity_armor_chestplate",Count:1b,tag:{fiercedeitytunic:1b}},{id:"timelesscomplexity:zelda_fierce_deity_armor_leggings",Count:1b,tag:{fiercedeitypants:1b}},{id:"timelesscomplexity:zelda_fierce_deity_armor_boots",Count:1b,tag:{fiercedeityboots:1b}},{id:"timelesscomplexity:zelda_dark_link_armor_helmet",Count:1b,tag:{darklinkmask:1b}},{id:"timelesscomplexity:zelda_dark_link_armor_chestplate",Count:1b,tag:{darklinktunic:1b}},{id:"timelesscomplexity:zelda_dark_link_armor_leggings",Count:1b,tag:{darklinkpants:1b}},{id:"timelesscomplexity:zelda_dark_link_armor_boots",Count:1b,tag:{darklinkboots:1b}}]} unless data block ~ ~ ~ Items[8] run function timelesscraft:crafting/realityshard/deityshard
-
-#### NEO Shard
-execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:netherite_helmet",Count:1b,tag:{dealmaker:1b}},{id:"minecraft:netherite_chestplate",Count:1b,tag:{neoarmor:1b}},{id:"minecraft:netherite_leggings",Count:1b,tag:{neoarmorlegs:1b}},{id:"minecraft:netherite_boots",Count:1b,tag:{neoarmorboots:1b}},{id:"minecraft:music_disc_pigstep",Count:1b,tag:{neodisc:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/realityshard/neoshard
-
-#### Destiny Shard
-execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:diamond_sword",Count:1b,tag:{thelament:1b}},{id:"minecraft:crossbow",Count:1b,tag:{trinityghoul:1b}},{id:"minecraft:crossbow",Count:1b,tag:{chaperone:1b}},{id:"minecraft:bow",Count:1b,tag:{onekvoices:1b}}]} unless data block ~ ~ ~ Items[4] run function timelesscraft:crafting/realityshard/destinyshard
-
-#### Armor Shard
-execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:iron_helmet",Count:1b,tag:{virtuosomask:1b}},{id:"minecraft:iron_chestplate",Count:1b,tag:{performercloak:1b}},{id:"minecraft:iron_leggings",Count:1b,tag:{lunaticgreaves:1b}},{id:"minecraft:iron_boots",Count:1b,tag:{lunatictalons:1b}},{id:"minecraft:chainmail_helmet",Count:1b,tag:{vastayanhood:1b}},{id:"minecraft:chainmail_chestplate",Count:1b,tag:{vastayandress:1b}},{id:"minecraft:chainmail_leggings",Count:1b,tag:{vastayanwraps:1b}},{id:"minecraft:chainmail_boots",Count:1b,tag:{vastayantalons:1b}}]} unless data block ~ ~ ~ Items[8] run function timelesscraft:crafting/realityshard/armorshard
-
-#### REALITY SPLICER
-execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:diamond",Count:1b,tag:{shapershard:1b}},{id:"minecraft:diamond",Count:1b,tag:{championshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{infinityshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{bladeshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{complexityshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{deityshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{neoshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{destinyshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{armorshard:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/realityshard/realitysplicer
-
-############################################# Crysteelium ########################################################
-
-#### Neutro Plate Scrap
-execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:netherite_scrap",Count:1b},{Slot:3b,id:"minecraft:netherite_scrap",Count:1b},{Slot:4b,id:"minecraft:amethyst_shard",Count:1b,tag:{energycrystal:1b}},{Slot:5b,id:"minecraft:netherite_scrap",Count:1b},{Slot:7b,id:"minecraft:netherite_scrap",Count:1b}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/crysteelium/neutroplatescrap
-
-#### Lunar Fate
-execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:amethyst_shard",Count:1b,tag:{energycrystal:1b}},{Slot:2b,id:"minecraft:netherite_axe",Count:1b},{Slot:4b,id:"minecraft:netherite_scrap",Count:1b,tag:{neutroplatescrap:1b}},{Slot:5b,id:"minecraft:amethyst_shard",Count:1b,tag:{energycrystal:1b}},{Slot:6b,id:"minecraft:nether_star",Count:1b,tag:{singlaiccore:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/crysteelium/lunarfate
-
-#### Shield of the Unfeeling God
-execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:netherite_chestplate",Count:1b,tag:{netheriteprotectionframework:1b}},{Slot:3b,id:"minecraft:amethyst_shard",Count:1b,tag:{energycrystal:1b}},{Slot:4b,id:"minecraft:shield",Count:1b},{Slot:5b,id:"minecraft:amethyst_shard",Count:1b,tag:{energycrystal:1b}},{Slot:7b,id:"minecraft:nether_star",Count:1b,tag:{singlaiccore:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/crysteelium/shieldoftheunfeelinggod
-
 ############## #################### #############################
 
 #### Broken Kromer
@@ -406,6 +331,8 @@ execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:apple",Count:1b,tag
 #### Moon Pearl
 execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:1b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:2b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:3b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:4b,id:"minecraft:diamond",Count:64b,tag:{diamondforcegem:1b}},{Slot:5b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:6b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:7b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:8b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/darkworld/moonpearlrecipe
 
+############################# Drifter's Frontier #############################
+
 #### Thorn Redemption
 execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:golden_chestplate",tag:{thornengram:1b}}]} unless data block ~ ~ ~ Items[1] run function timelesscraft:crafting/destiny2/thornrecipe
 
@@ -431,8 +358,7 @@ execute if block ~ ~ ~ dropper{Items:[{Slot:3b,id:"minecraft:emerald",Count:1b,t
 #### Translocator
 execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:1b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:2b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:3b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:4b,id:"minecraft:iron_ingot",Count:64b,tag:{gunsmithmaterials:1b}},{Slot:5b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:6b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:7b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}},{Slot:8b,id:"minecraft:glowstone_dust",Count:64b,tag:{prismshards:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/destiny2/translocatorrecipe
 
-############################# Drifter's Frontier #############################
-
+############################# TIMELESS COMPLEXITY CONTENT #############################
 ###### Henry William Triason Set
 #### Time Traveler's Helm
 execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:leather",Count:5b},{Slot:1b,id:"minecraft:leather",Count:5b},{Slot:2b,id:"minecraft:leather",Count:5b},{Slot:3b,id:"minecraft:leather",Count:5b},{Slot:4b,id:"minecraft:nether_star",Count:10b,tag:{infinitydust:1b}},{Slot:5b,id:"minecraft:leather",Count:5b},{Slot:6b,id:"minecraft:leather",Count:5b},{Slot:7b,id:"timelesscomplexity:timeless_complexium_armor_helmet",Count:1b},{Slot:8b,id:"minecraft:leather",Count:5b}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/endgame/hwthelmrecipe
@@ -449,10 +375,88 @@ execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:leather",Count:5b},
 #### Rewind Core
 execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:4b,id:"minecraft:nether_star",Count:1b,tag:{complexiumcore:1b}},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:7b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/endgame/rewindcorerecipe
 
+#################### 5.5 Update: Chkylis Set
+#### Complexity Helm
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:1b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:2b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:4b,id:"minecraft:nether_star",Count:1b,tag:{complexiumcore:1b}},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:6b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:7b,id:"minecraft:netherite_helmet",Count:1b,tag:{chelmmold:1b}},{Slot:8b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/complexityupdate/complexityhelmrecipe
+
+#### Complexity Chestplate
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:1b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:2b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:4b,id:"minecraft:nether_star",Count:1b,tag:{complexiumcore:1b}},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:6b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:7b,id:"minecraft:netherite_chestplate",Count:1b,tag:{cchestmold:1b}},{Slot:8b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/complexityupdate/complexitychestplaterecipe
+
+#### Complexity Leggings
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:1b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:2b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:4b,id:"minecraft:nether_star",Count:1b,tag:{complexiumcore:1b}},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:6b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:7b,id:"minecraft:netherite_leggings",Count:1b,tag:{clegsmold:1b}},{Slot:8b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/complexityupdate/complexityleggingsrecipe
+
+#### Complexity Boots
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:1b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:2b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:4b,id:"minecraft:nether_star",Count:1b,tag:{complexiumcore:1b}},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:6b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:7b,id:"minecraft:netherite_boots",Count:1b,tag:{cbootsmold:1b}},{Slot:8b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/complexityupdate/complexitybootsrecipe
+
+#### Complexium Core
+execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:4b,id:"minecraft:nether_star",Count:1b},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}},{Slot:7b,id:"minecraft:netherite_ingot",Count:1b,tag:{complexium:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/complexityupdate/complexiumcorerecipe
+
+#################### 5.5 Update: Complexity Items
+#### Complexium Ingot
+#execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:iron_ingot",Count:8b},{Slot:1b,id:"minecraft:copper_ingot",Count:8b},{Slot:2b,id:"minecraft:gold_ingot",Count:8b},{Slot:3b,id:"minecraft:netherite_ingot",Count:1b},{Slot:4b,id:"minecraft:netherite_ingot",Count:1b},{Slot:5b,id:"minecraft:netherite_ingot",Count:1b},{Slot:6b,id:"minecraft:iron_ingot",Count:2b,tag:{bluesteel:1b}},{Slot:7b,id:"minecraft:iron_ingot",Count:2b,tag:{bluesteel:1b}},{Slot:8b,id:"minecraft:iron_ingot",Count:2b,tag:{bluesteel:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/complexityupdate/complexiumingotrecipe
+
+#### Complexity Chestplate Mold
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:2b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:3b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:4b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:5b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:6b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:7b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:8b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}}]} unless data block ~ ~ ~ Items[8] run function timelesscraft:crafting/complexityupdate/complexitychestplatemoldrecipe
+
+#### Complexity Helm Mold
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:1b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:2b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:3b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:5b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/complexityupdate/complexityhelmmoldrecipe
+
+#### Complexity Leggings Mold
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:1b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:2b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:3b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:5b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:6b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:8b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}}]} unless data block ~ ~ ~ Items[7] run function timelesscraft:crafting/complexityupdate/complexityleggingsmoldrecipe
+
+#### Complexity Boots Mold
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:2b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:3b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}},{Slot:5b,id:"minecraft:iron_ingot",Count:1b,tag:{bluesteel:1b}}]} unless data block ~ ~ ~ Items[4] run function timelesscraft:crafting/complexityupdate/complexitybootsmoldrecipe
+
+########### R34L1T7 5PL1C37 #############
+
+#### Shaper Shard
+execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:netherite_pickaxe",Count:1b,tag:{worldshaperpickaxe:1b}},{id:"minecraft:netherite_axe",Count:1b,tag:{worldshaperaxe:1b}},{id:"minecraft:netherite_hoe",Count:1b,tag:{worldshaperhoe:1b}},{id:"minecraft:netherite_shovel",Count:1b,tag:{worldshapershovel:1b}}]} unless data block ~ ~ ~ Items[4] run function timelesscraft:crafting/realityshard/shapershard
+
+#### Infinity Shard
+execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:diamond_block",Count:1b,tag:{spacestone:1b}},{id:"minecraft:copper_block",Count:1b,tag:{soulstone:1b}},{id:"minecraft:emerald_block",Count:1b,tag:{timestone:1b}},{id:"minecraft:redstone_block",Count:1b,tag:{realitystone:1b}},{id:"minecraft:amethyst_block",Count:1b,tag:{powerstone:1b}},{id:"minecraft:gold_block",Count:1b,tag:{mindstone:1b}},{id:"minecraft:netherite_pickaxe",Count:1b,tag:{infinitypickaxe:1b}}]} unless data block ~ ~ ~ Items[7] run function timelesscraft:crafting/realityshard/infinityshard
+
+#### Champion Shard
+execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:crossbow",Count:1b,tag:{greateaglebow:1b}},{id:"minecraft:diamond_sword",Count:1b,tag:{sevenscimitar:1b}},{id:"minecraft:netherite_pickaxe",Count:1b,tag:{boulderbreaker:1b}},{id:"minecraft:trident",Count:1b,tag:{lightscaletrident:1b}}]} unless data block ~ ~ ~ Items[4] run function timelesscraft:crafting/realityshard/championshard
+
+#### Blades Shard
+execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{hfmurasamax:1b}},{id:"minecraft:netherite_sword",Count:1b,tag:{unpoweredancientblade:1b}},{id:"minecraft:netherite_sword",Count:1b,tag:{phantomganonsword:1b}},{id:"minecraft:netherite_sword",Count:1b,tag:{devilsknife:1b}},{id:"minecraft:netherite_sword",Count:1b,tag:{truemastersword:1b}},{id:"minecraft:netherite_sword",Count:1b}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/realityshard/bladeshard
+
+#### Complexity Shard
+execute if block ~ ~ ~ dropper{Items:[{id:"timelesscomplexity:timeless_complexium_armor_helmet",Count:1b,tag:{complexityhelm:1b}},{id:"timelesscomplexity:timeless_complexium_armor_chestplate",Count:1b,tag:{complexitychestplate:1b}},{id:"timelesscomplexity:timeless_complexium_armor_leggings",Count:1b,tag:{complexitygreaves:1b}},{id:"timelesscomplexity:timeless_complexium_armor_boots",Count:1b,tag:{complexityboots:1b}}]} unless data block ~ ~ ~ Items[4] run function timelesscraft:crafting/realityshard/complexityshard
+
+#### Deity Shard
+execute if block ~ ~ ~ dropper{Items:[{id:"timelesscomplexity:zelda_fierce_deity_armor_helmet",Count:1b,tag:{fiercedeitymask:1b}},{id:"timelesscomplexity:zelda_fierce_deity_armor_chestplate",Count:1b,tag:{fiercedeitytunic:1b}},{id:"timelesscomplexity:zelda_fierce_deity_armor_leggings",Count:1b,tag:{fiercedeitypants:1b}},{id:"timelesscomplexity:zelda_fierce_deity_armor_boots",Count:1b,tag:{fiercedeityboots:1b}},{id:"timelesscomplexity:zelda_dark_link_armor_helmet",Count:1b,tag:{darklinkmask:1b}},{id:"timelesscomplexity:zelda_dark_link_armor_chestplate",Count:1b,tag:{darklinktunic:1b}},{id:"timelesscomplexity:zelda_dark_link_armor_leggings",Count:1b,tag:{darklinkpants:1b}},{id:"timelesscomplexity:zelda_dark_link_armor_boots",Count:1b,tag:{darklinkboots:1b}}]} unless data block ~ ~ ~ Items[8] run function timelesscraft:crafting/realityshard/deityshard
+
+#### NEO Shard
+execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:netherite_helmet",Count:1b,tag:{dealmaker:1b}},{id:"minecraft:netherite_chestplate",Count:1b,tag:{neoarmor:1b}},{id:"minecraft:netherite_leggings",Count:1b,tag:{neoarmorlegs:1b}},{id:"minecraft:netherite_boots",Count:1b,tag:{neoarmorboots:1b}},{id:"minecraft:music_disc_pigstep",Count:1b,tag:{neodisc:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/realityshard/neoshard
+
+#### Destiny Shard
+execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:diamond_sword",Count:1b,tag:{thelament:1b}},{id:"minecraft:crossbow",Count:1b,tag:{trinityghoul:1b}},{id:"minecraft:crossbow",Count:1b,tag:{chaperone:1b}},{id:"minecraft:bow",Count:1b,tag:{onekvoices:1b}}]} unless data block ~ ~ ~ Items[4] run function timelesscraft:crafting/realityshard/destinyshard
+
+#### Armor Shard
+execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:iron_helmet",Count:1b,tag:{virtuosomask:1b}},{id:"minecraft:iron_chestplate",Count:1b,tag:{performercloak:1b}},{id:"minecraft:iron_leggings",Count:1b,tag:{lunaticgreaves:1b}},{id:"minecraft:iron_boots",Count:1b,tag:{lunatictalons:1b}},{id:"minecraft:chainmail_helmet",Count:1b,tag:{vastayanhood:1b}},{id:"minecraft:chainmail_chestplate",Count:1b,tag:{vastayandress:1b}},{id:"minecraft:chainmail_leggings",Count:1b,tag:{vastayanwraps:1b}},{id:"minecraft:chainmail_boots",Count:1b,tag:{vastayantalons:1b}}]} unless data block ~ ~ ~ Items[8] run function timelesscraft:crafting/realityshard/armorshard
+
+#### REALITY SPLICER
+execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:diamond",Count:1b,tag:{shapershard:1b}},{id:"minecraft:diamond",Count:1b,tag:{championshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{infinityshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{bladeshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{complexityshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{deityshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{neoshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{destinyshard:1b}},{id:"minecraft:diamond",Count:1b,tag:{armorshard:1b}}]} unless data block ~ ~ ~ Items[9] run function timelesscraft:crafting/realityshard/realitysplicer
+
 ############################################################ ###########################################
 
 ##ChronoSplicer
 execute if block ~ ~ ~ dropper{Items:[{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{genoblade:1b}},{id:"minecraft:gold_nugget",Count:1b,tag:{genotokena:1b}}]} unless data block ~ ~ ~ Items[2] run function timelesscraft:undertale/genosplicer
+
+############################################################ ###########################################
+
+############################################# Crysteelium ########################################################
+
+#### Neutro Plate Scrap
+execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:netherite_scrap",Count:1b},{Slot:3b,id:"minecraft:netherite_scrap",Count:1b},{Slot:4b,id:"minecraft:amethyst_shard",Count:1b,tag:{energycrystal:1b}},{Slot:5b,id:"minecraft:netherite_scrap",Count:1b},{Slot:7b,id:"minecraft:netherite_scrap",Count:1b}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/crysteelium/neutroplatescrap
+
+#### Lunar Fate
+execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:amethyst_shard",Count:1b,tag:{energycrystal:1b}},{Slot:2b,id:"minecraft:netherite_axe",Count:1b},{Slot:4b,id:"minecraft:netherite_scrap",Count:1b,tag:{neutroplatescrap:1b}},{Slot:5b,id:"minecraft:amethyst_shard",Count:1b,tag:{energycrystal:1b}},{Slot:6b,id:"minecraft:nether_star",Count:1b,tag:{singlaiccore:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/crysteelium/lunarfate
+
+#### Shield of the Unfeeling God
+execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:netherite_chestplate",Count:1b,tag:{netheriteprotectionframework:1b}},{Slot:3b,id:"minecraft:amethyst_shard",Count:1b,tag:{energycrystal:1b}},{Slot:4b,id:"minecraft:shield",Count:1b},{Slot:5b,id:"minecraft:amethyst_shard",Count:1b,tag:{energycrystal:1b}},{Slot:7b,id:"minecraft:nether_star",Count:1b,tag:{singlaiccore:1b}}]} unless data block ~ ~ ~ Items[5] run function timelesscraft:crafting/crysteelium/shieldoftheunfeelinggod
+
 
 ######################### Cut Content ####################
 

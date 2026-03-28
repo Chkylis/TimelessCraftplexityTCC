@@ -23,6 +23,7 @@ function zeldacraft:cascade/cascadeocarinatime
 function zeldacraft:cascade/cascadebombs
 function zeldacraft:cascade/cascadefirerod
 function zeldacraft:cascade/cascaderewardorb
+function zeldacraft:cascade/cascademoonpearl
 
 # Armor
 function miscraft:cascade/cascademendingmage
@@ -51,6 +52,8 @@ function destiny2:cascade/cascadehawkmoon
 
 # Timeless Complexity
 #function timelesscraft:cascade/abilites/cascadecomplexity
+function timelesscraft:cascade/abilites/cascaderewindcore
+function destiny2:cascade/cascadetranslocator
 
 # Crysteelium
 function cryorg:cascade/cascadedivinity
@@ -64,6 +67,3 @@ function cryorg:cascade/cascadelunar
 function miscraft:cascade/cascadeantonclutch
 function miscraft:cascade/cascadevolt
 function miscraft:cascade/cascadenanomachines
-function timelesscraft:cascade/abilites/cascaderewindcore
-function zeldacraft:cascade/cascademoonpearl
-function destiny2:cascade/cascadetranslocator
