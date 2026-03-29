@@ -18,7 +18,7 @@ The Tangled Shore:
 - [X] Add Hawkmoon (New Weapon)
 - [X] Add Drifter's Set (New Armor Set)
 - [X] Add Taken (New Enemy Variants)
-- [X] Add Translocator
+- [X] Add Translocator (Warp Item)
 
 MisCraft:
 
@@ -26,6 +26,7 @@ MisCraft:
 - [ ] Add NanoMachines (New Item)
 - [ ] Add Anton Clutch (New Weapon)
 - [ ] Add Springtrap Suit (New Armor Set)
+- [ ] Infinity Gauntlet (New Shield)
 
 - [X] Add Rewind Core (New Item)
 - [X] Add HWT Clothes (New Armor Set)

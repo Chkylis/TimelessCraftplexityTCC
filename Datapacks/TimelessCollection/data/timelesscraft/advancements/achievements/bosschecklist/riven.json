@@ -32,7 +32,8 @@
             "zeldacraft:advrewardspooltier5"
         ],
         "function": "timelesscraft:difficulties/enterpostriven",
-        "experience": 500
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
     },
     "parent": "timelesscraft:achievements/bosschecklist/molgera"
 }

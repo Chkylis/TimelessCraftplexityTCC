@@ -25,7 +25,8 @@
         "loot": [
             "zeldacraft:advrewardspooltier4"
         ],
-        "experience": 500
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
     },
     "parent": "timelesscraft:achievements/workstations/summoncustomcraftertier2"
 }

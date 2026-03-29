@@ -62,7 +62,8 @@
         "loot": [
             "zeldacraft:advrewardspooltier1"
         ],
-        "experience": 500
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
     },
     "parent": "global:tccworkstations"
 }

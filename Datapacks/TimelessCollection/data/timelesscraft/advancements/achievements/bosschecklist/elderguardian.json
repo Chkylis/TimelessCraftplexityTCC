@@ -30,7 +30,8 @@
         "loot": [
             "zeldacraft:advrewardspooltier2"
         ],
-        "experience": 500
+        "experience": 500,
+        "function": "timelesscraft:touchgrass/touchgrassincrement"
     },
     "parent": "timelesscraft:achievements/bosschecklist/kingslime"
 }

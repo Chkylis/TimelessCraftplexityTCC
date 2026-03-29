@@ -6,7 +6,7 @@
             "color": "gold"
         },
         "description": {
-            "text": "Escape the End.",
+            "text": "Escape the Dark World.",
             "color": "gold"
         },
         "icon": {
@@ -21,7 +21,7 @@
         "anend": {
             "trigger": "minecraft:changed_dimension",
             "conditions": {
-                "from": "the_end",
+                "from": "timelesscraft:darkworld_dimension",
                 "to": "overworld"
             }
         }

@@ -1,0 +1,78 @@
+
+This document is to help players figure out what to do if they are stuck.
+
+-=-=-=-=-=-=-=--=--=-=-=-=-=-=-=-=-=-=-=--=-=-=--=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-
+Bosses:
+King Slime
+Elder Guardian
+Wither
+Molgera
+Ender Dragon (Riven)
+
+Material:
+Wooden
+Stone
+Copper
+QuartzStone
+Gold
+Iron
+Steel
+Rose Quartz
+Crystal Quartz
+Diamond
+BlueSteel
+Netherite
+Legendary
+Draconic
+Infinity
+Complexium
+Exotic
+
+Dimensions:
+Overworld
+Nether
+End
+Dark World
+Tangled Shore
+
+Armor Sets:
+
+Overworld:
+- Leather
+- Copper
+- Gold
+- Iron
+- Steel
+- Diamond
+
+- Hero
+- Magelock
+- Vastayan
+- Virtuoso
+- Marconian
+- Phantom
+- Zora
+- Magic
+- Dark Link
+- Fierce Deity
+
+Nether:
+- Netherite
+
+- Fortune
+- Hero Mask
+- Guardian
+- Mark V
+- World Shaper
+- Complexium
+
+The End:
+- Elytra
+- Hover Boots
+- Time Traveler
+
+Exotics:
+- Spamton
+- Drifter
+
+
