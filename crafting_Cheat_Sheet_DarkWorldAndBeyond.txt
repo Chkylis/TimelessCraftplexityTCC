@@ -1083,9 +1083,9 @@ RECIPE REWORKED.
 Complexium Core [CUSTOM CRAFTER]:
 Nether Star(N), Complexium Ingot(C)
 
-	 C
+	   C
 	CNC
-	 C
+	   C
 
 Infinity Pickaxe [CUSTOM CRAFTER]:
 Reality Stone(R), Time Stone(T), Space Stone(S), Soul Stone(U), Power Stone(P), Mind Stone(M), Complexium Ingot(C)
