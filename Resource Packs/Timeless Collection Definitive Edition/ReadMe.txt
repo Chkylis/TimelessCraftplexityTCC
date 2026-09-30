@@ -1,6 +1,7 @@
 -=-=-=-=-=-=-=-=-=-=-=-=[[[[{{{{(((( R E Q U I R E S  O P T I F I N E ))))}}}}]]]]=-=-=-=-=-=-=-=-=-=-=-=-
 
-These textures were all made personally by Chkylis. I do not give the right to distribute these files other than in the Timeless Complexity Discord Server or via myself.
+Some of these textures were not made by me. Those textures belong to Koa_Nueva and Pavlovs_Walrus.
+Everything else made was made by I, Chkylis. I do not give the right to distribute these files other than in the Timeless Complexity Discord Server or via myself.
 
 Timeless Complexity and its respective content are creations of Chklyis, and are not to be used without his permission.
 
